@@ -182,4 +182,4 @@ exclude:
 #    subfolder: my-geojson-subfolder
 #    label: My map layer label (can be a translation key)
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
