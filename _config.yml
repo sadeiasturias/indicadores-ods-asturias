@@ -35,7 +35,7 @@ url: ""
 data_dir: data
 environment: staging
 
-# Automatically create indicator pages, goal pages,
+# Automatically create indicator pages, goal pages,,
 # and some other required pages.
 create_indicators:
   layout: indicator
