@@ -175,7 +175,7 @@ plugins:
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example: @1.1.0
-remote_theme: open-sdg/open-sdg
+remote_theme: open-sdg/open-sdg@0.9.1
 
 # Exclude some files/folders.
 exclude:
