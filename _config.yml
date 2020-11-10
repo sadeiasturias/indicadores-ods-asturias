@@ -149,8 +149,20 @@ footer_menu:
     translation_key: menu.cookies
 
 # Configure the text (or "translation key") to be used on the
-# non-global metadata tab.
-non_global_metadata: indicator.national_metadata
+# non-global metadata tab. Deprecated version non_global_metadata: indicator.national_metadata
+metadata_tabs:
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
+  - scope: global
+    title: indicator.global_metadata
+    description: indicator.global_metadata_blurb
+  - scope: sources
+    title: indicator.sources
+    description: ''
+
+# Does not show empty metadata fields
+hide_empty_metadata: true
 
 # The list of languages that are translated. The first one is the default.
 languages:
@@ -176,6 +188,8 @@ exclude:
   - README
   - README.md
   - LICENSE
+
+
 
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
