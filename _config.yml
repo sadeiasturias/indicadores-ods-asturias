@@ -43,10 +43,10 @@ create_goals:
   layout: goal-by-target-vertical
 create_pages:
   pages:
-    #- folder: /
-    #  layout: frontpage-alt
-    - folder: /goals
-      layout: goals
+    - folder: /
+      layout: frontpage-alt
+    #- folder: /goals
+    #  layout: goals
     - folder: /reporting-status
       layout: reportingstatus
     - filename: indicators.json
@@ -114,7 +114,7 @@ collections:
     output: true
     permalink: /:path/
   posts:
-    output: true
+    output: false
     permalink: /news/:year/:month/:day/:title.html
   indicators:
     output: true
