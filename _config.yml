@@ -24,11 +24,6 @@ languages:
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
-# Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-# Recommended: set this to a particular "release" of Open SDG. For example:
-#remote_theme: open-sdg/open-sdg@1.1.0
-remote_theme: open-sdg/open-sdg@1.1.0
-
 # Replace this title as needed.
 title: Indicators For The Sustainable Development Goals
 url: ""
@@ -177,6 +172,10 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
+
+# Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
+# Recommended: set this to a particular "release" of Open SDG. For example: @1.1.0
+remote_theme: open-sdg/open-sdg
 
 # Exclude some files/folders.
 exclude:
