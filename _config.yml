@@ -70,6 +70,10 @@ country:
 #  - type: standard
 #    language: es
 #    format: "%d de %b de %Y"
+date_formats:
+  standard:
+    es: "%d de %b de %Y"
+    en: "%b %d, %Y"
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
