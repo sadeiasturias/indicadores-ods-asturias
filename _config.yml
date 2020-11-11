@@ -27,7 +27,7 @@ environment: staging
 
 jekyll_get_json:
   - data: translations
-    json: 'https://open-sdg.github.io/sdg-translations/translations-0.6.0.json'
+    json: 'https://open-sdg.org/sdg-translations/translations.json'
 
 # The list of languages that are translated. The first one is the default.
 languages:
