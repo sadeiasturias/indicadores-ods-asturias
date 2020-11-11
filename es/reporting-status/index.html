@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -90,10 +90,11 @@ var translations = {
         <!-- Title and meta description
         ================================================== -->
 
-        
-    <title>Indicators For The Sustainable Development Goals</title>
-
-
+        <title>
+          
+            Indicators For The Sustainable Development Goals
+          
+        </title>
 
         <meta name="description" content="">
         <meta property="og:description" content="">
@@ -121,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111090051">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111091152">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -140,7 +141,7 @@ var translations = {
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
-  <div class="disclaimer-alert">
+  <div class="disclaimer-alert" role="alert">
     <strong class="phase-tag">Alfa</strong>
     
     Ésta es una web en desarrollo. Agradecemos sus comentarios.
@@ -152,142 +153,76 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/asturias/es/" id="home">
-        <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
-      </a>
+    <a class="navbar-brand" href="/asturias/es/" id="home">
+      <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
+    </a>
 
-      <div class="mobile-widgets">
-        <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
-          <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/asturias/reporting-status/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
+  <div class='hidden visible-xs float-right'>
+    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+      <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">Español</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
 
-        </div></div>
-    </div>
+<ul class="language-options language-toggle"><li><a href="/asturias/reporting-status/">English</a></li></ul>
+
+    </div></div>
 
     <nav class="navbar navbar-default" id="main-nav">
 
       <ul class="top-level">
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
-            aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menú</button>
-          <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/asturias/es/goals">Objetivos</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/reporting-status">Disponibilidad de los datos</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/about">Acerca de</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/guidance">Guía</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/news">Actualizaciones</a>
-    </li><li class="language-toggle-menu-header">
-    
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/asturias/reporting-status/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-</li></ul>
-
+            aria-haspopup="true"
+            aria-expanded="false">
+          <span data-target="menu" tabindex="0"
+          role="navigation">Menú</span>
         </li>
-        <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
-            aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Buscar</button>
-          <div id="search-mobile" class="menu-target">
-  <form action="/asturias/es/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" />
-    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
-    <button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-        </li>
+        <li><span data-target="search">Buscar</span></li>
       </ul>
 
       <div id="search" class="menu-target">
   <form action="/asturias/es/search">
-    <input type="text" name="q" id="indicator_search" title="Buscar" />
-    <label class="sr-only" for="indicator_search">Buscar</label>
-    <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <input name="q" id="indicator_search" title="Buscar" />
+    <label for="indicator_search">
+      <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Buscar:</span>
+    </label>
   </form>
 </div>
 
-
+      
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/asturias/es/goals">Objetivos</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/reporting-status">Disponibilidad de los datos</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/about">Acerca de</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/guidance">Guía</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/es/news">Actualizaciones</a>
-    </li><li class="language-toggle-menu-header">
-    
+            <a href="/asturias/es/goals">Objetivos</a>
+          </li><li class="nav-link ">
+            <a href="/asturias/es/reporting-status">Disponibilidad de los datos</a>
+          </li><li class="nav-link ">
+            <a href="/asturias/es/about">Acerca de</a>
+          </li><li class="nav-link ">
+            <a href="/asturias/es/guidance">Guía</a>
+          </li><li class="nav-link ">
+            <a href="/asturias/es/faq">FAQ</a>
+          </li><li class="nav-link ">
+            <a href="/asturias/es/news">Actualizaciones</a>
+          </li><li>
+          <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
+  <i class="fa fa-globe"></i>
+  <span class="language-toggle-text">Español</span>
+  <i class="language-toggle fa fa-chevron-down"></i>
+  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
+</a>
 
+<ul class="language-options language-toggle"><li><a href="/asturias/reporting-status/">English</a></li></ul>
 
+        </li></ul>
 
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
-      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
-            <a href="/asturias/reporting-status/">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-</li></ul>
-
+      
 
     </nav>
   </div>
 
 </header>
-<div id="top" tabindex=-1></div>
 
 
 
@@ -339,10 +274,10 @@ var translations = {
   <h2>Estado según objetivo</h2>
   
 
-  <div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+  <div class="goal">
+        <div class="frame">
           <a href="/asturias/es/1">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/1.png" alt="Fin de la Pobreza - Objetivo 1" width="100" height="100" id="goal-1"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/1.png" alt="Fin de la Pobreza - Objetivo 1" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -379,10 +314,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/2">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/2.png" alt="Hambre Cero - Objetivo 2" width="100" height="100" id="goal-2"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/2.png" alt="Hambre Cero - Objetivo 2" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -419,10 +354,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/3">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/3.png" alt="Salud y Bienestar - Objetivo 3" width="100" height="100" id="goal-3"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/3.png" alt="Salud y Bienestar - Objetivo 3" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -459,10 +394,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/4">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/4.png" alt="Educación de Calidad - Objetivo 4" width="100" height="100" id="goal-4"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/4.png" alt="Educación de Calidad - Objetivo 4" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -499,10 +434,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/5">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/5.png" alt="Igualdad de Género - Objetivo 5" width="100" height="100" id="goal-5"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/5.png" alt="Igualdad de Género - Objetivo 5" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -539,10 +474,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/6">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/6.png" alt="Agua Limpia y Saneamiento - Objetivo 6" width="100" height="100" id="goal-6"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/6.png" alt="Agua Limpia y Saneamiento - Objetivo 6" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -579,10 +514,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/7">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/7.png" alt="Energía Asequible y No Contaminante - Objetivo 7" width="100" height="100" id="goal-7"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/7.png" alt="Energía Asequible y No Contaminante - Objetivo 7" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -619,10 +554,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/8">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" width="100" height="100" id="goal-8"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -659,10 +594,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/9">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/9.png" alt="Industria, Innovación e Infraestructura - Objetivo 9" width="100" height="100" id="goal-9"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/9.png" alt="Industria, Innovación e Infraestructura - Objetivo 9" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -699,10 +634,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/10">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/10.png" alt="Reducción de las Desigualdades - Objetivo 10" width="100" height="100" id="goal-10"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/10.png" alt="Reducción de las Desigualdades - Objetivo 10" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -739,10 +674,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/11">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/11.png" alt="Cuidades y Comunidades Sostenibles - Objetivo 11" width="100" height="100" id="goal-11"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/11.png" alt="Cuidades y Comunidades Sostenibles - Objetivo 11" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -779,10 +714,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/12">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/12.png" alt="Producción y Consumo Responsables - Objetivo 12" width="100" height="100" id="goal-12"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/12.png" alt="Producción y Consumo Responsables - Objetivo 12" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -819,10 +754,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/13">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/13.png" alt="Acción por el Clima - Objetivo 13" width="100" height="100" id="goal-13"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/13.png" alt="Acción por el Clima - Objetivo 13" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -859,10 +794,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/14">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/14.png" alt="Vida Submarina - Objetivo 14" width="100" height="100" id="goal-14"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/14.png" alt="Vida Submarina - Objetivo 14" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -899,10 +834,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/15">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/15.png" alt="Vida de Ecosistemas Terrestres - Objetivo 15" width="100" height="100" id="goal-15"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/15.png" alt="Vida de Ecosistemas Terrestres - Objetivo 15" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -939,10 +874,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/16">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/16.png" alt="Paz, Justicia e Instituciones Sólidas - Objetivo 16" width="100" height="100" id="goal-16"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/16.png" alt="Paz, Justicia e Instituciones Sólidas - Objetivo 16" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -979,10 +914,10 @@ var translations = {
           </div>
         </div>
       <br style="clear:both;">
-    </div><div class="goal reporting-status-item">
-        <div class="frame goal-tiles">
+    </div><div class="goal">
+        <div class="frame">
           <a href="/asturias/es/17">
-            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/17.png" alt="Alianzas para Lograr los Objetivos - Objetivo 17" width="100" height="100" id="goal-17"/>
+            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/17.png" alt="Alianzas para Lograr los Objetivos - Objetivo 17" width="100" height="100" />
           </a>
         </div>
         <div class="details">
@@ -1032,27 +967,32 @@ var translations = {
           <ul>
             <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
             
-              <li>
+              
+                <li>
                 
                   <a href="mailto:my-email-address@example.com" target="_blank">Contacto</a>
                 
                 </li>
-              <li>
+              
+                <li>
                 
                   <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
                 
                 </li>
-              <li>
+              
+                <li>
                 
                   <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
                 
                 </li>
-              <li>
+              
+                <li>
                 <a href="/asturias/es/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
-            </ul>
+            
+          </ul>
         </div>
       </div>
     </div>
@@ -1074,7 +1014,6 @@ var translations = {
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1084,9 +1023,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201111090051'></script>
-
-<script>
+<script src='/asturias/assets/js/sdg.js?v=20201111091152'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1119,13 +1056,15 @@ $(function() {
               chartTitle: domData.charttitle,
               chartTitles: domData.charttitles,
               measurementUnit: domData.measurementunit,
+              copyright: domData.copyright,
+              dataSource: domData.datasource,
+              geographicalArea: domData.geographicalarea,
               showData: domData.showdata,
+              footnote: domData.footnote,
               graphType: domData.graphtype,
               startValues: domData.startvalues,
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
-              graphAnnotations: domData.graphannotations,
-              indicatorDownloads: domData.indicatordownloads,
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
