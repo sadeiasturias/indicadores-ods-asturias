@@ -5,24 +5,19 @@
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
 # baseurl: "/my-site-repository"
-baseurl: "/asturias"
+
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
-remote_data_prefix: "https://sadeiasturias.github.io/asturias-datos/"
+
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
-# URL for the "Edit Data" button on indicators.
+# URLs for the "Edit Data" and "Edit Metadata" buttons on indicators.
+
+baseurl: "/asturias"
+remote_data_prefix: "https://sadeiasturias.github.io/asturias-datos/"
 data_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/data/indicator_[id].csv
-# URL for the "Edit Metadata" button on indicators.
 metadata_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/meta/[id].md
-#
-# The list of languages that are translated. The first one is the default.
-languages:
-  - es
-  - en
-#
-# That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Replace this title as needed.
 title: Indicators For The Sustainable Development Goals
@@ -30,6 +25,15 @@ url: ""
 data_dir: data
 environment: staging
 
+jekyll_get_json:
+  - data: translations
+    json: 'https://open-sdg.github.io/sdg-translations/translations-0.6.0.json'
+
+# The list of languages that are translated. The first one is the default.
+languages:
+  - es
+  - en
+  
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
 create_indicators:
@@ -66,7 +70,7 @@ email_contacts:
 # Eg name: Australia and adjective: Australian
 country:
   name: Asturias
-  adjective: Asturias
+  adjective: Asturian
 
 # Dates for different languages
 #date_formats:
@@ -172,11 +176,12 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
   - jekyll-remote-theme
+  - jekyll-get-json
   - jekyll-open-sdg-plugins
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example: @1.1.0
-remote_theme: open-sdg/open-sdg@0.9.1
+remote_theme: open-sdg/open-sdg@0.8.1
 
 # Exclude some files/folders.
 exclude:
