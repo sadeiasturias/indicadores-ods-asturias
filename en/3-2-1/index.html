@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111112835">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111115932">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -319,7 +319,7 @@ var translations = {
   data-copyright=""
   data-geographicalarea=""
   data-footnote=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
@@ -328,46 +328,296 @@ var translations = {
   data-stackeddisaggregation=""
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+  </span>
+  <p id="legend-help">Click on the legend to remove individual lines from the chart.</p>
+  <div id="fields">
+    <p class="async-loading" data-img="/asturias/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://sadeiasturias.github.io/asturias-datos/en/headline/3-2-1.csv" class="btn btn-primary btn-download" download="indicator_3-2-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+
+    <a href="https://sadeiasturias.github.io/asturias-datos/en/data/3-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_3-2-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Under‐five mortality rate</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td class="table-value">2.4</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td class="table-value">5.1</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td class="table-value">3.7</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td class="table-value">2.7</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td class="table-value">3.3</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td class="table-value">2.3</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td class="table-value">3.3</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td class="table-value">3.2</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">2.3</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/asturias/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <ul class="nav nav-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+>Chart</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Table</a>
+  </li>
+  <li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+>Map</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none">
+      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <div id="chart-canvas">
+        <h3 class="chart-title">
+          
+            Under‐five mortality rate
+          
+        </h3>
+        <div id="chart" class="plot-container">
+          
+<canvas></canvas>
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits) {
+    var limit = _.findWhere(info.graphLimits, { unit: info.selectedUnit }) || info.graphLimits[0];
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: limit.minimum,
+              max: limit.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+
+        </div>
+        <div id="plotLegend"></div>
+      </div>
+      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
+        Download Chart Image
+      </button>
+    </div>
+    <div id="chartSelectionDownload"></div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div id="selectionsTable"></div>
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    <div id="map">
+  <img src="/asturias/assets/img/loading.gif" alt="Loading map" />
+</div>
+
+  </div>
+  
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
-
-  
-  
-  
-  
   <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" href="#" aria-controls="" role="tab" data-on="click"
+  <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
-></a>
-  </li>
-
-  
-  
-  
-  
-  <li role="presentation" class="nav-item ">
-    <a class="nav-link" data-toggle="tab" href="#" aria-controls="" role="tab" data-on="click"
+data-event-label="Change to National Metadata tab"
+>National Metadata</a>
+</li>
+<li role="presentation" class="nav-item">
+  <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
-></a>
-  </li>
-
-  
-  
-  
-  
-  <li role="presentation" class="nav-item ">
-    <a class="nav-link" data-toggle="tab" href="#" aria-controls="" role="tab" data-on="click"
+data-event-label="Change to Global Metadata tab"
+>Global Metadata</a>
+</li>
+<li role="presentation" class="nav-item">
+  <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
-></a>
-  </li>
+data-event-label="Change to Sources tab"
+>Sources</a>
+</li>
 
 
   
@@ -379,40 +629,16 @@ data-event-label="Change to  tab"
 
 <div class="tab-content">
   
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane active" id="">
-      <article>
+    <div role="tabpanel" class="tab-pane active" id="national">
+  <!-- National Metadata -->
+  <div >
+    <article>
+      <p>
         
-        <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+        
+        This table provides metadata for the actual indicator available from Asturias statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Asturian statistics, this table should be consulted for information on national methodology and other Asturian-specific metadata information.
+      </p>
+      <table class="table">
   
   
   
@@ -430,76 +656,169 @@ data-event-label="Change to  tab"
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
       
         
           
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Data last updated </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/sadeiasturias/asturias-datos/commit/4091a7ae89da0181bcca6cc5421f64897a4d32ba" target="_blank">
+                2020-11-10: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Metadata last updated </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/sadeiasturias/asturias-datos/commit/f963e797efc34aa9338fc5429a73ebb08502933b" target="_blank">
+                2020-11-11: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -513,51 +832,15 @@ data-event-label="Change to  tab"
   
 </table>
 
-      </article>
-    </div>
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane " id="">
-      <article>
-        
-        <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    </article>
+  </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="global">
+  <!-- Global Metadata -->
+  <div>
+    <article>
+      <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+      <table class="table">
   
   
   
@@ -565,77 +848,233 @@ data-event-label="Change to  tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator name </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>Under‐five mortality rate</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Indicator number </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>3.2.1</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Target name </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Target number </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>3.2</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Global indicator description </th>
+        <td>
           
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+            <p>The probability of a child born in a specific year or period dying before reaching the age of 5 years, if subject to age specific mortality rates of that period, expressed per 1000 live births. The under-five mortality rate as defined here is, strictly speaking, not a rate (i.e. the number of deaths divided by the number of population at risk during a certain period of time) but a probability of death derived from a life table and expressed as a rate per 1000 live births.</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
       
         
+      
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>1</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">UN custodian agency </th>
+        <td>
+          
+            <p>United Nations Children’s Fund (UNICEFF)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-3.pdf " target="_blank">
+                United Nations Sustainable Development Goals Metadata (PDF 225 KB) <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -649,145 +1088,18 @@ data-event-label="Change to  tab"
   
 </table>
 
-      </article>
-    </div>
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane " id="">
-      <article>
-        
-        <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-        
-          
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+    </article>
+  </div>
+</div>
+<div role="tabpanel" class="tab-pane" id="sources">
+  <!-- Count the non-empty sources (up to 5) -->
 
-      </article>
-    </div>
-    
+
+
+
+
+</div>
+
   
   
   <div role="tabpanel" class="tab-pane" id="edit">
@@ -875,7 +1187,7 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201111112835'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201111115932'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
