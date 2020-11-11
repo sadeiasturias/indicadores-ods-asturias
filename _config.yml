@@ -8,14 +8,14 @@ metadata_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/me
 #
 # The list of languages that are translated. The first one is the default.
 languages:
-  - en
   - es
+  - en
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example:
-#remote_theme: open-sdg/open-sdg@1.1.0
+#remote_theme: open-sdg/open-sdg@master
 remote_theme: open-sdg/open-sdg@1.1.0
 
 # Replace this title as needed.
