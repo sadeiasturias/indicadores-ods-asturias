@@ -62,6 +62,15 @@ country:
   name: Asturias
   adjective: Asturian
 
+# Dates for different languages
+date_formats:
+  - type: standard
+    language: en
+    format: "%b %d, %Y"
+  - type: standard
+    language: es
+    format: "%d de %b de %Y"
+
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
 frontpage_introduction_banner:
