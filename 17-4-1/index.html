@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/en',
+  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'es',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Indicator 17.4.1 - Goal 17
+            Indicador 17.4.1 - Objetivo 17
           
         </title>
 
@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111091152">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201111091451">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,18 +133,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-es layout-indicator">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus comentarios.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert" role="alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Ésta es una web en desarrollo. Agradecemos sus comentarios.
   </div>
 </div>
 
@@ -154,19 +154,19 @@ var translations = {
   <div class="container">
 
     <a class="navbar-brand" href="/asturias/" id="home">
-      <img src="/asturias/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/es/17-4-1/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/17-4-1/">English</a></li></ul>
 
     </div></div>
 
@@ -178,42 +178,42 @@ var translations = {
             aria-haspopup="true"
             aria-expanded="false">
           <span data-target="menu" tabindex="0"
-          role="navigation">Menu</span>
+          role="navigation">Menú</span>
         </li>
-        <li><span data-target="search">Search</span></li>
+        <li><span data-target="search">Buscar</span></li>
       </ul>
 
       <div id="search" class="menu-target">
   <form action="/asturias/search">
-    <input name="q" id="indicator_search" title="Search" />
+    <input name="q" id="indicator_search" title="Buscar" />
     <label for="indicator_search">
-      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
+      <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Buscar:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/asturias/goals">Goals</a>
+            <a href="/asturias/goals">Objetivos</a>
           </li><li class="nav-link ">
-            <a href="/asturias/reporting-status">Reporting Status</a>
+            <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
           </li><li class="nav-link ">
-            <a href="/asturias/about">About</a>
+            <a href="/asturias/about">Acerca de</a>
           </li><li class="nav-link ">
-            <a href="/asturias/guidance">Guidance</a>
+            <a href="/asturias/guidance">Guía</a>
           </li><li class="nav-link ">
             <a href="/asturias/faq">FAQ</a>
           </li><li class="nav-link ">
-            <a href="/asturias/news">Updates</a>
+            <a href="/asturias/news">Actualizaciones</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/es/17-4-1/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/17-4-1/">English</a></li></ul>
 
         </li></ul>
 
@@ -234,8 +234,8 @@ var translations = {
       </div>
       <div class="variable-options">
         <div>
-          <button data-type="select">Select all</button>
-          <button data-type="clear">Clear all</button>
+          <button data-type="select">Seleccionar todo</button>
+          <button data-type="clear">Limpiar todo</button>
         </div>
         <% _.each(fieldItem.values, function(item) { %>
           <label>
@@ -245,10 +245,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint">Disponible cuando se selecciona '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>'
         </div>
         <div class="no-data-hint">
-          No options available because of filters above
+          No hay opciones disponibles debido a los filtros anteriores
         </div>
       <% }%>
 
@@ -258,7 +258,7 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Units type</h4>
+    <h4>Tipo de unidades</h4>
     <% _.each(units, function(unitsItem, index) { %>
       <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
       <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -266,7 +266,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","data_not_available":"This data is not available. Please choose alternative data to display.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","no_data_hint":"No options available because of filters above","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"Gráfico","clear_all":"Limpiar todo","clear_selections":"Borrar selecciones","data_not_available":"Esta información no está disponible. Elija datos alternativos para mostrar.","dataset_size_warning":"Hay demasiados conjuntos de datos para mostrar en el gráfico. No se mostrarán todos los datos hasta que elimine algunas selecciones.","download_chart":"Descargar CSV de gráfico","download_chart_image":"Descargar imagen del gráfico","download_chart_image_title":"Descargar gráfico como imagen","download_csv":"Descargar CSV","download_csv_title":"Descargar como CSV","download_geojson":"Descargar GeoJSON","download_geojson_title":"Descargar como GeoJSON","download_headline":"Descargar CSV global","download_headline_title":"Descargar datos globales como CSV","download_source":"Descargar CSV fuente","download_source_sdmx":"Descargar SDMX fuente","download_source_sdmx_title":"Descargar los datos fuente como SDMX","download_source_title":"Descargar los datos fuente como CSV","download_table":"Descargar la tabla CSV","edit":"Editar","edit_data":"Editar datos","edit_metadata":"Editar metadatos","footnote":"Nota","geographical_area":"Área geográfica","global_metadata":"Metadatos de indicadores globales","global_metadata_blurb":"Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La División de Estadística de las Naciones Unidas proporciona los <a href=\"https://unstats.un.org/sdgs/metadata/\">metadatos globales completos</a> .","legend_help":"Haga clic en la leyenda para eliminar líneas individuales del gráfico.","loading":"Cargando","loading_map":"Cargando mapa","map":"Mapa","national_metadata":"Metadatos de indicadores regionales","national_metadata_blurb":"En esta tabla se proporcionan los metadatos para el indicador calculado a partir de las estadísticas de %country_name con una metodología distinta al correspondiente indicador global de SDG.","no_data_hint":"No hay opciones disponibles debido a los filtros anteriores","select_all":"Seleccionar todo","series":"Serie","series_help":"Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.","source":"Fuente","sources":"Fuentes","sub_categories":"Subcategorías","table":"Tabla","unit_of_measurement":"Unidad de medida","units_type":"Tipo de unidades","variable_hint":"Disponible cuando se selecciona '%field'","view_indicator_list":"Ver la lista de indicadores de este objetivo"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -275,14 +275,14 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon">
-        <a href="/asturias/17" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" />
+        <a href="/asturias/17" title="Ver la lista de indicadores de este objetivo">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/17.png" alt="Alianzas para Lograr los Objetivos - Objetivo 17" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
         <div>
-          <h1>Indicator 17.4.1</h1>
-          <p class="lead-copy">Debt service as a proportion of exports of goods and services</p>
+          <h1>Indicador 17.4.1</h1>
+          <p class="lead-copy">Servicio de la deuda en proporción a las exportaciones de bienes y servicios</p>
         </div>
       </div>
     </div>
@@ -291,9 +291,9 @@ var translations = {
 
 <div id="main-content" class="container goal-17">
   <ol class="breadcrumb">
-  <li><a href="/asturias/">Home</a></li>
-  <li><a href="/asturias/17" title="Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development">Goal 17</a></li>
-  <li class="active">Indicator 17.4.1</li>
+  <li><a href="/asturias/">Inicio</a></li>
+  <li><a href="/asturias/17" title="Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible">Objetivo 17</a></li>
+  <li class="active">Indicador 17.4.1</li>
 </ol>
 
   
@@ -316,7 +316,7 @@ var translations = {
   data-indicatorid='indicator_17-4-1'
   data-id="17-4-1"
   data-country="Australia"
-  data-charttitle="Debt service as a proportion of exports of goods and services"
+  data-charttitle="Servicio de la deuda en proporción a las exportaciones de bienes y servicios"
   data-charttitles="null"
   data-measurementunit=""
   data-datasource=""
@@ -341,27 +341,27 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->National Metadata</a>
+>Metadatos de indicadores regionales</a>
 </li>
 <li role="presentation" class="nav-item">
   <a class="nav-link" data-toggle="tab" href="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Global Metadata</a>
+>Metadatos de indicadores globales</a>
 </li>
 <li role="presentation" class="nav-item">
   <a class="nav-link" data-toggle="tab" href="#sources" aria-controls="sources" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Sources</a>
+>Fuentes</a>
 </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Editar</a>
   </li>
   
 </ul>
@@ -375,7 +375,7 @@ data-event-label="Change to Sources tab"
       <p>
         
         
-        This table provides metadata for the actual indicator available from Australia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Australian statistics, this table should be consulted for information on national methodology and other Australian-specific metadata information.
+        En esta tabla se proporcionan los metadatos para el indicador calculado a partir de las estadísticas de Australia con una metodología distinta al correspondiente indicador global de SDG.
       </p>
       <table class="table">
   
@@ -395,7 +395,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">Indicador disponible </th>
         <td>
           
             
@@ -409,7 +409,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Descripción del indicador </th>
         <td>
           
             
@@ -423,7 +423,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Cobertura geográfica </th>
         <td>
           
             
@@ -437,7 +437,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Unidad de medida </th>
         <td>
           
             
@@ -451,7 +451,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definitions </th>
+        <th scope="row">Definiciones </th>
         <td>
           
             
@@ -465,7 +465,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">Cálculos </th>
         <td>
           
             
@@ -479,7 +479,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Otra información </th>
         <td>
           
             
@@ -493,7 +493,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Quality assurance </th>
+        <th scope="row">Seguro de calidad </th>
         <td>
           
             
@@ -507,7 +507,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comparability with international data/standards </th>
+        <th scope="row">Comparabilidad con datos / estándares internacionales </th>
         <td>
           
             
@@ -521,7 +521,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comments and limitations </th>
+        <th scope="row">Comentarios y limitaciones </th>
         <td>
           
             
@@ -549,7 +549,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Datos actualizados por última vez </th>
         <td>
           
             
@@ -559,7 +559,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://github.com/sadeiasturias/asturias-datos/commit/d6bb538e4598c8d4d620b763a31926f8a79387b9" target="_blank">
-                2020-10-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+                2020-10-20: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -576,7 +576,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Metadatos actualizados por última vez </th>
         <td>
           
             
@@ -586,7 +586,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://github.com/sadeiasturias/asturias-datos/commit/d6bb538e4598c8d4d620b763a31926f8a79387b9" target="_blank">
-                2020-10-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+                2020-10-20: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -691,7 +691,7 @@ data-event-label="Change to Sources tab"
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+      <p>Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La División de Estadística de las Naciones Unidas proporciona los <a href="https://unstats.un.org/sdgs/metadata/">metadatos globales completos</a> .</p>
       <table class="table">
   
   
@@ -701,10 +701,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator name </th>
+        <th scope="row">Nombre del indicador </th>
         <td>
           
-            <p>Debt service as a proportion of exports of goods and services</p>
+            <p>Servicio de la deuda en proporción a las exportaciones de bienes y servicios</p>
 
           
         </td>
@@ -715,7 +715,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator number </th>
+        <th scope="row">Número de indicador </th>
         <td>
           
             <p>17.4.1</p>
@@ -729,10 +729,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target name </th>
+        <th scope="row">Meta </th>
         <td>
           
-            <p>Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress</p>
+            <p>Ayudar a los países en desarrollo a lograr la sostenibilidad de la deuda a largo plazo con políticas coordinadas orientadas a fomentar la financiación, el alivio y la reestructuración de la deuda, según proceda, y hacer frente a la deuda externa de los países pobres muy endeudados a fin de reducir el endeudamiento excesivo</p>
 
           
         </td>
@@ -743,7 +743,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target number </th>
+        <th scope="row">Número de meta </th>
         <td>
           
             <p>17.4</p>
@@ -757,7 +757,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Global indicator description </th>
+        <th scope="row">Descripción del indicador global </th>
         <td>
           
             
@@ -771,7 +771,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">UN designated tier </th>
+        <th scope="row">Nivel designado por la ONU </th>
         <td>
           
             <p>1</p>
@@ -785,7 +785,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">UN custodian agency </th>
+        <th scope="row">Agencia de custodia de la ONU </th>
         <td>
           
             <p>World Bank</p>
@@ -799,7 +799,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Link to UN metadata </th>
+        <th scope="row">Enlace a los metadatos de la ONU </th>
         <td>
           
             
@@ -809,7 +809,7 @@ data-event-label="Change to Sources tab"
 
             
               <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-17-04-01.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 468kB) <span class="visuallyhidden">opens in a new window</span>
+                United Nations Sustainable Development Goals Metadata (pdf 468kB) <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
 
@@ -939,11 +939,11 @@ data-event-label="Change to Sources tab"
   <div role="tabpanel" class="tab-pane" id="edit">
     <div class="edit-container">
   
-  <a class="btn btn-primary" href="http://prose.io/#sadeiasturias/asturias-datos/edit/develop/data/indicator_17-4-1.csv">Edit Data</a>
+  <a class="btn btn-primary" href="http://prose.io/#sadeiasturias/asturias-datos/edit/develop/data/indicator_17-4-1.csv">Editar datos</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#sadeiasturias/asturias-datos/edit/develop/meta/17-4-1.md">Edit Metadata</a>
+  <a class="btn btn-primary" href="http://prose.io/#sadeiasturias/asturias-datos/edit/develop/meta/17-4-1.md">Editar metadatos</a>
   
 </div>
 
@@ -963,12 +963,12 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contacto</a>
                 
                 </li>
               
@@ -1016,12 +1016,12 @@ data-event-label="Change to Sources tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201111091152'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201111091451'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
