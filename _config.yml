@@ -63,13 +63,6 @@ country:
   adjective: Asturian
 
 # Dates for different languages
-#date_formats:
-#  - type: standard
-#    language: en
-#    format: "%b %d, %Y"
-#  - type: standard
-#    language: es
-#    format: "%d de %b de %Y"
 date_formats:
   standard:
     es: "%d de %b de %Y"
@@ -115,21 +108,21 @@ collections:
     output: true
 
 # Menu
+# Use these to customise the main navigation.
+# The "translation_key" refers to the key in the SDG Translations repository (or the file in your repository overriding it).
 menu:
-  # Use these to customise the main navigation.
-  - path: /goals
-    # The "translation_key" refers to the key in the SDG Translations repository.
-    translation_key: general.goals
+  #- path: /goals
+  #  translation_key: general.goals
   - path: /reporting-status
     translation_key: menu.reporting_status
   - path: /about
     translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
+  #- path: /guidance
+  #  translation_key: menu.guidance
   - path: /faq
     translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
+  #- path: /news
+  #  translation_key: menu.updates
 
 footer_menu:
   - path: mailto:my-email-address@example.com
