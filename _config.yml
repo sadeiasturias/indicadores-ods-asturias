@@ -136,7 +136,17 @@ footer_menu:
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
-non_global_metadata: indicator.national_metadata
+#non_global_metadata: indicator.national_metadata
+metadata_tabs:
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
+  - scope: global
+    title: indicator.global_metadata
+    description: indicator.global_metadata_blurb
+  - scope: sources
+    title: indicator.sources
+    description: ''
 
 hide_empty_metadata: true
 
