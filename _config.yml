@@ -5,6 +5,12 @@ remote_data_prefix: "https://sadeiasturias.github.io/asturias-datos/"
 data_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/data/indicator_[id].csv
 metadata_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/meta/[id].md
 
+# Replace this title as needed.
+title: Indicators For The Sustainable Development Goals
+url: ""
+data_dir: data
+environment: staging
+
 # The list of languages that are translated. The first one is the default.
 languages:
   - es
@@ -15,15 +21,8 @@ languages:
 #    json: 'https://open-sdg.org/sdg-translations/translations.json'
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-# Recommended: set this to a particular "release" of Open SDG. For example:
-#remote_theme: open-sdg/open-sdg@master
+# Recommended: set this to a particular "release" of Open SDG.
 remote_theme: open-sdg/open-sdg@1.1.0
-
-# Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
-url: ""
-data_dir: data
-environment: staging
 
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
@@ -58,7 +57,6 @@ email_contacts:
   functional: web@sadei.es
 
 # International Support
-# Eg name: Australia and adjective: Australian
 country:
   name: Asturias
   adjective: Asturian
@@ -69,8 +67,7 @@ date_formats:
     es: "%d de %b de %Y"
     en: "%b %d, %Y"
 
-# Optionally set a title/body for the frontpage banner. The defaults below point to a standard
-# translation, but feel free to change it as needed.
+# Optionally set a title/body for the frontpage banner.
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
@@ -82,18 +79,6 @@ frontpage_goals_grid:
 frontpage_cards:
   - title: frontpage.download_all
     include: components/download-all-data.html
-#  - title: Lorem ipsum
-#    content: |
-#      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-#      cursus est sed dapibus.
-#    button_label: Read more
-#    button_link: https://example.com
-#  - title: Nam vestibulum
-#    content: |
-#      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-#      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-#    button_label: Read more
-#    button_link: https://example.com
 
 # Pages
 collections:
@@ -171,17 +156,3 @@ exclude:
   - README
   - README.md
   - LICENSE
-
-# Optionally uncomment and update the settings below to control the mapping functionality.
-# These are only a few of the possible settings. For more details, see:
-# https://open-sdg.readthedocs.io/en/latest/maps/
-#map_options:
-#  minZoom: 5
-#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-#  tileOptions:
-#    attribution: 'My map attribution'
-#map_layers:
-#  - min_zoom: 5
-#    max_zoom: 10
-#    subfolder: my-geojson-subfolder
-#    label: My map layer label (can be a translation key)
