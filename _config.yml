@@ -29,7 +29,7 @@ remote_theme: open-sdg/open-sdg@1.1.0
 create_indicators:
   layout: indicator
 create_goals:
-  layout: goal-by-target  #goal-by-target-vertical
+  layout: goal-by-target-vertical  #goal-by-target-vertical
 create_pages:
   pages:
     - folder: /
