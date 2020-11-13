@@ -15,7 +15,7 @@
         },
         {
           "id": "1-2-1-1",
-          "title": "global_indicators.1-2-1-1-title",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
           "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
           "keywords": "",
           "href": "/asturias/en/1-2-1-1",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-2-1-2",
-          "title": "global_indicators.1-2-1-2-title",
+          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
           "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral autonómico de pobreza",
           "keywords": "",
           "href": "/asturias/en/1-2-1-2",
@@ -31,7 +31,7 @@
         },
         {
           "id": "1-2-2-1",
-          "title": "global_indicators.1-2-2-1-title",
+          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
           "description": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
           "keywords": "",
           "href": "/asturias/en/1-2-2-1",
@@ -39,7 +39,7 @@
         },
         {
           "id": "1-2-2-2",
-          "title": "global_indicators.1-2-2-2-title",
+          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
           "description": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral autonómico de pobreza",
           "keywords": "",
           "href": "/asturias/en/1-2-2-2",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-2-2-3",
-          "title": "global_indicators.1-2-2-3-title",
+          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
           "description": "Proporción de personas con carencia material severa",
           "keywords": "",
           "href": "/asturias/en/1-2-2-3",
@@ -55,7 +55,7 @@
         },
         {
           "id": "1-2-2-4",
-          "title": "global_indicators.1-2-2-4-title",
+          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
           "description": "Proporción de personas viviendo en hogares con baja intensidad de trabajo",
           "keywords": "",
           "href": "/asturias/en/1-2-2-4",
@@ -63,7 +63,7 @@
         },
         {
           "id": "1-5-1-1",
-          "title": "global_indicators.1-5-1-1-title",
+          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "keywords": "",
           "href": "/asturias/en/1-5-1-1",
@@ -87,7 +87,7 @@
         },
         {
           "id": "2-4-1-1",
-          "title": "global_indicators.2-4-1-1-title",
+          "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
           "description": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
           "keywords": "",
           "href": "/asturias/en/2-4-1-1",
@@ -103,7 +103,7 @@
         
         {
           "id": "3-1-1-1",
-          "title": "global_indicators.3-1-1-1-title",
+          "title": "Tasa de mortalidad materna",
           "description": "Tasa de mortalidad materna",
           "keywords": "",
           "href": "/asturias/en/3-1-1-1",
@@ -119,7 +119,7 @@
         },
         {
           "id": "3-2-1-1",
-          "title": "global_indicators.3-2-1-1-title",
+          "title": "Tasa de mortalidad de niños menores de 5 años",
           "description": "Tasa de mortalidad de menores de 5 años",
           "keywords": "",
           "href": "/asturias/en/3-2-1-1",
@@ -127,7 +127,7 @@
         },
         {
           "id": "3-2-2-1",
-          "title": "global_indicators.3-2-2-1-title",
+          "title": "Tasa de mortalidad neonatal",
           "description": "Tasa de mortalidad neonatal",
           "keywords": "",
           "href": "/asturias/en/3-2-2-1",
@@ -135,7 +135,7 @@
         },
         {
           "id": "3-4-1-1",
-          "title": "global_indicators.3-4-1-1-title",
+          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
           "description": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares",
           "keywords": "",
           "href": "/asturias/en/3-4-1-1",
@@ -143,7 +143,7 @@
         },
         {
           "id": "3-4-1-2",
-          "title": "global_indicators.3-4-1-2-title",
+          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
           "description": "Tasa de mortalidad atribuida al cáncer",
           "keywords": "",
           "href": "/asturias/en/3-4-1-2",
@@ -151,7 +151,7 @@
         },
         {
           "id": "3-4-1-3",
-          "title": "global_indicators.3-4-1-3-title",
+          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
           "description": "Tasa de mortalidad atribuida a la diabetes",
           "keywords": "",
           "href": "/asturias/en/3-4-1-3",
@@ -159,7 +159,7 @@
         },
         {
           "id": "3-4-1-4",
-          "title": "global_indicators.3-4-1-4-title",
+          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
           "description": "Tasa de mortalidad atribuida a las enfermedades respiratorias crónicas",
           "keywords": "",
           "href": "/asturias/en/3-4-1-4",
@@ -167,7 +167,7 @@
         },
         {
           "id": "3-4-2-1",
-          "title": "global_indicators.3-4-2-1-title",
+          "title": "Tasa de mortalidad por suicidio",
           "description": "Tasa de mortalidad por suicidio",
           "keywords": "",
           "href": "/asturias/en/3-4-2-1",
@@ -175,7 +175,7 @@
         },
         {
           "id": "3-6-1-1",
-          "title": "global_indicators.3-6-1-1-title",
+          "title": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
           "description": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
           "keywords": "",
           "href": "/asturias/en/3-6-1-1",
@@ -183,7 +183,7 @@
         },
         {
           "id": "3-7-2-1",
-          "title": "global_indicators.3-7-2-1-title",
+          "title": "Tasa de fecundidad de las adolescentes (entre 10 y 14 años y entre 15 y 19 años) por cada 1.000 mujeres de ese grupo de edad",
           "description": "Tasa de fecundidad de las adolescentes entre 10 y 14 años por cada 1.000 mujeres de ese grupo de edad",
           "keywords": "",
           "href": "/asturias/en/3-7-2-1",
@@ -191,7 +191,7 @@
         },
         {
           "id": "3-7-2-2",
-          "title": "global_indicators.3-7-2-2-title",
+          "title": "Tasa de fecundidad de las adolescentes (entre 10 y 14 años y entre 15 y 19 años) por cada 1.000 mujeres de ese grupo de edad",
           "description": "Tasa de fecundidad de las adolescentes entre 15 y 19 años por cada 1.000 mujeres de ese grupo de edad",
           "keywords": "",
           "href": "/asturias/en/3-7-2-2",
@@ -199,7 +199,7 @@
         },
         {
           "id": "3-9-3-1",
-          "title": "global_indicators.3-9-3-1-title",
+          "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "description": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "keywords": "",
           "href": "/asturias/en/3-9-3-1",
@@ -215,7 +215,7 @@
         
         {
           "id": "4-3-1-2",
-          "title": "global_indicators.4-3-1-2-title",
+          "title": "Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
           "description": "Proporción de personas entre 15 y 64 años que han realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/asturias/en/4-3-1-2",
@@ -223,7 +223,7 @@
         },
         {
           "id": "4-3-1-3",
-          "title": "global_indicators.4-3-1-3-title",
+          "title": "Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
           "description": "Proporción de personas entre 15 y 24 años que han realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/asturias/en/4-3-1-3",
@@ -231,7 +231,7 @@
         },
         {
           "id": "4-3-1-4",
-          "title": "global_indicators.4-3-1-4-title",
+          "title": "Tasa de participación de los jóvenes y adultos en la enseñanza y formación académica y no académica en los últimos 12 meses, desglosada por sexo",
           "description": "Proporción de personas entre 25 y 64 años que han realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/asturias/en/4-3-1-4",
@@ -239,7 +239,7 @@
         },
         {
           "id": "4-5-1-4",
-          "title": "global_indicators.4-5-1-4-title",
+          "title": "Índices de paridad (entre mujeres y hombres, zonas rurales y urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados, los pueblos indígenas y los afectados por los conflictos, a medida que se disponga de datos) para todos los indicadores educativos de esta lista que puedan desglosarse",
           "description": "Índice de paridad entre mujeres y hombres de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/asturias/en/4-5-1-4",
@@ -247,7 +247,7 @@
         },
         {
           "id": "4-5-1-5",
-          "title": "global_indicators.4-5-1-5-title",
+          "title": "Índices de paridad (entre mujeres y hombres, zonas rurales y urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados, los pueblos indígenas y los afectados por los conflictos, a medida que se disponga de datos) para todos los indicadores educativos de esta lista que puedan desglosarse",
           "description": "Índice de paridad entre municipios de 10.000 o menos habitantes y municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/asturias/en/4-5-1-5",
@@ -263,7 +263,7 @@
         
         {
           "id": "5-5-2-1",
-          "title": "global_indicators.5-5-2-1-title",
+          "title": "Proporción de mujeres en cargos directivos",
           "description": "Proporción de mujeres en cargos directivos",
           "keywords": "",
           "href": "/asturias/en/5-5-2-1",
@@ -271,7 +271,7 @@
         },
         {
           "id": "5-5-2-2",
-          "title": "global_indicators.5-5-2-2-title",
+          "title": "Proporción de mujeres en cargos directivos",
           "description": "Proporción de mujeres en alta dirección",
           "keywords": "",
           "href": "/asturias/en/5-5-2-2",
@@ -279,7 +279,7 @@
         },
         {
           "id": "5-a-1a-1",
-          "title": "global_indicators.5-a-1a-1-title",
+          "title": "Proporción del total de la población agrícola con derechos de propiedad o derechos seguros sobre tierras agrícolas, desglosada por sexo",
           "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
           "keywords": "",
           "href": "/asturias/en/5-a-1a-1",
@@ -287,7 +287,7 @@
         },
         {
           "id": "5-a-1a-2",
-          "title": "global_indicators.5-a-1a-2-title",
+          "title": "Proporción del total de la población agrícola con derechos de propiedad o derechos seguros sobre tierras agrícolas, desglosada por sexo",
           "description": "Proporción de hombres titulares de explotaciones agrícolas, respecto al total de hombres trabajadores en la agricultura",
           "keywords": "",
           "href": "/asturias/en/5-a-1a-2",
@@ -295,7 +295,7 @@
         },
         {
           "id": "5-a-1a-3",
-          "title": "global_indicators.5-a-1a-3-title",
+          "title": "Proporción del total de la población agrícola con derechos de propiedad o derechos seguros sobre tierras agrícolas, desglosada por sexo",
           "description": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de mujeres trabajadoras en la agricultura",
           "keywords": "",
           "href": "/asturias/en/5-a-1a-3",
@@ -303,7 +303,7 @@
         },
         {
           "id": "5-a-1b-1",
-          "title": "global_indicators.5-a-1b-1-title",
+          "title": "Proporción de mujeres entre los propietarios o los titulares de derechos sobre tierras agrícolas, desglosada por tipo de tenencia",
           "description": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de titulares de explotaciones agrícolas",
           "keywords": "",
           "href": "/asturias/en/5-a-1b-1",
@@ -311,7 +311,7 @@
         },
         {
           "id": "5-a-1b-2",
-          "title": "global_indicators.5-a-1b-2-title",
+          "title": "Proporción de mujeres entre los propietarios o los titulares de derechos sobre tierras agrícolas, desglosada por tipo de tenencia",
           "description": "Proporción de mujeres titulares de explotaciones agrícolas en propiedad, respecto al total de titulares de explotaciones agrícolas en propiedad",
           "keywords": "",
           "href": "/asturias/en/5-a-1b-2",
@@ -319,7 +319,7 @@
         },
         {
           "id": "5-a-1b-3",
-          "title": "global_indicators.5-a-1b-3-title",
+          "title": "Proporción de mujeres entre los propietarios o los titulares de derechos sobre tierras agrícolas, desglosada por tipo de tenencia",
           "description": "Proporción de mujeres titulares de explotaciones agrícolas en arrendamiento, respecto al total de titulares de explotaciones agrícolas en arrendamiento",
           "keywords": "",
           "href": "/asturias/en/5-a-1b-3",
@@ -343,7 +343,7 @@
         },
         {
           "id": "8-5-2-2",
-          "title": "global_indicators.8-5-2-2-title",
+          "title": "Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad",
           "description": "Tasa de desempleo de hombres",
           "keywords": "",
           "href": "/asturias/en/8-5-2-2",
@@ -351,7 +351,7 @@
         },
         {
           "id": "8-5-2-3",
-          "title": "global_indicators.8-5-2-3-title",
+          "title": "Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad",
           "description": "Tasa de desempleo de mujeres",
           "keywords": "",
           "href": "/asturias/en/8-5-2-3",
@@ -359,7 +359,7 @@
         },
         {
           "id": "8-6-1-1",
-          "title": "global_indicators.8-6-1-1-title",
+          "title": "Proporción de jóvenes (entre 15 y 24 años) que no cursan estudios, no están empleados ni reciben capacitación",
           "description": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
           "keywords": "",
           "href": "/asturias/en/8-6-1-1",
@@ -375,7 +375,7 @@
         
         {
           "id": "9-2-2-1",
-          "title": "global_indicators.9-2-2-1-title",
+          "title": "Empleo del sector manufacturero en proporción al empleo total",
           "description": "Proporción de personas ocupadas en el sector manufacturero",
           "keywords": "",
           "href": "/asturias/en/9-2-2-1",
@@ -391,7 +391,7 @@
         
         {
           "id": "10-1-1-3",
-          "title": "global_indicators.10-1-1-3-title",
+          "title": "Tasas de crecimiento per cápita de los gastos o ingresos de los hogares del 40% más pobre de la población y la población total",
           "description": "Tasa de crecimiento per cápita de los ingresos de los hogares del 40% más pobre de la población",
           "keywords": "",
           "href": "/asturias/en/10-1-1-3",
@@ -399,7 +399,7 @@
         },
         {
           "id": "10-1-1-4",
-          "title": "global_indicators.10-1-1-4-title",
+          "title": "Tasas de crecimiento per cápita de los gastos o ingresos de los hogares del 40% más pobre de la población y la población total",
           "description": "Tasa de crecimiento per cápita de los ingresos de los hogares de la población total",
           "keywords": "",
           "href": "/asturias/en/10-1-1-4",
@@ -407,7 +407,7 @@
         },
         {
           "id": "10-2-1-1",
-          "title": "global_indicators.10-2-1-1-title",
+          "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad",
           "description": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana nacional",
           "keywords": "",
           "href": "/asturias/en/10-2-1-1",
@@ -415,7 +415,7 @@
         },
         {
           "id": "10-2-1-2",
-          "title": "global_indicators.10-2-1-2-title",
+          "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad",
           "description": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana autonómica",
           "keywords": "",
           "href": "/asturias/en/10-2-1-2",
@@ -431,7 +431,7 @@
         
         {
           "id": "16-1-4-1",
-          "title": "global_indicators.16-1-4-1-title",
+          "title": "Proporción de la población que se siente segura al caminar sola en su zona de residencia",
           "description": "Proporción de personas que se sienten seguras al caminar sola en su zona de residencia",
           "keywords": "",
           "href": "/asturias/en/16-1-4-1",
