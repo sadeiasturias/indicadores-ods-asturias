@@ -122,7 +122,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201113090536">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201113105924">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -221,11 +221,21 @@ var translations = {
 </header>
 
 
+<div class="container">
+  <ol class="breadcrumb">
+  
+  <li><a href="/asturias/en/">Home</a></li>
+  <li class="active">Goal 9</li>
+  
+</ol>
+
+</div>
+
 <div class="heading goal-banner goal-9">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" />
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" id="goal-9"/>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -236,14 +246,9 @@ var translations = {
   </div>
 </div>
 
-<div id="main-content" class="container goal-indicators goal-9">
+<div id="main-content" class="container">
 
   
-
-  <ol class="breadcrumb">
-    <li><a href="/asturias/en/">Home</a></li>
-    <li class="active">Goal 9</li>
-  </ol>
 
   <div class="container">
     <h2>Targets and indicators</h2>
@@ -251,15 +256,12 @@ var translations = {
     
     
       
-      <div class="row no-gutters goal-target">
-        <div class="col-md-1">
-          9.2
-        </div>
-        <div class="col-md-11">
-          Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries
-        </div>
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Target</span> 9.2</span>
+        </h3>
+        <span class="target-name">Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries</span>
         
-        <div class="row no-gutters goal-indicator indicator-cards">
 
           
           
@@ -270,17 +272,17 @@ var translations = {
           
           
 
-          <div class="col-md-1 col-md-offset-1">9.2.2.1</div>
-          <div class="col-md-8">
-            <a href="/asturias/en/9-2-2-1">Proporción de personas ocupadas en el sector manufacturero</a>
-          </div>
-          <div class="col-md-2 status-column">
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indicator</span> 9.2.2.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/asturias/en/9-2-2-1">Proporción de personas ocupadas en el sector manufacturero</a></span>
+            <span class="sr-only">Indicator status</span>
             <span class="status complete">
               Reported online
             </span>
+            
           </div>
-          
-        </div>
         
       </div>
     
@@ -351,7 +353,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201113090536'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201113105924'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
