@@ -113,20 +113,20 @@ menu:
 footer_menu:
   - path: mailto:web@sadei.es
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
+  - path: https://twitter.com/sadeiAsturias
     translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
+  - path: https://www.facebook.com/sadeiAsturias
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
-non_global_metadata: indicator.national_metadata
-#metadata_tabs:
-#  - scope: national
-#    title: indicator.national_metadata
-#    description: indicator.national_metadata_blurb
+#non_global_metadata: indicator.national_metadata
+metadata_tabs:
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
 #  - scope: global
 #    title: indicator.global_metadata
 #    description: indicator.global_metadata_blurb
