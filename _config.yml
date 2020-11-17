@@ -9,7 +9,7 @@ metadata_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/me
 title: Indicators For The Sustainable Development Goals
 url: ""
 data_dir: data
-environment: staging
+environment: production #staging
 
 # The list of languages that are translated. The first one is the default.
 languages:
