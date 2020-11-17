@@ -103,8 +103,8 @@
         
         {
           "id": "3-1-1-a",
-          "title": "Tasa de mortalidad materna",
-          "description": "Tasa de mortalidad materna",
+          "title": "Maternal mortality ratio",
+          "description": "Maternal mortality ratio",
           "keywords": "",
           "href": "/asturias/en/3-1-1-a",
           "status": "complete"
@@ -119,16 +119,16 @@
         },
         {
           "id": "3-2-1-a",
-          "title": "Tasa de mortalidad de menores de 5 años",
-          "description": "Tasa de mortalidad de menores de 5 años",
+          "title": "Under-five mortality rate",
+          "description": "Under-five mortality rate",
           "keywords": "",
           "href": "/asturias/en/3-2-1-a",
           "status": "complete"
         },
         {
           "id": "3-2-2-a",
-          "title": "Tasa de mortalidad neonatal",
-          "description": "Tasa de mortalidad neonatal",
+          "title": "Neonatal mortality rate",
+          "description": "Neonatal mortality rate",
           "keywords": "",
           "href": "/asturias/en/3-2-2-a",
           "status": "complete"
@@ -167,16 +167,16 @@
         },
         {
           "id": "3-4-2-a",
-          "title": "Tasa de mortalidad por suicidio",
-          "description": "Tasa de mortalidad por suicidio",
+          "title": "Suicide mortality rate",
+          "description": "Suicide mortality rate",
           "keywords": "",
           "href": "/asturias/en/3-4-2-a",
           "status": "complete"
         },
         {
           "id": "3-6-1-a",
-          "title": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
-          "description": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
+          "title": "Death rate due to road traffic injuries",
+          "description": "Death rate due to road traffic injuries",
           "keywords": "",
           "href": "/asturias/en/3-6-1-a",
           "status": "complete"
@@ -191,8 +191,8 @@
         },
         {
           "id": "3-7-2-b",
-          "title": "Tasa de fecundidad de las adolescentes entre 15 y 19 años por cada 1.000 mujeres de ese grupo de edad",
-          "description": "Tasa de fecundidad de las adolescentes entre 15 y 19 años por cada 1.000 mujeres de ese grupo de edad",
+          "title": "Adolescent birth rate (per 1,000 women aged 15-19 years)",
+          "description": "Adolescent birth rate (per 1,000 women aged 15-19 years)",
           "keywords": "",
           "href": "/asturias/en/3-7-2-b",
           "status": "complete"
@@ -263,8 +263,8 @@
         
         {
           "id": "5-5-2-a",
-          "title": "Proporción de mujeres en cargos directivos",
-          "description": "Proporción de mujeres en cargos directivos",
+          "title": "Proportion of women in managerial positions",
+          "description": "Proportion of women in managerial positions",
           "keywords": "",
           "href": "/asturias/en/5-5-2-a",
           "status": "complete"
@@ -407,8 +407,8 @@
         },
         {
           "id": "10-2-1-a",
-          "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana nacional",
-          "description": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana nacional",
+          "title": "Proportion of people living below 50 percent of median income",
+          "description": "Proportion of people living below 50 percent of median income",
           "keywords": "",
           "href": "/asturias/en/10-2-1-a",
           "status": "complete"
@@ -431,8 +431,8 @@
         
         {
           "id": "16-1-4-a",
-          "title": "Proporción de personas que se sienten seguras al caminar sola en su zona de residencia",
-          "description": "Proporción de personas que se sienten seguras al caminar sola en su zona de residencia",
+          "title": "Proportion of population that feel safe walking alone around the area they live in",
+          "description": "Proportion of population that feel safe walking alone around the area they live in",
           "keywords": "",
           "href": "/asturias/en/16-1-4-a",
           "status": "complete"
