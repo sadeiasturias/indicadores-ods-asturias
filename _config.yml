@@ -124,9 +124,9 @@ footer_menu:
 # non-global metadata tab.
 #non_global_metadata: indicator.national_metadata
 metadata_tabs:
-  - scope: national
+  national
     title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
+    blurb: indicator.national_metadata_blurb
 #  - scope: global
 #    title: indicator.global_metadata
 #    description: indicator.global_metadata_blurb
