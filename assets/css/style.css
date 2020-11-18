@@ -1619,12 +1619,12 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   background: white; }
 
 .inprogress {
-  background-color: #757575;
-  background: #757575; }
+  background-color: #f0ad4e;
+  background: #f0ad4e; }
 
 .complete {
-  background-color: #2B2B2B;
-  background: #2B2B2B; }
+  background-color: #5cb85c;
+  background: #5cb85c; }
 
 #main-content .statuses strong {
   font-weight: normal; }
