@@ -38,6 +38,14 @@
           "status": "inprogress"
         },
         {
+          "id": "1-2-1-d",
+          "title": "Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral autonómico de pobreza",
+          "description": "Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral autonómico de pobreza",
+          "keywords": "",
+          "href": "/asturias/1-2-1-d",
+          "status": "inprogress"
+        },
+        {
           "id": "1-2-2-a",
           "title": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
           "description": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
@@ -86,6 +94,14 @@
       "indicators": [
         
         {
+          "id": "2-2-2-a",
+          "title": "Proporción de menores entre 2 y 17 años con obesidad, sobrepeso o peso insuficiente",
+          "description": "Proporción de menores entre 2 y 17 años con obesidad, sobrepeso o peso insuficiente",
+          "keywords": "",
+          "href": "/asturias/2-2-2-a",
+          "status": "inprogress"
+        },
+        {
           "id": "2-4-1",
           "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
           "description": "",
@@ -116,6 +132,14 @@
           "keywords": "",
           "href": "/asturias/3-1-1-a",
           "status": "complete"
+        },
+        {
+          "id": "3-1-2-a",
+          "title": "Proporción de partos atendidos por personal sanitario especializado",
+          "description": "Proporción de partos atendidos por personal sanitario especializado",
+          "keywords": "",
+          "href": "/asturias/3-1-2-a",
+          "status": "inprogress"
         },
         {
           "id": "3-2-1",
@@ -206,12 +230,60 @@
           "status": "complete"
         },
         {
+          "id": "3-8-1-a",
+          "title": "Proporción de personas de 16 y más años con necesidad insatisfecha de atención médica",
+          "description": "Proporción de personas de 16 y más años con necesidad insatisfecha de atención médica",
+          "keywords": "",
+          "href": "/asturias/3-8-1-a",
+          "status": "inprogress"
+        },
+        {
           "id": "3-9-3-a",
           "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "description": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "keywords": "",
           "href": "/asturias/3-9-3-a",
           "status": "complete"
+        },
+        {
+          "id": "3-a-1-a",
+          "title": "Proporción de personas de 15 y más años que fuman a diario",
+          "description": "Proporción de personas de 15 y más años que fuman a diario",
+          "keywords": "",
+          "href": "/asturias/3-a-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "3-c-1-a",
+          "title": "Número de personas colegiadas en medicina por cada 10.000 habitantes",
+          "description": "Número de personas colegiadas en medicina por cada 10.000 habitantes",
+          "keywords": "",
+          "href": "/asturias/3-c-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "3-c-1-b",
+          "title": "Número de personas colegiadas en enfermería por cada 10.000 habitantes",
+          "description": "Número de personas colegiadas en enfermería por cada 10.000 habitantes",
+          "keywords": "",
+          "href": "/asturias/3-c-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "3-c-1-c",
+          "title": "Número de personas colegiadas en odontología y estomatología por cada 10.000 habitantes",
+          "description": "Número de personas colegiadas en odontología y estomatología por cada 10.000 habitantes",
+          "keywords": "",
+          "href": "/asturias/3-c-1-c",
+          "status": "inprogress"
+        },
+        {
+          "id": "3-c-1-d",
+          "title": "Número de personas colegiadas en farmacia por cada 10.000 habitantes",
+          "description": "Número de personas colegiadas en farmacia por cada 10.000 habitantes",
+          "keywords": "",
+          "href": "/asturias/3-c-1-d",
+          "status": "inprogress"
         }]
     }
   },
@@ -221,6 +293,14 @@
       "title": "Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos",
       "indicators": [
         
+        {
+          "id": "4-3-1-a",
+          "title": "Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
+          "description": "Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-3-1-a",
+          "status": "inprogress"
+        },
         {
           "id": "4-3-1-b",
           "title": "Proporción de personas entre 15 y 64 años que han realizado estudios o formación en las últimas cuatro semanas",
@@ -246,6 +326,54 @@
           "status": "complete"
         },
         {
+          "id": "4-4-1-a",
+          "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "description": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-4-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "4-4-1-b",
+          "title": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "description": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-4-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "4-4-1-c",
+          "title": "Proporción de personas entre 25 y 74 años  que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "description": "Proporción de personas entre 25 y 74 años  que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-4-1-c",
+          "status": "inprogress"
+        },
+        {
+          "id": "4-5-1-a",
+          "title": "Índice de paridad entre mujeres y hombres de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "description": "Índice de paridad entre mujeres y hombres de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-5-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "4-5-1-b",
+          "title": "Índice de paridad entre intervalo de ingresos inferior y superior de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "description": "Índice de paridad entre intervalo de ingresos inferior y superior de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-5-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "4-5-1-c",
+          "title": "Índice de paridad entre personas con limitaciones por problemas de salud y personas nada limitadas de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "description": "Índice de paridad entre personas con limitaciones por problemas de salud y personas nada limitadas de la población entre 18 y 64 años que ha realizado actividades educativas en los últimos 12 meses",
+          "keywords": "",
+          "href": "/asturias/4-5-1-c",
+          "status": "inprogress"
+        },
+        {
           "id": "4-5-1-d",
           "title": "Índice de paridad entre mujeres y hombres de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
           "description": "Índice de paridad entre mujeres y hombres de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
@@ -269,6 +397,30 @@
       "title": "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas",
       "indicators": [
         
+        {
+          "id": "5-4-1-a",
+          "title": "Tiempo dedicado al hogar y familia en un día promedio",
+          "description": "Tiempo dedicado al hogar y familia en un día promedio",
+          "keywords": "",
+          "href": "/asturias/5-4-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "5-4-1-b",
+          "title": "Tiempo dedicado por los hombres al hogar y familia en un día promedio",
+          "description": "Tiempo dedicado por los hombres al hogar y familia en un día promedio",
+          "keywords": "",
+          "href": "/asturias/5-4-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "5-4-1-c",
+          "title": "Tiempo dedicado por las mujeres al hogar y familia en un día promedio",
+          "description": "Tiempo dedicado por las mujeres al hogar y familia en un día promedio",
+          "keywords": "",
+          "href": "/asturias/5-4-1-c",
+          "status": "inprogress"
+        },
         {
           "id": "5-5-2-a",
           "title": "Proporción de mujeres en cargos directivos",
@@ -332,6 +484,30 @@
           "keywords": "",
           "href": "/asturias/5-a-1b-c",
           "status": "complete"
+        },
+        {
+          "id": "5-b-1-a",
+          "title": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "description": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "keywords": "",
+          "href": "/asturias/5-b-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "5-b-1-b",
+          "title": "Proporción de hombres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "description": "Proporción de hombres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "keywords": "",
+          "href": "/asturias/5-b-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "5-b-1-c",
+          "title": "Proporción de mujeres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "description": "Proporción de mujeres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "keywords": "",
+          "href": "/asturias/5-b-1-c",
+          "status": "inprogress"
         }]
     }
   },
@@ -342,12 +518,68 @@
       "indicators": [
         
         {
+          "id": "8-1-1-a",
+          "title": "Tasa de crecimiento anual del PIB real per cápita",
+          "description": "Tasa de crecimiento anual del PIB real per cápita",
+          "keywords": "",
+          "href": "/asturias/8-1-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "8-2-1-a",
+          "title": "Tasa de crecimiento anual del PIB real por persona empleada",
+          "description": "Tasa de crecimiento anual del PIB real por persona empleada",
+          "keywords": "",
+          "href": "/asturias/8-2-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "8-2-1-b",
+          "title": "Tasa de crecimiento anual del PIB real por hora trabajada",
+          "description": "Tasa de crecimiento anual del PIB real por hora trabajada",
+          "keywords": "",
+          "href": "/asturias/8-2-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "8-5-1-a",
+          "title": "Ingreso medio por hora de trabajo",
+          "description": "Ingreso medio por hora de trabajo",
+          "keywords": "",
+          "href": "/asturias/8-5-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "8-5-1-b",
+          "title": "Ingreso medio por hora de trabajo de los hombres",
+          "description": "Ingreso medio por hora de trabajo de los hombres",
+          "keywords": "",
+          "href": "/asturias/8-5-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "8-5-1-c",
+          "title": "Ingreso medio por hora de trabajo de las mujeres",
+          "description": "Ingreso medio por hora de trabajo de las mujeres",
+          "keywords": "",
+          "href": "/asturias/8-5-1-c",
+          "status": "inprogress"
+        },
+        {
           "id": "8-5-2",
           "title": "Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad",
           "description": "",
           "keywords": "",
           "href": "/asturias/8-5-2",
           "status": "complete"
+        },
+        {
+          "id": "8-5-2-a",
+          "title": "Tasa de desempleo",
+          "description": "Tasa de desempleo",
+          "keywords": "",
+          "href": "/asturias/8-5-2-a",
+          "status": "inprogress"
         },
         {
           "id": "8-5-2-b",
@@ -382,12 +614,76 @@
       "indicators": [
         
         {
+          "id": "9-2-1-a",
+          "title": "Valor añadido del sector manufacturero en proporción al PIB",
+          "description": "Valor añadido del sector manufacturero en proporción al PIB",
+          "keywords": "",
+          "href": "/asturias/9-2-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-2-1-b",
+          "title": "Valor añadido del sector manufacturero per cápita",
+          "description": "Valor añadido del sector manufacturero per cápita",
+          "keywords": "",
+          "href": "/asturias/9-2-1-b",
+          "status": "inprogress"
+        },
+        {
           "id": "9-2-2-a",
           "title": "Proporción de personas ocupadas en el sector manufacturero",
           "description": "Proporción de personas ocupadas en el sector manufacturero",
           "keywords": "",
           "href": "/asturias/9-2-2-a",
           "status": "complete"
+        },
+        {
+          "id": "9-2-2-b",
+          "title": "Empleo del sector manufacturero en proporción al empleo total (personas empleadas)",
+          "description": "Empleo del sector manufacturero en proporción al empleo total (personas empleadas)",
+          "keywords": "",
+          "href": "/asturias/9-2-2-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-2-2-c",
+          "title": "Empleo del sector manufacturero en proporción al empleo total (horas trabajadas)",
+          "description": "Empleo del sector manufacturero en proporción al empleo total (horas trabajadas)",
+          "keywords": "",
+          "href": "/asturias/9-2-2-c",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-4-1-a",
+          "title": "Emisiones de CO2 de las unidades residentes por unidad de PIB",
+          "description": "Emisiones de CO2 de las unidades residentes por unidad de PIB",
+          "keywords": "",
+          "href": "/asturias/9-4-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-4-1-b",
+          "title": "Emisiones de CO2 de las unidades residentes por unidad de valor añadido del sector manufacturero",
+          "description": "Emisiones de CO2 de las unidades residentes por unidad de valor añadido del sector manufacturero",
+          "keywords": "",
+          "href": "/asturias/9-4-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-5-1-a",
+          "title": "Gastos en investigación y desarrollo en proporción al PIB",
+          "description": "Gastos en investigación y desarrollo en proporción al PIB",
+          "keywords": "",
+          "href": "/asturias/9-5-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "9-5-2-a",
+          "title": "Número de personas investigadoras (en equivalente a tiempo completo) por cada millón de habitantes",
+          "description": "Número de personas investigadoras (en equivalente a tiempo completo) por cada millón de habitantes",
+          "keywords": "",
+          "href": "/asturias/9-5-2-a",
+          "status": "inprogress"
         }]
     }
   },
@@ -397,6 +693,22 @@
       "title": "Reducir la desigualdad en los países y entre ellos",
       "indicators": [
         
+        {
+          "id": "10-1-1-a",
+          "title": "Tasa de crecimiento per cápita de los gastos de los hogares del 40% más pobre de la población",
+          "description": "Tasa de crecimiento per cápita de los gastos de los hogares del 40% más pobre de la población",
+          "keywords": "",
+          "href": "/asturias/10-1-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "10-1-1-b",
+          "title": "Tasa de crecimiento per cápita de los gastos de los hogares de la población total",
+          "description": "Tasa de crecimiento per cápita de los gastos de los hogares de la población total",
+          "keywords": "",
+          "href": "/asturias/10-1-1-b",
+          "status": "inprogress"
+        },
         {
           "id": "10-1-1-c",
           "title": "Tasa de crecimiento per cápita de los ingresos de los hogares del 40% más pobre de la población",
@@ -428,6 +740,102 @@
           "keywords": "",
           "href": "/asturias/10-2-1-b",
           "status": "complete"
+        },
+        {
+          "id": "10-4-1-a",
+          "title": "Proporción del PIB generada por el trabajo asalariado",
+          "description": "Proporción del PIB generada por el trabajo asalariado",
+          "keywords": "",
+          "href": "/asturias/10-4-1-a",
+          "status": "inprogress"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+      "indicators": [
+        
+        {
+          "id": "11-1-1-a",
+          "title": "Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda",
+          "description": "Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda",
+          "keywords": "",
+          "href": "/asturias/11-1-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "11-6-1-a",
+          "title": "Residuos urbanos recogidos per cápita",
+          "description": "Residuos urbanos recogidos per cápita",
+          "keywords": "",
+          "href": "/asturias/11-6-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "11-6-1-b",
+          "title": "Proporción de residuos urbanos incinerados en relación al total de residuos urbanos generados y tratados",
+          "description": "Proporción de residuos urbanos incinerados en relación al total de residuos urbanos generados y tratados",
+          "keywords": "",
+          "href": "/asturias/11-6-1-b",
+          "status": "inprogress"
+        },
+        {
+          "id": "11-6-1-c",
+          "title": "Proporción de residuos urbanos vertidos en relación al total de residuos urbanos generados y tratados",
+          "description": "Proporción de residuos urbanos vertidos en relación al total de residuos urbanos generados y tratados",
+          "keywords": "",
+          "href": "/asturias/11-6-1-c",
+          "status": "inprogress"
+        },
+        {
+          "id": "11-6-1-d",
+          "title": "Proporción de residuos urbanos reciclados en relación al total de residuos urbanos generados y tratados",
+          "description": "Proporción de residuos urbanos reciclados en relación al total de residuos urbanos generados y tratados",
+          "keywords": "",
+          "href": "/asturias/11-6-1-d",
+          "status": "inprogress"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Garantizar modalidades de consumo y producción sostenibles",
+      "indicators": [
+        
+        {
+          "id": "12-5-1-a",
+          "title": "Residuos urbanos recogidos per cápita y día",
+          "description": "Residuos urbanos recogidos per cápita y día",
+          "keywords": "",
+          "href": "/asturias/12-5-1-a",
+          "status": "inprogress"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+      "indicators": [
+        
+        {
+          "id": "13-2-2-a",
+          "title": "Emisiones totales de gases de efecto invernadero de las unidades residentes por unidad de PIB",
+          "description": "Emisiones totales de gases de efecto invernadero de las unidades residentes por unidad de PIB",
+          "keywords": "",
+          "href": "/asturias/13-2-2-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "13-2-2-b",
+          "title": "Emisiones totales de gases de efecto invernadero de las unidades residentes per cápita",
+          "description": "Emisiones totales de gases de efecto invernadero de las unidades residentes per cápita",
+          "keywords": "",
+          "href": "/asturias/13-2-2-b",
+          "status": "inprogress"
         }]
     }
   },
@@ -444,6 +852,30 @@
           "keywords": "",
           "href": "/asturias/16-1-4-a",
           "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible",
+      "indicators": [
+        
+        {
+          "id": "17-1-1-a",
+          "title": "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB",
+          "description": "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB",
+          "keywords": "",
+          "href": "/asturias/17-1-1-a",
+          "status": "inprogress"
+        },
+        {
+          "id": "17-8-1-a",
+          "title": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
+          "description": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
+          "keywords": "",
+          "href": "/asturias/17-8-1-a",
+          "status": "inprogress"
         }]
     }
   }]
