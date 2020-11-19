@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/es',
+  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'es',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Objetivo 8 - Trabajo Decente y Crecimiento Económico
+            Indicator 1.2.1.c - Goal 1
           
         </title>
 
@@ -131,18 +131,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-es layout-goal-by-target">
+<body class="language-en layout-indicator">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alfa","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus comentarios.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert" role="alert">
-    <strong class="phase-tag">Alfa</strong>
+    <strong class="phase-tag">Alpha</strong>
     
-    Ésta es una web en desarrollo. Agradecemos sus comentarios.
+    This is a development website. We welcome your <a href="mailto:web@sadei.es">feedback</a>.
   </div>
 </div>
 
@@ -151,20 +151,20 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/asturias/" id="home">
-      <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
+    <a class="navbar-brand" href="/asturias/en/" id="home">
+      <img src="/asturias/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">Español</span>
+  <span class="language-toggle-text">English</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/en/8/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/1-2-1-c/">Español</a></li></ul>
 
     </div></div>
 
@@ -176,38 +176,38 @@ var translations = {
             aria-haspopup="true"
             aria-expanded="false">
           <span data-target="menu" tabindex="0"
-          role="navigation">Menú</span>
+          role="navigation">Menu</span>
         </li>
-        <li><span data-target="search">Buscar</span></li>
+        <li><span data-target="search">Search</span></li>
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/asturias/search">
-    <input name="q" id="indicator_search" title="Buscar" />
+  <form action="/asturias/en/search">
+    <input name="q" id="indicator_search" title="Search" />
     <label for="indicator_search">
-      <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Buscar:</span>
+      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/asturias/">Objetivos</a>
+            <a href="/asturias/en/">Goals</a>
           </li><li class="nav-link ">
-            <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
+            <a href="/asturias/en/reporting-status">Reporting Status</a>
           </li><li class="nav-link ">
-            <a href="/asturias/about">Acerca de</a>
+            <a href="/asturias/en/about">About</a>
           </li><li class="nav-link ">
-            <a href="/asturias/faq">FAQ</a>
+            <a href="/asturias/en/faq">FAQ</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">Español</span>
+  <span class="language-toggle-text">English</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/en/8/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/1-2-1-c/">Español</a></li></ul>
 
         </li></ul>
 
@@ -219,164 +219,372 @@ var translations = {
 </header>
 
 
-<div class="heading goal-banner goal-8">
+<script type="text/template" id="item_template">
+  <% _.each(fields, function(fieldItem) { %>
+    <div class="variable-selector<% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=fieldItem.field%>">
+      <button class='accessBtn' tabindex='0' aria-expanded='false'><h5><%=translations.t(fieldItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
+      <div class="bar">
+        <div class="selected"></div>
+      </div>
+      <div class="variable-options">
+        <div>
+          <button data-type="select">Select all</button>
+          <button data-type="clear">Clear all</button>
+        </div>
+        <% _.each(fieldItem.values, function(item) { %>
+          <label>
+            <input type="checkbox" <%=item.checked ? 'checked' : ''%> value="<%=item.value%>" data-field="<%=fieldItem.field%>" /><%=translations.t(item.value)%>
+          </label>
+        <% }); %>
+      </div>
+
+      <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
+        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>' is selected
+        </div>
+        <div class="no-data-hint">
+          No options available because of filters above
+        </div>
+      <% }%>
+
+    </div>
+  <% }); %>
+</script>
+
+<script type="text/template" id="units_template">
+  <% if(units.length) { %>
+    <h4>Units type</h4>
+    <% _.each(units, function(unitsItem, index) { %>
+      <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
+    <% }); %>
+  <% } %>
+</script>
+
+<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","data_not_available":"This data is not available. Please choose alternative data to display.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","national_metadata":"Indicator details","national_metadata_blurb":"","no_data_hint":"No options available because of filters above","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+
+<script>translations['data'] = {"Age":"Age","Employment status":"Employment status","F":"female","Location":"Location","M":"male","Sex":"Sex","Type":"Type","Year":"Year","children":"children","number":"number","urban":"urban"};</script>
+
+
+<div class="heading goal-banner indicator goal-1">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" />
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon">
+        <a href="/asturias/en/1" title="View this goal's indicator list">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" />
+        </a>
       </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Objetivo 8: </span>Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos
-        </h1>
+      <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
+        <div>
+          <h1>Indicator 1.2.1.c</h1>
+          <p class="lead-copy">Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div id="main-content" class="container goal-indicators goal-8 goal-by-target">
-
-  
-
+<div id="main-content" class="container goal-1">
   <ol class="breadcrumb">
-    <li><a href="/asturias/">Inicio</a></li>
-    <li class="active">Objetivo 8</li>
-  </ol>
+  <li><a href="/asturias/en/">Home</a></li>
+  <li><a href="/asturias/en/1" title="End poverty in all its forms everywhere">Goal 1</a></li>
+  <li class="active">Indicator 1.2.1.c</li>
+</ol>
 
-  <div class="visible-md-block visible-lg-block">
-    <div class="col-md-6">
-      <h2>Metas</h2>
+  
+
+  
+
+  
+
+
+  
+
+
+
+
+
+
+
+<div class="row"
+  id="indicatorData"
+  data-indicatorid='indicator_1-2-1-c'
+  data-id="1-2-1-c"
+  data-country="Asturias"
+  data-charttitle="Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza"
+  data-charttitles="null"
+  data-measurementunit=""
+  data-datasource=""
+  data-copyright=""
+  data-geographicalarea=""
+  data-footnote=""
+  data-showdata="false"
+  data-graphtype="line"
+  data-geocoderegex=""
+  data-showmap=""
+  data-startvalues="null"
+  data-graphlimits="null"
+  data-stackeddisaggregation=""
+>
+  
+  <div id="indicator-main" class="indicator-main col-md-12">
+  
+  <ul class="nav nav-tabs spacer medium" role="tablist">
+
+
+  
+  
+  
+  
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
+>Indicator details</a>
+  </li>
+
+
+  
+</ul>
+
+<div class="tab-content">
+  
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane active" id="national">
+      <article>
+        <p></p>
+        <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Indicator description </th>
+        <td>
+          
+            <p>Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Associated target </th>
+        <td>
+          
+            <p>By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Target number </th>
+        <td>
+          
+            <p>1.2</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Associated goal </th>
+        <td>
+          
+            <p>End poverty in all its forms everywhere</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Methodology </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/" target="_blank">
+                Nota metodológica del indicador 1.2.1.c <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+      </article>
     </div>
-    <div class="col-md-6">
-      <h2>Indicadores</h2>
-    </div>
+    
+  
+  
+</div>
+
+
   </div>
+</div>
 
-  
-  
-    
-    <div class="indicator-cards target goal-target col-md-6">
-      <span>
-        <label class="hidden-md hidden-lg">Meta</label>
-        8.5
-      </span>
-      De aquí a 2030, lograr el empleo pleno y productivo y el trabajo decente para todas las mujeres y los hombres, incluidos los jóvenes y las personas con discapacidad, así como la igualdad de remuneración por trabajo de igual valor
-    </div>
-    <div class="indicator-cards col-md-6 row no-gutters">
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12 indicator-indicador-eliminado goal-indicator">
-        <a href="/asturias/8-5-2">
-          <span>
-            8.5.2
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad
-          
-            <ul class="tags">
-            
-              
-              <li class="tag-indicador-eliminado warning">Indicador eliminado</li>
-            
-            </ul>
-          
-        </a>
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-5-2-b">
-          <span>
-            8.5.2.b
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo de hombres
-          
-        </a>
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-5-2-c">
-          <span>
-            8.5.2.c
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo de mujeres
-          
-        </a>
-      </div>
-    
-    </div>
-  
-    
-    <div class="indicator-cards target goal-target col-md-6">
-      <span>
-        <label class="hidden-md hidden-lg">Meta</label>
-        8.6
-      </span>
-      De aquí a 2020, reducir considerablemente la proporción de jóvenes que no están empleados y no cursan estudios ni reciben capacitación
-    </div>
-    <div class="indicator-cards col-md-6 row no-gutters">
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-6-1-a">
-          <span>
-            8.6.1.a
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación
-          
-        </a>
-      </div>
-    
-    </div>
-  
 </div>
 
 <footer role="contentinfo">
@@ -385,12 +593,12 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:web@sadei.es" target="_blank">Contacto</a>
+                  <a href="mailto:web@sadei.es" target="_blank">Contact us</a>
                 
                 </li>
               
@@ -407,7 +615,7 @@ var translations = {
                 </li>
               
                 <li>
-                <a href="/asturias/about/cookies-and-privacy/">Cookies</a>
+                <a href="/asturias/en/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -438,10 +646,10 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'ocultar';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Buscar';</script>
+    translations['search']['search'] = 'Search';</script>
 
 <script src='/asturias/assets/js/sdg.js?v=20201119123110'></script><script>
 $(function() {

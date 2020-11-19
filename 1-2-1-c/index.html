@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Objetivo 8 - Trabajo Decente y Crecimiento Económico
+            Indicador 1.2.1.c - Objetivo 1
           
         </title>
 
@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-es layout-goal-by-target">
+<body class="language-es layout-indicator">
 <!-- <div class="container"> -->
 
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus comentarios.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
@@ -164,7 +164,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/en/8/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/1-2-1-c/">English</a></li></ul>
 
     </div></div>
 
@@ -207,7 +207,7 @@ var translations = {
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/en/8/">English</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/1-2-1-c/">English</a></li></ul>
 
         </li></ul>
 
@@ -219,164 +219,372 @@ var translations = {
 </header>
 
 
-<div class="heading goal-banner goal-8">
+<script type="text/template" id="item_template">
+  <% _.each(fields, function(fieldItem) { %>
+    <div class="variable-selector<% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=fieldItem.field%>">
+      <button class='accessBtn' tabindex='0' aria-expanded='false'><h5><%=translations.t(fieldItem.field)%><i class="fa fa-chevron-down"></i></h5></button>
+      <div class="bar">
+        <div class="selected"></div>
+      </div>
+      <div class="variable-options">
+        <div>
+          <button data-type="select">Seleccionar todo</button>
+          <button data-type="clear">Limpiar todo</button>
+        </div>
+        <% _.each(fieldItem.values, function(item) { %>
+          <label>
+            <input type="checkbox" <%=item.checked ? 'checked' : ''%> value="<%=item.value%>" data-field="<%=fieldItem.field%>" /><%=translations.t(item.value)%>
+          </label>
+        <% }); %>
+      </div>
+
+      <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
+        <div class="variable-hint">Disponible cuando se selecciona '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>'
+        </div>
+        <div class="no-data-hint">
+          No hay resultados que mostrar con los filtros seleccionados
+        </div>
+      <% }%>
+
+    </div>
+  <% }); %>
+</script>
+
+<script type="text/template" id="units_template">
+  <% if(units.length) { %>
+    <h4>Tipo de unidades</h4>
+    <% _.each(units, function(unitsItem, index) { %>
+      <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
+      <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
+    <% }); %>
+  <% } %>
+</script>
+
+<script>translations['indicator'] = {"chart":"Gráfico","clear_all":"Limpiar todo","clear_selections":"Borrar selecciones","data_not_available":"Esta información no está disponible. Elija datos alternativos para mostrar.","dataset_size_warning":"Hay demasiados conjuntos de datos para mostrar en el gráfico. No se mostrarán todos los datos hasta que se eliminen algunas selecciones.","download_chart":"Descargar CSV de gráfico","download_chart_image":"Descargar imagen del gráfico","download_chart_image_title":"Descargar gráfico como imagen","download_csv":"Descargar CSV","download_csv_title":"Descargar como CSV","download_geojson":"Descargar GeoJSON","download_geojson_title":"Descargar como GeoJSON","download_headline":"Descargar CSV global","download_headline_title":"Descargar datos globales como CSV","download_source":"Descargar CSV fuente","download_source_sdmx":"Descargar SDMX fuente","download_source_sdmx_title":"Descargar los datos fuente como SDMX","download_source_title":"Descargar los datos fuente como CSV","download_table":"Descargar la tabla CSV","edit":"Editar","edit_data":"Editar datos","edit_metadata":"Editar metadatos","footnote":"Nota","geographical_area":"Área geográfica","global_metadata":"Metadatos de indicadores globales","global_metadata_blurb":"Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La División de Estadística de las Naciones Unidas proporciona los <a href=\"https://unstats.un.org/sdgs/metadata/\">metadatos globales completos</a> .","legend_help":"Haga clic en la leyenda para eliminar líneas individuales del gráfico.","loading":"Cargando","loading_map":"Cargando mapa","map":"Mapa","national_metadata":"Información del indicador","national_metadata_blurb":"","no_data_hint":"No hay resultados que mostrar con los filtros seleccionados","select_all":"Seleccionar todo","series":"Serie","series_help":"Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.","source":"Fuente","sources":"Fuentes","sub_categories":"Subcategorías","table":"Tabla","unit_of_measurement":"Unidad de medida","units_type":"Tipo de unidades","variable_hint":"Disponible cuando se selecciona '%field'","view_indicator_list":"Ver la lista de indicadores de este objetivo"};</script>
+
+<script>translations['data'] = {"Age":"Edad","Employment status":"Situación laboral","F":"mujer","Location":"Ubicación","M":"hombre","Sex":"Sexo","Type":"Tipo","Year":"Año","children":"niñas y niños","number":"número","urban":"urbano"};</script>
+
+
+<div class="heading goal-banner indicator goal-1">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png" alt="Trabajo Decente y Crecimiento Económico - Objetivo 8" />
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon">
+        <a href="/asturias/1" title="Ver la lista de indicadores de este objetivo">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/1.png" alt="Fin de la Pobreza - Objetivo 1" />
+        </a>
       </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Objetivo 8: </span>Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos
-        </h1>
+      <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
+        <div>
+          <h1>Indicador 1.2.1.c</h1>
+          <p class="lead-copy">Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div id="main-content" class="container goal-indicators goal-8 goal-by-target">
-
-  
-
+<div id="main-content" class="container goal-1">
   <ol class="breadcrumb">
-    <li><a href="/asturias/">Inicio</a></li>
-    <li class="active">Objetivo 8</li>
-  </ol>
+  <li><a href="/asturias/">Inicio</a></li>
+  <li><a href="/asturias/1" title="Poner fin a la pobreza en todas sus formas y en todo el mundo">Objetivo 1</a></li>
+  <li class="active">Indicador 1.2.1.c</li>
+</ol>
 
-  <div class="visible-md-block visible-lg-block">
-    <div class="col-md-6">
-      <h2>Metas</h2>
+  
+
+  
+
+  
+
+
+  
+
+
+
+
+
+
+
+<div class="row"
+  id="indicatorData"
+  data-indicatorid='indicator_1-2-1-c'
+  data-id="1-2-1-c"
+  data-country="Asturias"
+  data-charttitle="Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza"
+  data-charttitles="null"
+  data-measurementunit=""
+  data-datasource=""
+  data-copyright=""
+  data-geographicalarea=""
+  data-footnote=""
+  data-showdata="false"
+  data-graphtype="line"
+  data-geocoderegex=""
+  data-showmap=""
+  data-startvalues="null"
+  data-graphlimits="null"
+  data-stackeddisaggregation=""
+>
+  
+  <div id="indicator-main" class="indicator-main col-md-12">
+  
+  <ul class="nav nav-tabs spacer medium" role="tablist">
+
+
+  
+  
+  
+  
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" href="#national" aria-controls="national" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to indicator.national_metadata tab"
+>Información del indicador</a>
+  </li>
+
+
+  
+</ul>
+
+<div class="tab-content">
+  
+    
+    
+    
+    
+    
+    <div role="tabpanel" class="tab-pane active" id="national">
+      <article>
+        <p></p>
+        <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Descripción del indicador </th>
+        <td>
+          
+            <p>Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Meta asociada </th>
+        <td>
+          
+            <p>De aquí a 2030, reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Número de meta </th>
+        <td>
+          
+            <p>1.2</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Objetivo asociado </th>
+        <td>
+          
+            <p>Poner fin a la pobreza en todas sus formas y en todo el mundo</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+          
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Metodología </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/" target="_blank">
+                Nota metodológica del indicador 1.2.1.c <span class="visuallyhidden">Se abre en una nueva ventana</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      
+  
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+      </article>
     </div>
-    <div class="col-md-6">
-      <h2>Indicadores</h2>
-    </div>
+    
+  
+  
+</div>
+
+
   </div>
+</div>
 
-  
-  
-    
-    <div class="indicator-cards target goal-target col-md-6">
-      <span>
-        <label class="hidden-md hidden-lg">Meta</label>
-        8.5
-      </span>
-      De aquí a 2030, lograr el empleo pleno y productivo y el trabajo decente para todas las mujeres y los hombres, incluidos los jóvenes y las personas con discapacidad, así como la igualdad de remuneración por trabajo de igual valor
-    </div>
-    <div class="indicator-cards col-md-6 row no-gutters">
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12 indicator-indicador-eliminado goal-indicator">
-        <a href="/asturias/8-5-2">
-          <span>
-            8.5.2
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad
-          
-            <ul class="tags">
-            
-              
-              <li class="tag-indicador-eliminado warning">Indicador eliminado</li>
-            
-            </ul>
-          
-        </a>
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-5-2-b">
-          <span>
-            8.5.2.b
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo de hombres
-          
-        </a>
-      </div>
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-5-2-c">
-          <span>
-            8.5.2.c
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Tasa de desempleo de mujeres
-          
-        </a>
-      </div>
-    
-    </div>
-  
-    
-    <div class="indicator-cards target goal-target col-md-6">
-      <span>
-        <label class="hidden-md hidden-lg">Meta</label>
-        8.6
-      </span>
-      De aquí a 2020, reducir considerablemente la proporción de jóvenes que no están empleados y no cursan estudios ni reciben capacitación
-    </div>
-    <div class="indicator-cards col-md-6 row no-gutters">
-    
-
-      
-      
-      
-      
-      
-      
-      
-      
-
-      <div class="col-md-12  goal-indicator">
-        <a href="/asturias/8-6-1-a">
-          <span>
-            8.6.1.a
-            <span class="status complete">
-              Disponible
-            </span>
-          </span>
-          Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación
-          
-        </a>
-      </div>
-    
-    </div>
-  
 </div>
 
 <footer role="contentinfo">

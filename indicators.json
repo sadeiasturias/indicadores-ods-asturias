@@ -30,6 +30,14 @@
           "status": "complete"
         },
         {
+          "id": "1-2-1-c",
+          "title": "Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza",
+          "description": "Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral nacional de pobreza",
+          "keywords": "",
+          "href": "/asturias/1-2-1-c",
+          "status": "inprogress"
+        },
+        {
           "id": "1-2-2-a",
           "title": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
           "description": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
