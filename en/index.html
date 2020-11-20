@@ -120,7 +120,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201120005523">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201120074820">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -220,144 +220,101 @@ var translations = {
 
 <div id="main-content" class="container" role="main">
 
-    
-    <div class="site-intro spacer medium">
-        <h1>17 goals to transform our world</h1>
-        <p class="lead-copy">The <a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">Sustainable Development Goals (SDGs)</a> are a universal call to action to end poverty, protect the planet and improve the lives and prospects of everyone, everywhere. The 17 Goals were adopted by all UN Member States in 2015, as part of the <a href="http://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=E">2030 Agenda for Sustainable Development</a>.</p>
-    </div>
-    
+    <h1>
+	  
+	    Goals
+	  
+	</h1>
 
-    
-    
-    <h2 class="spacer medium">Asturias data for Sustainable Development Goal indicators</h2>
+	
 
-    
-    <p class="spacer medium">Click on each goal, or <span id="jump-to-search"><a> search</a></span>, to access regional indicators of Asturias.</p>
+    <p> {"number"=>"1", "slug"=>"1", "name"=>"End poverty in all its forms everywhere", "short"=>"No poverty", "url"=>"/asturias/en/1", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png", "sort"=>"01", "global"=>{"name"=>"End poverty in all its forms everywhere"}}{"number"=>"2", "slug"=>"2", "name"=>"End hunger, achieve food security and improved nutrition and promote sustainable agriculture", "short"=>"Zero hunger", "url"=>"/asturias/en/2", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png", "sort"=>"02", "global"=>{"name"=>"End hunger, achieve food security and improved nutrition and promote sustainable agriculture"}}{"number"=>"3", "slug"=>"3", "name"=>"Ensure healthy lives and promote well-being for all at all ages", "short"=>"Good health and well-being", "url"=>"/asturias/en/3", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png", "sort"=>"03", "global"=>{"name"=>"Ensure healthy lives and promote well-being for all at all ages"}}{"number"=>"4", "slug"=>"4", "name"=>"Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all", "short"=>"Quality education", "url"=>"/asturias/en/4", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png", "sort"=>"04", "global"=>{"name"=>"Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"}}{"number"=>"5", "slug"=>"5", "name"=>"Achieve gender equality and empower all women and girls", "short"=>"Gender equality", "url"=>"/asturias/en/5", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png", "sort"=>"05", "global"=>{"name"=>"Achieve gender equality and empower all women and girls"}}{"number"=>"8", "slug"=>"8", "name"=>"Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all", "short"=>"Decent jobs and economic growth", "url"=>"/asturias/en/8", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png", "sort"=>"08", "global"=>{"name"=>"Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"}}{"number"=>"9", "slug"=>"9", "name"=>"Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation", "short"=>"Industry, innovation and infrastructure", "url"=>"/asturias/en/9", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png", "sort"=>"09", "global"=>{"name"=>"Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"}}{"number"=>"10", "slug"=>"10", "name"=>"Reduce inequality within and among countries", "short"=>"Reduced inequalities", "url"=>"/asturias/en/10", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png", "sort"=>"10", "global"=>{"name"=>"Reduce inequality within and among countries"}}{"number"=>"11", "slug"=>"11", "name"=>"Make cities and human settlements inclusive, safe, resilient and sustainable", "short"=>"Sustainable cities & communities", "url"=>"/asturias/en/11", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png", "sort"=>"11", "global"=>{"name"=>"Make cities and human settlements inclusive, safe, resilient and sustainable"}}{"number"=>"12", "slug"=>"12", "name"=>"Ensure sustainable consumption and production patterns", "short"=>"Responsible consumption and production", "url"=>"/asturias/en/12", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png", "sort"=>"12", "global"=>{"name"=>"Ensure sustainable consumption and production patterns"}}{"number"=>"13", "slug"=>"13", "name"=>"Take urgent action to combat climate change and its impacts", "short"=>"Climate action", "url"=>"/asturias/en/13", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png", "sort"=>"13", "global"=>{"name"=>"Take urgent action to combat climate change and its impacts"}}{"number"=>"16", "slug"=>"16", "name"=>"Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels", "short"=>"Peace and justice - strong institutions", "url"=>"/asturias/en/16", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png", "sort"=>"16", "global"=>{"name"=>"Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"}}{"number"=>"17", "slug"=>"17", "name"=>"Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development", "short"=>"Partnerships for the goals", "url"=>"/asturias/en/17", "icon"=>"https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png", "sort"=>"17", "global"=>{"name"=>"Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development"}} </p>
 
     <div class="goal-tiles">
-    
         <div class="row no-gutters">
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/1">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" id="goal-1" alt="No poverty - Goal 1" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" id="goal-1" alt="No poverty - Goal 1" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/2">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" id="goal-2" alt="Zero hunger - Goal 2" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" id="goal-2" alt="Zero hunger - Goal 2" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/3">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" id="goal-3" alt="Good health and well-being - Goal 3" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" id="goal-3" alt="Good health and well-being - Goal 3" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/4">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" id="goal-4" alt="Quality education - Goal 4" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" id="goal-4" alt="Quality education - Goal 4" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/5">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" id="goal-5" alt="Gender equality - Goal 5" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" id="goal-5" alt="Gender equality - Goal 5" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/8">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" id="goal-8" alt="Decent jobs and economic growth - Goal 8" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" id="goal-8" alt="Decent jobs and economic growth - Goal 8" />
+                </a>
             </div>
-        </div>
-    
-        <div class="row no-gutters">
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/9">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" id="goal-9" alt="Industry, innovation and infrastructure - Goal 9" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" id="goal-9" alt="Industry, innovation and infrastructure - Goal 9" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/10">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" id="goal-10" alt="Reduced inequalities - Goal 10" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" id="goal-10" alt="Reduced inequalities - Goal 10" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/11">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" id="goal-11" alt="Sustainable cities &amp; communities - Goal 11" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" id="goal-11" alt="Sustainable cities &amp; communities - Goal 11" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/12">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" id="goal-12" alt="Responsible consumption and production - Goal 12" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" id="goal-12" alt="Responsible consumption and production - Goal 12" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/13">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" id="goal-13" alt="Climate action - Goal 13" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" id="goal-13" alt="Climate action - Goal 13" />
+                </a>
             </div>
-        
-    
-        
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/16">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" id="goal-16" alt="Peace and justice - strong institutions - Goal 16" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" id="goal-16" alt="Peace and justice - strong institutions - Goal 16" />
+                </a>
             </div>
-        </div>
-    
-        <div class="row no-gutters">
-            <div class="col-xs-4 col-md-2">
+            
+            <div class="col-xs-4 col-md-2 goal-tile">
                 <a href="/asturias/en/17">
-                  <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" id="goal-17" alt="Partnerships for the goals - Goal 17" />
-              </a>
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" id="goal-17" alt="Partnerships for the goals - Goal 17" />
+                </a>
             </div>
-        
-    
-    
-    
+            
+            
+            
+        </div>
     </div>
-    </div>
-    <div class="zip-download-container">
-    <a href="https://sadeiasturias.github.io/asturias-datos/en/zip/all_indicators.zip"
-       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
-        Download all data
-    </a>
-    <div id="zip-download-info">
-        ZIP file - 9.0 kB
-        
-            <br>
-            Data last updated - Nov 19, 2020
-        
-    </div>
-</div>
-
 </div>
 <footer role="contentinfo">
   <div class="container">
@@ -423,7 +380,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201120005523'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201120074820'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
