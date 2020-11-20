@@ -841,6 +841,38 @@
   },
   {
     "goal": {
+      "id": "14",
+      "title": "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+      "indicators": [
+        
+        {
+          "id": "14-a-1",
+          "title": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina",
+          "description": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina",
+          "keywords": "",
+          "href": "/asturias/14-a-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+      "indicators": [
+        
+        {
+          "id": "15-1-1",
+          "title": "Superficie forestal en proporción a la superficie total",
+          "description": "Superficie forestal en proporción a la superficie total",
+          "keywords": "",
+          "href": "/asturias/15-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "16",
       "title": "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
       "indicators": [
