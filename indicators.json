@@ -513,6 +513,38 @@
   },
   {
     "goal": {
+      "id": "6",
+      "title": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos",
+          "description": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos",
+          "keywords": "",
+          "href": "/asturias/6-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "Proporción de la población que tiene acceso a la electricidad",
+          "description": "Proporción de la población que tiene acceso a la electricidad",
+          "keywords": "",
+          "href": "/asturias/7-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "8",
       "title": "Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
       "indicators": [

@@ -513,6 +513,38 @@
   },
   {
     "goal": {
+      "id": "6",
+      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "Proportion of population using safely managed drinking water services",
+          "description": "Proportion of population using safely managed drinking water services",
+          "keywords": "",
+          "href": "/asturias/en/6-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "Proportion of population with access to electricity",
+          "description": "Proportion of population with access to electricity",
+          "keywords": "",
+          "href": "/asturias/en/7-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "8",
       "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
       "indicators": [
