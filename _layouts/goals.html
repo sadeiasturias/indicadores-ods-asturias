@@ -2,7 +2,19 @@
 {% include header.html %}
 <div id="main-content" class="container" role="main">
 
-    {% include components/goals-introduction.html %}
+    <h1>
+	  {% if site.goals_page.title %}
+	    {{ site.goals_page.title | t }}
+	  {% else %}
+	    {{ page.t.general.goals }}
+	  {% endif %}
+	</h1>
+
+	{% if site.goals_page.description %}
+	<div class="goals-page-description">
+	  {{ site.goals_page.description | t | markdownify }}
+	</div>
+    {% endif %}
 
     <p> {{ page.goals }} </p>
 
