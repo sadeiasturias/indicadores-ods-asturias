@@ -905,22 +905,6 @@
   },
   {
     "goal": {
-      "id": "15",
-      "title": "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
-      "indicators": [
-        
-        {
-          "id": "15-1-1",
-          "title": "Superficie forestal en proporción a la superficie total",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/15-1-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "16",
       "title": "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
       "indicators": [

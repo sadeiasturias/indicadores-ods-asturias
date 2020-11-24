@@ -905,22 +905,6 @@
   },
   {
     "goal": {
-      "id": "15",
-      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
-      "indicators": [
-        
-        {
-          "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/en/15-1-1",
-          "status": "notstarted"
-        }]
-    }
-  },
-  {
-    "goal": {
       "id": "16",
       "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
       "indicators": [
