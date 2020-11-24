@@ -14,6 +14,22 @@
           "status": "inprogress"
         },
         {
+          "id": "1-2-1-1",
+          "title": "regional_indicators.1-2-1-1-title",
+          "description": "regional_indicators.1-2-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-2",
+          "title": "regional_indicators.1-2-1-2-title",
+          "description": "regional_indicators.1-2-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-1-2",
+          "status": "complete"
+        },
+        {
           "id": "1-2-1-a",
           "title": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
           "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
@@ -44,6 +60,46 @@
           "keywords": "",
           "href": "/asturias/en/1-2-1-d",
           "status": "inprogress"
+        },
+        {
+          "id": "1-2-1-1_1",
+          "title": "regional_indicators.1-2-1-1_1-title",
+          "description": "regional_indicators.1-2-1-1_1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-1-1_1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-2_1",
+          "title": "regional_indicators.1-2-1-2_1-title",
+          "description": "regional_indicators.1-2-1-2_1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-1-2_1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-2-1",
+          "title": "regional_indicators.1-2-2-1-title",
+          "description": "regional_indicators.1-2-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-2-2",
+          "title": "regional_indicators.1-2-2-2-title",
+          "description": "regional_indicators.1-2-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-2-3",
+          "title": "regional_indicators.1-2-2-3-title",
+          "description": "regional_indicators.1-2-2-3-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-2-3",
+          "status": "complete"
         },
         {
           "id": "1-2-2-a",
@@ -78,6 +134,22 @@
           "status": "complete"
         },
         {
+          "id": "1-2-2-1_1",
+          "title": "regional_indicators.1-2-2-1_1-title",
+          "description": "regional_indicators.1-2-2-1_1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-2-2-1_1",
+          "status": "complete"
+        },
+        {
+          "id": "1-5-1-1",
+          "title": "regional_indicators.1-5-1-1-title",
+          "description": "regional_indicators.1-5-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/1-5-1-1",
+          "status": "complete"
+        },
+        {
           "id": "1-5-1-a",
           "title": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
@@ -94,6 +166,14 @@
       "indicators": [
         
         {
+          "id": "2-2-2-1",
+          "title": "regional_indicators.2-2-2-1-title",
+          "description": "regional_indicators.2-2-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/2-2-2-1",
+          "status": "complete"
+        },
+        {
           "id": "2-2-2-a",
           "title": "Proporción de menores entre 2 y 17 años con obesidad, sobrepeso o peso insuficiente",
           "description": "Proporción de menores entre 2 y 17 años con obesidad, sobrepeso o peso insuficiente",
@@ -107,6 +187,14 @@
           "description": "",
           "keywords": "",
           "href": "/asturias/en/2-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-4-1-1",
+          "title": "regional_indicators.2-4-1-1-title",
+          "description": "regional_indicators.2-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/2-4-1-1",
           "status": "complete"
         },
         {
@@ -126,11 +214,27 @@
       "indicators": [
         
         {
+          "id": "3-1-1-1",
+          "title": "regional_indicators.3-1-1-1-title",
+          "description": "regional_indicators.3-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-1-1-1",
+          "status": "complete"
+        },
+        {
           "id": "3-1-1-a",
           "title": "Maternal mortality ratio",
           "description": "Maternal mortality ratio",
           "keywords": "",
           "href": "/asturias/en/3-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-1-2-1",
+          "title": "regional_indicators.3-1-2-1-title",
+          "description": "regional_indicators.3-1-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-1-2-1",
           "status": "complete"
         },
         {
@@ -150,6 +254,14 @@
           "status": "complete"
         },
         {
+          "id": "3-2-1-1",
+          "title": "regional_indicators.3-2-1-1-title",
+          "description": "regional_indicators.3-2-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-2-1-1",
+          "status": "complete"
+        },
+        {
           "id": "3-2-1-a",
           "title": "Under-five mortality rate",
           "description": "Under-five mortality rate",
@@ -158,11 +270,51 @@
           "status": "complete"
         },
         {
+          "id": "3-2-2-1",
+          "title": "regional_indicators.3-2-2-1-title",
+          "description": "regional_indicators.3-2-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-2-2-1",
+          "status": "complete"
+        },
+        {
           "id": "3-2-2-a",
           "title": "Neonatal mortality rate",
           "description": "Neonatal mortality rate",
           "keywords": "",
           "href": "/asturias/en/3-2-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-1-1",
+          "title": "regional_indicators.3-4-1-1-title",
+          "description": "regional_indicators.3-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-4-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-1-2",
+          "title": "regional_indicators.3-4-1-2-title",
+          "description": "regional_indicators.3-4-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/3-4-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-1-3",
+          "title": "regional_indicators.3-4-1-3-title",
+          "description": "regional_indicators.3-4-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/3-4-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-4-1-4",
+          "title": "regional_indicators.3-4-1-4-title",
+          "description": "regional_indicators.3-4-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/3-4-1-4",
           "status": "complete"
         },
         {
@@ -198,6 +350,14 @@
           "status": "complete"
         },
         {
+          "id": "3-4-2-1",
+          "title": "regional_indicators.3-4-2-1-title",
+          "description": "regional_indicators.3-4-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-4-2-1",
+          "status": "complete"
+        },
+        {
           "id": "3-4-2-a",
           "title": "Suicide mortality rate",
           "description": "Suicide mortality rate",
@@ -206,11 +366,35 @@
           "status": "complete"
         },
         {
+          "id": "3-6-1-1",
+          "title": "regional_indicators.3-6-1-1-title",
+          "description": "regional_indicators.3-6-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-6-1-1",
+          "status": "complete"
+        },
+        {
           "id": "3-6-1-a",
           "title": "Death rate due to road traffic injuries",
           "description": "Death rate due to road traffic injuries",
           "keywords": "",
           "href": "/asturias/en/3-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-7-2-1",
+          "title": "regional_indicators.3-7-2-1-title",
+          "description": "regional_indicators.3-7-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-7-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-7-2-2",
+          "title": "regional_indicators.3-7-2-2-title",
+          "description": "regional_indicators.3-7-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/3-7-2-2",
           "status": "complete"
         },
         {
@@ -230,12 +414,28 @@
           "status": "complete"
         },
         {
+          "id": "3-8-1-1",
+          "title": "regional_indicators.3-8-1-1-title",
+          "description": "regional_indicators.3-8-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-8-1-1",
+          "status": "complete"
+        },
+        {
           "id": "3-8-1-a",
           "title": "Proporción de personas de 16 y más años con necesidad insatisfecha de atención médica",
           "description": "Proporción de personas de 16 y más años con necesidad insatisfecha de atención médica",
           "keywords": "",
           "href": "/asturias/en/3-8-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "3-9-3-1",
+          "title": "regional_indicators.3-9-3-1-title",
+          "description": "regional_indicators.3-9-3-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-9-3-1",
+          "status": "complete"
         },
         {
           "id": "3-9-3-a",
@@ -246,12 +446,52 @@
           "status": "complete"
         },
         {
+          "id": "3-a-1-1",
+          "title": "regional_indicators.3-a-1-1-title",
+          "description": "regional_indicators.3-a-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-a-1-1",
+          "status": "complete"
+        },
+        {
           "id": "3-a-1-a",
           "title": "Mortality rate attributed to unintentional poisonings",
           "description": "Mortality rate attributed to unintentional poisonings",
           "keywords": "",
           "href": "/asturias/en/3-a-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "3-c-1-1",
+          "title": "regional_indicators.3-c-1-1-title",
+          "description": "regional_indicators.3-c-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/3-c-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-1-2",
+          "title": "regional_indicators.3-c-1-2-title",
+          "description": "regional_indicators.3-c-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/3-c-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-1-3",
+          "title": "regional_indicators.3-c-1-3-title",
+          "description": "regional_indicators.3-c-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/3-c-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-c-1-4",
+          "title": "regional_indicators.3-c-1-4-title",
+          "description": "regional_indicators.3-c-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/3-c-1-4",
+          "status": "complete"
         },
         {
           "id": "3-c-1-a",
@@ -294,6 +534,38 @@
       "indicators": [
         
         {
+          "id": "4-3-1-1",
+          "title": "regional_indicators.4-3-1-1-title",
+          "description": "regional_indicators.4-3-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/4-3-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "4-3-1-2",
+          "title": "regional_indicators.4-3-1-2-title",
+          "description": "regional_indicators.4-3-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/4-3-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-3-1-3",
+          "title": "regional_indicators.4-3-1-3-title",
+          "description": "regional_indicators.4-3-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/4-3-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "4-3-1-4",
+          "title": "regional_indicators.4-3-1-4-title",
+          "description": "regional_indicators.4-3-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/4-3-1-4",
+          "status": "complete"
+        },
+        {
           "id": "4-3-1-a",
           "title": "Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
           "description": "Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
@@ -326,6 +598,30 @@
           "status": "complete"
         },
         {
+          "id": "4-4-1-1",
+          "title": "regional_indicators.4-4-1-1-title",
+          "description": "regional_indicators.4-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/4-4-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "4-4-1-2",
+          "title": "regional_indicators.4-4-1-2-title",
+          "description": "regional_indicators.4-4-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/4-4-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "4-4-1-3",
+          "title": "regional_indicators.4-4-1-3-title",
+          "description": "regional_indicators.4-4-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/4-4-1-3",
+          "status": "complete"
+        },
+        {
           "id": "4-4-1-a",
           "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
           "description": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
@@ -348,6 +644,46 @@
           "keywords": "",
           "href": "/asturias/en/4-4-1-c",
           "status": "inprogress"
+        },
+        {
+          "id": "4-5-1-0",
+          "title": "regional_indicators.4-5-1-0-title",
+          "description": "regional_indicators.4-5-1-0-title",
+          "keywords": "",
+          "href": "/asturias/en/4-5-1-0",
+          "status": "complete"
+        },
+        {
+          "id": "4-5-1-1",
+          "title": "regional_indicators.4-5-1-1-title",
+          "description": "regional_indicators.4-5-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/4-5-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "4-5-1-3",
+          "title": "regional_indicators.4-5-1-3-title",
+          "description": "regional_indicators.4-5-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/4-5-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "4-5-1-4",
+          "title": "regional_indicators.4-5-1-4-title",
+          "description": "regional_indicators.4-5-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/4-5-1-4",
+          "status": "complete"
+        },
+        {
+          "id": "4-5-1-5",
+          "title": "regional_indicators.4-5-1-5-title",
+          "description": "regional_indicators.4-5-1-5-title",
+          "keywords": "",
+          "href": "/asturias/en/4-5-1-5",
+          "status": "complete"
         },
         {
           "id": "4-5-1-a",
@@ -398,6 +734,30 @@
       "indicators": [
         
         {
+          "id": "5-4-1-1",
+          "title": "regional_indicators.5-4-1-1-title",
+          "description": "regional_indicators.5-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/5-4-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-4-1-2",
+          "title": "regional_indicators.5-4-1-2-title",
+          "description": "regional_indicators.5-4-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/5-4-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-4-1-3",
+          "title": "regional_indicators.5-4-1-3-title",
+          "description": "regional_indicators.5-4-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/5-4-1-3",
+          "status": "complete"
+        },
+        {
           "id": "5-4-1-a",
           "title": "Tiempo dedicado al hogar y familia en un día promedio",
           "description": "Tiempo dedicado al hogar y familia en un día promedio",
@@ -422,6 +782,22 @@
           "status": "inprogress"
         },
         {
+          "id": "5-5-2-1",
+          "title": "regional_indicators.5-5-2-1-title",
+          "description": "regional_indicators.5-5-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/5-5-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-5-2-2",
+          "title": "regional_indicators.5-5-2-2-title",
+          "description": "regional_indicators.5-5-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/5-5-2-2",
+          "status": "complete"
+        },
+        {
           "id": "5-5-2-a",
           "title": "Proportion of women in managerial positions",
           "description": "Proportion of women in managerial positions",
@@ -435,6 +811,30 @@
           "description": "Proporción de mujeres en alta dirección",
           "keywords": "",
           "href": "/asturias/en/5-5-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1a-1",
+          "title": "regional_indicators.5-a-1a-1-title",
+          "description": "regional_indicators.5-a-1a-1-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1a-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1a-2",
+          "title": "regional_indicators.5-a-1a-2-title",
+          "description": "regional_indicators.5-a-1a-2-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1a-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1a-3",
+          "title": "regional_indicators.5-a-1a-3-title",
+          "description": "regional_indicators.5-a-1a-3-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1a-3",
           "status": "complete"
         },
         {
@@ -462,6 +862,30 @@
           "status": "complete"
         },
         {
+          "id": "5-a-1b-1",
+          "title": "regional_indicators.5-a-1b-1-title",
+          "description": "regional_indicators.5-a-1b-1-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1b-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1b-2",
+          "title": "regional_indicators.5-a-1b-2-title",
+          "description": "regional_indicators.5-a-1b-2-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1b-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1b-3",
+          "title": "regional_indicators.5-a-1b-3-title",
+          "description": "regional_indicators.5-a-1b-3-title",
+          "keywords": "",
+          "href": "/asturias/en/5-a-1b-3",
+          "status": "complete"
+        },
+        {
           "id": "5-a-1b-a",
           "title": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de titulares de explotaciones agrícolas",
           "description": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de titulares de explotaciones agrícolas",
@@ -483,6 +907,30 @@
           "description": "Proporción de mujeres titulares de explotaciones agrícolas en arrendamiento, respecto al total de titulares de explotaciones agrícolas en arrendamiento",
           "keywords": "",
           "href": "/asturias/en/5-a-1b-c",
+          "status": "complete"
+        },
+        {
+          "id": "5-b-1-1",
+          "title": "regional_indicators.5-b-1-1-title",
+          "description": "regional_indicators.5-b-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/5-b-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-b-1-2",
+          "title": "regional_indicators.5-b-1-2-title",
+          "description": "regional_indicators.5-b-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/5-b-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-b-1-3",
+          "title": "regional_indicators.5-b-1-3-title",
+          "description": "regional_indicators.5-b-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/5-b-1-3",
           "status": "complete"
         },
         {
@@ -550,12 +998,36 @@
       "indicators": [
         
         {
+          "id": "8-1-1-1",
+          "title": "regional_indicators.8-1-1-1-title",
+          "description": "regional_indicators.8-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/8-1-1-1",
+          "status": "complete"
+        },
+        {
           "id": "8-1-1-a",
           "title": "Annual growth rate of real GDP per capita",
           "description": "Annual growth rate of real GDP per capita",
           "keywords": "",
           "href": "/asturias/en/8-1-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "8-2-1-1",
+          "title": "regional_indicators.8-2-1-1-title",
+          "description": "regional_indicators.8-2-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/8-2-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-2-1-1-b",
+          "title": "regional_indicators.8-2-1-1-b-title",
+          "description": "regional_indicators.8-2-1-1-b-title",
+          "keywords": "",
+          "href": "/asturias/en/8-2-1-1-b",
+          "status": "complete"
         },
         {
           "id": "8-2-1-a",
@@ -572,6 +1044,30 @@
           "keywords": "",
           "href": "/asturias/en/8-2-1-b",
           "status": "inprogress"
+        },
+        {
+          "id": "8-5-1-0",
+          "title": "regional_indicators.8-5-1-0-title",
+          "description": "regional_indicators.8-5-1-0-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-1-0",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-1-2",
+          "title": "regional_indicators.8-5-1-2-title",
+          "description": "regional_indicators.8-5-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-1-3",
+          "title": "regional_indicators.8-5-1-3-title",
+          "description": "regional_indicators.8-5-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-1-3",
+          "status": "complete"
         },
         {
           "id": "8-5-1-a",
@@ -606,6 +1102,30 @@
           "status": "complete"
         },
         {
+          "id": "8-5-2-0",
+          "title": "regional_indicators.8-5-2-0-title",
+          "description": "regional_indicators.8-5-2-0-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-2-0",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-2",
+          "title": "regional_indicators.8-5-2-2-title",
+          "description": "regional_indicators.8-5-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-3",
+          "title": "regional_indicators.8-5-2-3-title",
+          "description": "regional_indicators.8-5-2-3-title",
+          "keywords": "",
+          "href": "/asturias/en/8-5-2-3",
+          "status": "complete"
+        },
+        {
           "id": "8-5-2-a",
           "title": "Unemployment rate",
           "description": "Unemployment rate",
@@ -630,6 +1150,14 @@
           "status": "complete"
         },
         {
+          "id": "8-6-1-1",
+          "title": "regional_indicators.8-6-1-1-title",
+          "description": "regional_indicators.8-6-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/8-6-1-1",
+          "status": "complete"
+        },
+        {
           "id": "8-6-1-a",
           "title": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
           "description": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
@@ -646,6 +1174,22 @@
       "indicators": [
         
         {
+          "id": "9-2-1-1",
+          "title": "regional_indicators.9-2-1-1-title",
+          "description": "regional_indicators.9-2-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/9-2-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "9-2-1-2",
+          "title": "regional_indicators.9-2-1-2-title",
+          "description": "regional_indicators.9-2-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/9-2-1-2",
+          "status": "complete"
+        },
+        {
           "id": "9-2-1-a",
           "title": "Manufacturing value added as a proportion of GDP",
           "description": "Manufacturing value added as a proportion of GDP",
@@ -660,6 +1204,30 @@
           "keywords": "",
           "href": "/asturias/en/9-2-1-b",
           "status": "inprogress"
+        },
+        {
+          "id": "9-2-2-1",
+          "title": "regional_indicators.9-2-2-1-title",
+          "description": "regional_indicators.9-2-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/9-2-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "9-2-2-2",
+          "title": "regional_indicators.9-2-2-2-title",
+          "description": "regional_indicators.9-2-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/9-2-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-2-2-2-b",
+          "title": "regional_indicators.9-2-2-2-b-title",
+          "description": "regional_indicators.9-2-2-2-b-title",
+          "keywords": "",
+          "href": "/asturias/en/9-2-2-2-b",
+          "status": "complete"
         },
         {
           "id": "9-2-2-a",
@@ -686,6 +1254,22 @@
           "status": "inprogress"
         },
         {
+          "id": "9-4-1-1",
+          "title": "regional_indicators.9-4-1-1-title",
+          "description": "regional_indicators.9-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/9-4-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "9-4-1-2",
+          "title": "regional_indicators.9-4-1-2-title",
+          "description": "regional_indicators.9-4-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/9-4-1-2",
+          "status": "complete"
+        },
+        {
           "id": "9-4-1-a",
           "title": "Carbon dioxide emissions per unit of GDP",
           "description": "Carbon dioxide emissions per unit of GDP",
@@ -702,12 +1286,28 @@
           "status": "inprogress"
         },
         {
+          "id": "9-5-1-1",
+          "title": "regional_indicators.9-5-1-1-title",
+          "description": "regional_indicators.9-5-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/9-5-1-1",
+          "status": "complete"
+        },
+        {
           "id": "9-5-1-a",
           "title": "Research and development expenditure as a proportion of GDP",
           "description": "Research and development expenditure as a proportion of GDP",
           "keywords": "",
           "href": "/asturias/en/9-5-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "9-5-2-1",
+          "title": "regional_indicators.9-5-2-1-title",
+          "description": "regional_indicators.9-5-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/9-5-2-1",
+          "status": "complete"
         },
         {
           "id": "9-5-2-a",
@@ -725,6 +1325,38 @@
       "title": "Reduce inequality within and among countries",
       "indicators": [
         
+        {
+          "id": "10-1-1-1",
+          "title": "regional_indicators.10-1-1-1-title",
+          "description": "regional_indicators.10-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/10-1-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-1-2",
+          "title": "regional_indicators.10-1-1-2-title",
+          "description": "regional_indicators.10-1-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/10-1-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-1-3",
+          "title": "regional_indicators.10-1-1-3-title",
+          "description": "regional_indicators.10-1-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/10-1-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-1-1-4",
+          "title": "regional_indicators.10-1-1-4-title",
+          "description": "regional_indicators.10-1-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/10-1-1-4",
+          "status": "complete"
+        },
         {
           "id": "10-1-1-a",
           "title": "Tasa de crecimiento per cápita de los gastos de los hogares del 40% más pobre de la población",
@@ -758,6 +1390,14 @@
           "status": "complete"
         },
         {
+          "id": "10-2-1-1",
+          "title": "regional_indicators.10-2-1-1-title",
+          "description": "regional_indicators.10-2-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/10-2-1-1",
+          "status": "complete"
+        },
+        {
           "id": "10-2-1-a",
           "title": "Proportion of people living below 50 percent of median income",
           "description": "Proportion of people living below 50 percent of median income",
@@ -771,6 +1411,22 @@
           "description": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, considerando la mediana autonómica",
           "keywords": "",
           "href": "/asturias/en/10-2-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "10-2-1-1_1",
+          "title": "regional_indicators.10-2-1-1_1-title",
+          "description": "regional_indicators.10-2-1-1_1-title",
+          "keywords": "",
+          "href": "/asturias/en/10-2-1-1_1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-1-1",
+          "title": "regional_indicators.10-4-1-1-title",
+          "description": "regional_indicators.10-4-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/10-4-1-1",
           "status": "complete"
         },
         {
@@ -790,12 +1446,60 @@
       "indicators": [
         
         {
+          "id": "11-1-1-1",
+          "title": "regional_indicators.11-1-1-1-title",
+          "description": "regional_indicators.11-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/11-1-1-1",
+          "status": "complete"
+        },
+        {
           "id": "11-1-1-a",
           "title": "Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda",
           "description": "Proporción de personas que viven en hogares con determinadas deficiencias en la vivienda",
           "keywords": "",
           "href": "/asturias/en/11-1-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "11-5-1-1",
+          "title": "regional_indicators.11-5-1-1-title",
+          "description": "regional_indicators.11-5-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/11-5-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1-1",
+          "title": "regional_indicators.11-6-1-1-title",
+          "description": "regional_indicators.11-6-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/11-6-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1-2",
+          "title": "regional_indicators.11-6-1-2-title",
+          "description": "regional_indicators.11-6-1-2-title",
+          "keywords": "",
+          "href": "/asturias/en/11-6-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1-3",
+          "title": "regional_indicators.11-6-1-3-title",
+          "description": "regional_indicators.11-6-1-3-title",
+          "keywords": "",
+          "href": "/asturias/en/11-6-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-1-4",
+          "title": "regional_indicators.11-6-1-4-title",
+          "description": "regional_indicators.11-6-1-4-title",
+          "keywords": "",
+          "href": "/asturias/en/11-6-1-4",
+          "status": "complete"
         },
         {
           "id": "11-6-1-a",
@@ -838,6 +1542,14 @@
       "indicators": [
         
         {
+          "id": "12-5-1-1",
+          "title": "regional_indicators.12-5-1-1-title",
+          "description": "regional_indicators.12-5-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/12-5-1-1",
+          "status": "complete"
+        },
+        {
           "id": "12-5-1-a",
           "title": "Residuos urbanos recogidos per cápita y día",
           "description": "Residuos urbanos recogidos per cápita y día",
@@ -853,6 +1565,30 @@
       "title": "Take urgent action to combat climate change and its impacts",
       "indicators": [
         
+        {
+          "id": "13-1-1-1",
+          "title": "regional_indicators.13-1-1-1-title",
+          "description": "regional_indicators.13-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/13-1-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-2-1",
+          "title": "regional_indicators.13-2-2-1-title",
+          "description": "regional_indicators.13-2-2-1-title",
+          "keywords": "",
+          "href": "/asturias/en/13-2-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-2-2",
+          "title": "regional_indicators.13-2-2-2-title",
+          "description": "regional_indicators.13-2-2-2-title",
+          "keywords": "",
+          "href": "/asturias/en/13-2-2-2",
+          "status": "complete"
+        },
         {
           "id": "13-2-2-a",
           "title": "Emisiones totales de gases de efecto invernadero de las unidades residentes por unidad de PIB",
@@ -910,6 +1646,14 @@
       "indicators": [
         
         {
+          "id": "16-1-4-1",
+          "title": "regional_indicators.16-1-4-1-title",
+          "description": "regional_indicators.16-1-4-1-title",
+          "keywords": "",
+          "href": "/asturias/en/16-1-4-1",
+          "status": "complete"
+        },
+        {
           "id": "16-1-4-a",
           "title": "Proportion of population that feel safe walking alone around the area they live in",
           "description": "Proportion of population that feel safe walking alone around the area they live in",
@@ -926,12 +1670,28 @@
       "indicators": [
         
         {
+          "id": "17-1-1-1",
+          "title": "regional_indicators.17-1-1-1-title",
+          "description": "regional_indicators.17-1-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/17-1-1-1",
+          "status": "complete"
+        },
+        {
           "id": "17-1-1-a",
           "title": "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB",
           "description": "Total de ingresos de las Administraciones Públicas Autonómicas y Locales en proporción al PIB",
           "keywords": "",
           "href": "/asturias/en/17-1-1-a",
           "status": "inprogress"
+        },
+        {
+          "id": "17-8-1-1",
+          "title": "regional_indicators.17-8-1-1-title",
+          "description": "regional_indicators.17-8-1-1-title",
+          "keywords": "",
+          "href": "/asturias/en/17-8-1-1",
+          "status": "complete"
         },
         {
           "id": "17-8-1-a",
