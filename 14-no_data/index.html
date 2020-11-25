@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/en',
+  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'es',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -92,7 +92,7 @@ var translations = {
 
         <title>
           
-            Indicator 14.a - Goal 14
+            Indicador 14.no_data - Objetivo 14
           
         </title>
 
@@ -120,7 +120,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201125103828">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201125111756">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -131,18 +131,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-es layout-indicator">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus comentarios.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert" role="alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alfa</strong>
     
-    This is a development website. We welcome your <a href="mailto:web@sadei.es">feedback</a>.
+    Ésta es una web en desarrollo. Agradecemos sus comentarios.
   </div>
 </div>
 
@@ -151,20 +151,20 @@ var translations = {
 <header role="banner">
   <div class="container">
 
-    <a class="navbar-brand" href="/asturias/en/" id="home">
-      <img src="/asturias/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <a class="navbar-brand" href="/asturias/" id="home">
+      <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
     </a>
 
   <div class='hidden visible-xs float-right'>
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
       <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/14-a/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/14-no_data/">English</a></li></ul>
 
     </div></div>
 
@@ -176,38 +176,38 @@ var translations = {
             aria-haspopup="true"
             aria-expanded="false">
           <span data-target="menu" tabindex="0"
-          role="navigation">Menu</span>
+          role="navigation">Menú</span>
         </li>
-        <li><span data-target="search">Search</span></li>
+        <li><span data-target="search">Buscar</span></li>
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/asturias/en/search">
-    <input name="q" id="indicator_search" title="Search" />
+  <form action="/asturias/search">
+    <input name="q" id="indicator_search" title="Buscar" />
     <label for="indicator_search">
-      <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Search:</span>
+      <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button><span>Buscar:</span>
     </label>
   </form>
 </div>
 
       
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-            <a href="/asturias/en/">Goals</a>
+            <a href="/asturias/">Objetivos</a>
           </li><li class="nav-link ">
-            <a href="/asturias/en/reporting-status">Reporting Status</a>
+            <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
           </li><li class="nav-link ">
-            <a href="/asturias/en/about">About</a>
+            <a href="/asturias/about">Acerca de</a>
           </li><li class="nav-link ">
-            <a href="/asturias/en/faq">FAQ</a>
+            <a href="/asturias/faq">FAQ</a>
           </li><li>
           <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/14-a/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/14-no_data/">English</a></li></ul>
 
         </li></ul>
 
@@ -228,8 +228,8 @@ var translations = {
       </div>
       <div class="variable-options">
         <div>
-          <button data-type="select">Select all</button>
-          <button data-type="clear">Clear all</button>
+          <button data-type="select">Seleccionar todo</button>
+          <button data-type="clear">Limpiar todo</button>
         </div>
         <% _.each(fieldItem.values, function(item) { %>
           <label>
@@ -239,10 +239,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint">Available when '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint">Disponible cuando se selecciona '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>'
         </div>
         <div class="no-data-hint">
-          No options available because of filters above
+          No hay resultados que mostrar con los filtros seleccionados
         </div>
       <% }%>
 
@@ -252,7 +252,7 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Units type</h4>
+    <h4>Tipo de unidades</h4>
     <% _.each(units, function(unitsItem, index) { %>
       <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
       <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -260,22 +260,22 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"chart":"Chart","clear_all":"Clear all","clear_selections":"Clear selections","data_not_available":"This data is not available. Please choose alternative data to display.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","national_metadata":"Indicator details","national_metadata_blurb":"","no_data_hint":"No options available because of filters above","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","sub_categories":"Sub-categories","table":"Table","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"chart":"Gráfico","clear_all":"Limpiar todo","clear_selections":"Borrar selecciones","data_not_available":"Esta información no está disponible. Elija datos alternativos para mostrar.","dataset_size_warning":"Hay demasiados conjuntos de datos para mostrar en el gráfico. No se mostrarán todos los datos hasta que se eliminen algunas selecciones.","download_chart":"Descargar CSV de gráfico","download_chart_image":"Descargar imagen del gráfico","download_chart_image_title":"Descargar gráfico como imagen","download_csv":"Descargar CSV","download_csv_title":"Descargar como CSV","download_geojson":"Descargar GeoJSON","download_geojson_title":"Descargar como GeoJSON","download_headline":"Descargar CSV global","download_headline_title":"Descargar datos globales como CSV","download_source":"Descargar CSV fuente","download_source_sdmx":"Descargar SDMX fuente","download_source_sdmx_title":"Descargar los datos fuente como SDMX","download_source_title":"Descargar los datos fuente como CSV","download_table":"Descargar la tabla CSV","edit":"Editar","edit_data":"Editar datos","edit_metadata":"Editar metadatos","footnote":"Nota","geographical_area":"Área geográfica","global_metadata":"Metadatos de indicadores globales","global_metadata_blurb":"Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La División de Estadística de las Naciones Unidas proporciona los <a href=\"https://unstats.un.org/sdgs/metadata/\">metadatos globales completos</a> .","legend_help":"Haga clic en la leyenda para eliminar líneas individuales del gráfico.","loading":"Cargando","loading_map":"Cargando mapa","map":"Mapa","national_metadata":"Información del indicador","national_metadata_blurb":"","no_data_hint":"No hay resultados que mostrar con los filtros seleccionados","select_all":"Seleccionar todo","series":"Serie","series_help":"Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.","source":"Fuente","sources":"Fuentes","sub_categories":"Subcategorías","table":"Tabla","unit_of_measurement":"Unidad de medida","units_type":"Tipo de unidades","variable_hint":"Disponible cuando se selecciona '%field'","view_indicator_list":"Ver la lista de indicadores de este objetivo"};</script>
 
-<script>translations['data'] = {"Age":"Age","Employment status":"Employment status","F":"female","Location":"Location","M":"male","Region":"Region","Sex":"Sex","Type":"Type","Year":"Year","children":"children","number":"number","urban":"urban"};</script>
+<script>translations['data'] = {"Age":"Edad","Employment status":"Situación laboral","F":"mujer","Location":"Ubicación","M":"hombre","Region":"Región","Sex":"Sexo","Type":"Tipo","Year":"Año","children":"niñas y niños","number":"número","urban":"urbano"};</script>
 
 
 <div class="heading goal-banner indicator goal-14">
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon">
-        <a href="/asturias/en/14" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" />
+        <a href="/asturias/14" title="Ver la lista de indicadores de este objetivo">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/14.png" alt="Vida Submarina - Objetivo 14" />
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
         <div>
-          <h1>Indicator 14.a</h1>
+          <h1>Indicador 14.no_data</h1>
           <p class="lead-copy"></p>
         </div>
       </div>
@@ -285,9 +285,9 @@ var translations = {
 
 <div id="main-content" class="container goal-14">
   <ol class="breadcrumb">
-  <li><a href="/asturias/en/">Home</a></li>
-  <li><a href="/asturias/en/14" title="Conserve and sustainably use the oceans, seas and marine resources for sustainable development">Goal 14</a></li>
-  <li class="active">Indicator 14.a</li>
+  <li><a href="/asturias/">Inicio</a></li>
+  <li><a href="/asturias/14" title="Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible">Objetivo 14</a></li>
+  <li class="active">Indicador 14.no_data</li>
 </ol>
 
   
@@ -307,8 +307,8 @@ var translations = {
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_14-a'
-  data-id="14-a"
+  data-indicatorid='indicator_14-no_data'
+  data-id="14-no_data"
   data-country="Asturias"
   data-charttitle=""
   data-charttitles="null"
@@ -330,10 +330,10 @@ var translations = {
     <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4>Sub-categories</h4>
-    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+    <h4>Subcategorías</h4>
+    <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
   </span>
-  <p id="legend-help">Click on the legend to remove individual lines from the chart.</p>
+  <p id="legend-help">Haga clic en la leyenda para eliminar líneas individuales del gráfico.</p>
   <div id="fields">
     <p class="async-loading" data-img="/asturias/assets/img/loading-small.gif"></p>
   </div>
@@ -348,9 +348,9 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://sadeiasturias.github.io/asturias-datos/en/headline/14-a.csv" class="btn btn-primary btn-download" download="indicator_14-a.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://sadeiasturias.github.io/asturias-datos/es/headline/14-no_data.csv" class="btn btn-primary btn-download" download="indicator_14-no_data.csv" tabindex="0" role="button">Descargar CSV global</a>
 
-    <a href="https://sadeiasturias.github.io/asturias-datos/en/data/14-a.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_14-a.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://sadeiasturias.github.io/asturias-datos/es/data/14-no_data.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_14-no_data.csv' tabindex='0' role='button'>Descargar CSV fuente</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -406,21 +406,21 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
->Chart</a>
+>Gráfico</a>
   </li>
   <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->Table</a>
+>Tabla</a>
   </li>
   <li role="presentation" class="nav-item map" style="display:none">
     <a data-no-disagg="true" class="nav-link" data-toggle="tab" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Map tab"
->Map</a>
+>Mapa</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -428,7 +428,7 @@ data-event-label="Change to Map tab"
     
 
     <div id="dataset-size-warning" style="display:none">
-      <i class="fa fa-bolt"></i> There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+      <i class="fa fa-bolt"></i> Hay demasiados conjuntos de datos para mostrar en el gráfico. No se mostrarán todos los datos hasta que se eliminen algunas selecciones.
     </div>
 
     
@@ -469,8 +469,8 @@ opensdg.chartConfigAlter(function(config, info) {
         </div>
         <div id="plotLegend"></div>
       </div>
-      <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-        Download Chart Image
+      <button id="btnSave" title="Descargar gráfico como imagen" class='btn btn-primary btn-download'>
+        Descargar imagen del gráfico
       </button>
     </div>
     <div id="chartSelectionDownload"></div>
@@ -484,7 +484,7 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
   <div role="tabpanel" class="tab-pane" id="mapview" class="map">
     <div id="map">
-  <img src="/asturias/assets/img/loading.gif" alt="Loading map" />
+  <img src="/asturias/assets/img/loading.gif" alt="Cargando mapa" />
 </div>
 
   </div>
@@ -509,7 +509,7 @@ opensdg.chartConfigAlter(function(config, info) {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
->Indicator details</a>
+>Información del indicador</a>
   </li>
 
 
@@ -551,10 +551,10 @@ data-event-label="Change to indicator.national_metadata tab"
       
       
       <tr>
-        <th scope="row">Target number </th>
+        <th scope="row">Número de meta </th>
         <td>
           
-            <p>14.a</p>
+            <p>14.no_data</p>
 
           
         </td>
@@ -698,12 +698,12 @@ data-event-label="Change to indicator.national_metadata tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:web@sadei.es" target="_blank">Contact us</a>
+                  <a href="mailto:web@sadei.es" target="_blank">Contacto</a>
                 
                 </li>
               
@@ -720,7 +720,7 @@ data-event-label="Change to indicator.national_metadata tab"
                 </li>
               
                 <li>
-                <a href="/asturias/en/about/cookies-and-privacy/">Cookies</a>
+                <a href="/asturias/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -751,12 +751,12 @@ data-event-label="Change to indicator.national_metadata tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201125103828'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201125111756'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
