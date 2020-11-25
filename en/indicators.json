@@ -526,11 +526,11 @@
       "indicators": [
         
         {
-          "id": "6-1-1",
+          "id": "6-0",
           "title": "Proportion of population using safely managed drinking water services",
           "description": "Proportion of population using safely managed drinking water services",
           "keywords": "",
-          "href": "/asturias/en/6-1-1",
+          "href": "/asturias/en/6-0",
           "status": "notstarted"
         }]
     }
@@ -542,11 +542,11 @@
       "indicators": [
         
         {
-          "id": "7-1-1",
+          "id": "7-0",
           "title": "Proportion of population with access to electricity",
           "description": "Proportion of population with access to electricity",
           "keywords": "",
-          "href": "/asturias/en/7-1-1",
+          "href": "/asturias/en/7-0",
           "status": "notstarted"
         }]
     }
@@ -902,20 +902,12 @@
       "indicators": [
         
         {
-          "id": "14-a-1",
+          "id": "14-0",
           "title": "Proportion of total research budget allocated to research in the field of marine technology",
           "description": "Proportion of total research budget allocated to research in the field of marine technology",
           "keywords": "",
-          "href": "/asturias/en/14-a-1",
+          "href": "/asturias/en/14-0",
           "status": "notstarted"
-        },
-        {
-          "id": "14-no_data",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/en/14-no_data",
-          "status": "complete"
         }]
     }
   },
@@ -926,11 +918,11 @@
       "indicators": [
         
         {
-          "id": "15-1-1",
+          "id": "15-0",
           "title": "Forest area as a proportion of total land area",
           "description": "Forest area as a proportion of total land area",
           "keywords": "",
-          "href": "/asturias/en/15-1-1",
+          "href": "/asturias/en/15-0",
           "status": "notstarted"
         }]
     }

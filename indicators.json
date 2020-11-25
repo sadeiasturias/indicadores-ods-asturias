@@ -526,11 +526,11 @@
       "indicators": [
         
         {
-          "id": "6-1-1",
+          "id": "6-0",
           "title": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos",
           "description": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos",
           "keywords": "",
-          "href": "/asturias/6-1-1",
+          "href": "/asturias/6-0",
           "status": "notstarted"
         }]
     }
@@ -542,11 +542,11 @@
       "indicators": [
         
         {
-          "id": "7-1-1",
+          "id": "7-0",
           "title": "Proporción de la población que tiene acceso a la electricidad",
           "description": "Proporción de la población que tiene acceso a la electricidad",
           "keywords": "",
-          "href": "/asturias/7-1-1",
+          "href": "/asturias/7-0",
           "status": "notstarted"
         }]
     }
@@ -902,20 +902,12 @@
       "indicators": [
         
         {
-          "id": "14-a-1",
+          "id": "14-0",
           "title": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina",
           "description": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina",
           "keywords": "",
-          "href": "/asturias/14-a-1",
+          "href": "/asturias/14-0",
           "status": "notstarted"
-        },
-        {
-          "id": "14-no_data",
-          "title": "",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/14-no_data",
-          "status": "complete"
         }]
     }
   },
@@ -926,11 +918,11 @@
       "indicators": [
         
         {
-          "id": "15-1-1",
+          "id": "15-0",
           "title": "Superficie forestal en proporción a la superficie total",
           "description": "Superficie forestal en proporción a la superficie total",
           "keywords": "",
-          "href": "/asturias/15-1-1",
+          "href": "/asturias/15-0",
           "status": "notstarted"
         }]
     }
