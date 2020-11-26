@@ -6,27 +6,11 @@
       "indicators": [
         
         {
-          "id": "1-2-1",
-          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/1-2-1",
-          "status": "inprogress"
-        },
-        {
           "id": "1-2-1-a",
           "title": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
           "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
           "keywords": "",
           "href": "/asturias/1-2-1-a",
-          "status": "complete"
-        },
-        {
-          "id": "1-2-1-a-CCAA",
-          "title": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
-          "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
-          "keywords": "",
-          "href": "/asturias/1-2-1-a-CCAA",
           "status": "complete"
         },
         {
@@ -51,6 +35,14 @@
           "description": "Proporción de personas en riesgo de pobreza relativa con alquiler imputado, considerando el umbral autonómico de pobreza",
           "keywords": "",
           "href": "/asturias/1-2-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-1-a_prueba",
+          "title": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
+          "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
+          "keywords": "",
+          "href": "/asturias/1-2-1-a_prueba",
           "status": "complete"
         },
         {
@@ -110,14 +102,6 @@
           "status": "complete"
         },
         {
-          "id": "2-4-1",
-          "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/2-4-1",
-          "status": "complete"
-        },
-        {
           "id": "2-4-1-a",
           "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
           "description": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
@@ -147,14 +131,6 @@
           "description": "Proporción de partos atendidos por personal sanitario especializado",
           "keywords": "",
           "href": "/asturias/3-1-2-a",
-          "status": "complete"
-        },
-        {
-          "id": "3-2-1",
-          "title": "Tasa de mortalidad de niños menores de 5 años",
-          "description": "",
-          "keywords": "",
-          "href": "/asturias/3-2-1",
           "status": "complete"
         },
         {
@@ -607,8 +583,8 @@
         },
         {
           "id": "8-5-2",
-          "title": "Tasa de desempleo, desglosada por sexo, edad y personas con discapacidad",
-          "description": "",
+          "title": "Tasa de desempleo",
+          "description": "Tasa de desempleo",
           "keywords": "",
           "href": "/asturias/8-5-2",
           "status": "complete"
