@@ -33,7 +33,7 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: goals #frontpage-alt
+      layout: frontpage-alt #goals
     #- folder: /goals
     #  layout: goals
     - folder: /reporting-status
