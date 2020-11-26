@@ -3,8 +3,12 @@
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
         {{ page.t.frontpage.download_all }}
     </a>
+    <a href="{{ page.remote_data_prefix }}/zip/all_indicators.zip"
+	       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
+	        {{ page.t.frontpage.download_excel }}
+    </a>
     <div id="zip-download-info">
-        {{ page.t.frontpage.zip_file }} - {{ site.data.zip.size_human }}
+        <!--{{ page.t.frontpage.zip_file }} - {{ site.data.zip.size_human }}-->
         {% if site.data.zip.timestamp %}
             <br>
             {{ page.t.metadata_fields.national_data_update_url }} - {{ site.data.zip.timestamp | t_date: 'standard' }}
