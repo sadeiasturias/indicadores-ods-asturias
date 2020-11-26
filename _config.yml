@@ -72,6 +72,7 @@ frontpage_introduction_banner:
   title: frontpage.intro_title
   #description: frontpage.intro_body
 
+# Optionally set a title and help text on top of the goals grid.
 frontpage_goals_grid:
   #title: frontpage.heading
   description: frontpage.instructions
