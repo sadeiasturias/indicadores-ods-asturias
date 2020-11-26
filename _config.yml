@@ -33,7 +33,7 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: frontpage-alt #goals
+      layout: goals #frontpage-alt
     #- folder: /goals
     #  layout: goals
     - folder: /reporting-status
@@ -73,18 +73,18 @@ frontpage_introduction_banner:
   #description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: frontpage.heading
+  #title: frontpage.heading
   description: frontpage.instructions
 
 frontpage_cards:
   - title: frontpage.download_all
     include: components/download-all-data.html
-  - title: frontpage.download_excel
+#  - title: frontpage.download_excel
 #    content: |
 #      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
 #      cursus est sed dapibus.
 #    button_label: Read more
-    button_link: https://example.com
+#    button_link: https://example.com
 
 # Pages
 collections:
