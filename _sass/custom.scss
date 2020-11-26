@@ -1,6 +1,16 @@
 // Enter any custom Sass in this file.
 
-//SDG wheel
+// SDG logo with the Asturias flag
+
+.navbar-brand img {
+    width: 345px;
+    height: 58px;
+}
+
+
+
+// SDG wheel
+
 .site-intro{
     
     .description{
@@ -17,7 +27,14 @@
 
         background: url('../img/SDG Wheel_Transparent-01.png');
         background-position: right 60px top;
-        background-size: 250px;
+        background-size: 300px;
         background-repeat: no-repeat;
     }    
+}
+
+
+// General
+
+.spacer.medium {
+    margin-top: 0px;
 }
