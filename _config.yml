@@ -70,10 +70,10 @@ date_formats:
 # Optionally set a title/body for the frontpage banner.
 frontpage_introduction_banner:
   title: frontpage.intro_title
-  description: frontpage.intro_body
+  #description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: frontpage.heading
+  #title: frontpage.heading
   description: frontpage.instructions
 
 frontpage_cards:
