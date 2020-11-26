@@ -1837,5 +1837,17 @@ body.contrast-high #search-results .search-result .content {
     background-size: 300px;
     background-repeat: no-repeat; } }
 
+@media screen and (max-width: 768px) {
+  .logo-and-mobile-widgets {
+    position: relative; }
+    .logo-and-mobile-widgets::after {
+      content: "";
+      display: block;
+      clear: both; }
+    .logo-and-mobile-widgets .mobile-widgets {
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      right: 5px; } }
 .spacer.medium {
   margin-top: 0px; }
