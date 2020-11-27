@@ -1831,7 +1831,7 @@ body.contrast-high #search-results .search-result .content {
 @media only screen and (min-width: 700px) {
   .site-intro {
     padding-right: 300px;
-    min-height: 180px;
+    /*min-height: 180px;*/
     background: url("../img/SDG Wheel_Transparent-01.png");
     background-position: right 0px top;
     /*60px*/
