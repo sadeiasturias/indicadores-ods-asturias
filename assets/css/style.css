@@ -1833,11 +1833,13 @@ body.contrast-high #search-results .search-result .content {
     padding-right: 300px;
     min-height: 180px;
     background: url("../img/SDG Wheel_Transparent-01.png");
-    background-position: right 60px top;
+    background-position: right 0px top;
+    /*60px*/
     background-size: 300px;
     background-repeat: no-repeat; } }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {*/
+@media screen and (min-width: 700px) {
   .logo-and-mobile-widgets {
     position: relative; }
     .logo-and-mobile-widgets::after {
