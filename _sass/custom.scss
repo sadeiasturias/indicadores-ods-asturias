@@ -26,7 +26,7 @@
         min-height: 180px;
 
         background: url('../img/SDG Wheel_Transparent-01.png');
-        background-position: right 60px top;
+        background-position: right 0px top; /*60px*/
         background-size: 300px;
         background-repeat: no-repeat;
     }    
@@ -35,7 +35,8 @@
 
 // So the language dropdown menu works also in mobile version
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {*/
+@media screen and (min-width: 700px) {
   .logo-and-mobile-widgets {
     &::after {
       content: "";
