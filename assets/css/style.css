@@ -1841,7 +1841,7 @@ body.contrast-high #search-results .search-result .content {
 /*@media screen and (max-width: 768px) {*/
 @media screen and (min-width: 700px) {
   .logo-and-mobile-widgets {
-    position: relative; }
+    /*position: relative;*/ }
     .logo-and-mobile-widgets::after {
       content: "";
       display: block;
