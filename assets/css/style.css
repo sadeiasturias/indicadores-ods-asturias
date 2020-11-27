@@ -1845,7 +1845,7 @@ body.contrast-high #search-results .search-result .content {
     /*position: relative;*/ }
     .logo-and-mobile-widgets::after {
       content: "";
-      display: block;
+      /*display: block;*/
       clear: both; }
     .logo-and-mobile-widgets .mobile-widgets {
       display: block;
