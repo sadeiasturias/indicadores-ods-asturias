@@ -67,15 +67,17 @@ date_formats:
     es: "%d de %b de %Y"
     en: "%b %d, %Y"
 
-# Optionally set a title/body for the frontpage banner.
+# Optionally set a title/body for the frontpage layout banner.
+# It works fot he goals layout too.
 frontpage_introduction_banner:
   title: frontpage.intro_title
   #description: frontpage.intro_body
 
-# Optionally set a title and help text on top of the goals grid.
-# If not set, will take default values
+# Optionally, for the frontpage layout, set a title and help text on top of the goals grid.
+# The goals layout uses the frontpage variables "heading" and "instructions" automatically, 
+# regardless of the settings below.
 frontpage_goals_grid:
-  title: "Hola" #frontpage.heading
+  title: frontpage.heading
   description: frontpage.instructions
 
 frontpage_cards:
