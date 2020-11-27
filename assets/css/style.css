@@ -1835,7 +1835,8 @@ body.contrast-high #search-results .search-result .content {
     background: url("../img/SDG Wheel_Transparent-01.png");
     background-position: right 0px top;
     /*60px*/
-    background-size: 300px;
+    background-size: 250px;
+    /* this gives the image size*/
     background-repeat: no-repeat; } }
 
 /*@media screen and (max-width: 768px) {*/
