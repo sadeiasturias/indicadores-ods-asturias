@@ -7,7 +7,7 @@ language: es
 
 <br>
 
-<div style="text-align: justify">
+
 
 The following is a description of what data is collected when you use this website and what it is used for.
 
@@ -59,4 +59,3 @@ This website has security measures in place to protect the loss, misuse, and alt
 ## Contacting the website
 If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can [contact us](mailto:{{site.email_contacts.functional}}).
 
-</div>
