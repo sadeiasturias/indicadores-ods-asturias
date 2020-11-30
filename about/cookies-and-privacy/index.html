@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/en',
+  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'es',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -120,7 +120,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201130093815">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201130104227">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -131,18 +131,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-page">
+<body class="language-es layout-page">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Beta","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Beta","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus <a href=\"mailto:%email_address\">comentarios</a>.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">Beta</strong>
     
-    This is a development website. We welcome your <a href="mailto:web@sadei.es">feedback</a>.
+    Ésta es una web en desarrollo. Agradecemos sus <a href="mailto:web@sadei.es">comentarios</a>.
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
 
-      <a class="navbar-brand" href="/asturias/en/" id="home">
-        <img src="/asturias/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/asturias/" id="home">
+        <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
+      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/asturias/about/cookies-and-privacy/">
-              Español
+            <a href="/asturias/en/about/cookies-and-privacy/">
+              English
             </a>
           </li></ul>
   </div>
@@ -183,24 +183,22 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Menú</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/asturias/en/">Goals</a>
+    <a href="/asturias/">Objetivos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/reporting-status">Reporting Status</a>
+    <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/en/faq">FAQ</a>
+    <a href="/asturias/about">Acerca de</a>
     </li><li class="language-toggle-menu-header">
     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/about/cookies-and-privacy/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/about/cookies-and-privacy/">English</a></li></ul>
 
 </li></ul>
 
@@ -208,12 +206,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Buscar</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/asturias/en/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/asturias/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" />
+    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
+    <button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -221,31 +219,29 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/asturias/en/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/asturias/search">
+    <input type="text" name="q" id="indicator_search" title="Buscar" />
+    <label class="sr-only" for="indicator_search">Buscar</label>
+    <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/asturias/en/">Goals</a>
+    <a href="/asturias/">Objetivos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/reporting-status">Reporting Status</a>
+    <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/asturias/en/faq">FAQ</a>
+    <a href="/asturias/about">Acerca de</a>
     </li><li class="language-toggle-menu-header">
     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/about/cookies-and-privacy/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/about/cookies-and-privacy/">English</a></li></ul>
 
 </li></ul>
 
@@ -259,61 +255,7 @@ var translations = {
 <div id="main-content" class="container" role="main">
     <div>
         <h1>Cookies and privacy</h1>
-        <p>The following is a description of what data is collected when you use this website and what it is used for.</p>
-
-<h2 id="user-information">User information</h2>
-<p>This website uses cookies and JavaScript tracking code to gather anonymous information about visitors’ usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.</p>
-
-<p>The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.</p>
-
-<h2 id="cookies">Cookies</h2>
-<p>When we provide services, we want to make them easy, useful and reliable.</p>
-
-<p>Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.</p>
-
-<p>These include small files known as cookies. They cannot be used to identify you personally.</p>
-
-<p>These pieces of information are used to improve services for you through, for example:</p>
-
-<ul>
-  <li>enabling a service to recognise your device so you don’t have to give the same information several times during one task</li>
-  <li>recognising that you may already have given a username and password so you don’t need to do it for every web page requested</li>
-  <li>measuring how many people are using services, so they can be made easier to use and there’s enough capacity to ensure they are fast</li>
-</ul>
-
-<p>You can manage these small files yourself and learn more about them through <a href="https://www.aboutcookies.org/">internet browser cookies – what they are and how to manage them</a>.</p>
-
-<h2 id="our-use-of-cookies">Our use of cookies</h2>
-<p>Important information about this list of cookies:</p>
-
-<p>This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.</p>
-
-<p>Cookies for retaining active state of accessibility services:</p>
-
-<ul>
-  <li>contrast</li>
-</ul>
-
-<p>Cookies for measuring use of services:</p>
-
-<ul>
-  <li>_ga</li>
-  <li>_gid</li>
-  <li>_gat</li>
-</ul>
-
-<p>By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.</p>
-
-<h2 id="external-links">External links</h2>
-<p>This site may contain links to other sites.</p>
-
-<p>ONS is not responsible for the privacy practices or the content of such websites.</p>
-
-<h2 id="security">Security</h2>
-<p>This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.</p>
-
-<h2 id="contacting-the-website">Contacting the website</h2>
-<p>If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can <a href="mailto:web@sadei.es">contact us</a>.</p>
+        <p>Translation needed.</p>
 
     </div>
 </div>
@@ -324,12 +266,12 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:web@sadei.es" target="_blank">Contact us</a>
+                  <a href="mailto:web@sadei.es" target="_blank">Contacto</a>
                 
                 </li>
               
@@ -346,7 +288,7 @@ var translations = {
                 </li>
               
                 <li>
-                <a href="/asturias/en/about/cookies-and-privacy/">Cookies</a>
+                <a href="/asturias/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -377,12 +319,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201130093815'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201130104227'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

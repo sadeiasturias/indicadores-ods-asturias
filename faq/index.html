@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/en',
+  remoteDataBaseUrl: 'https://sadeiasturias.github.io/asturias-datos/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,7 +26,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'es',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -120,7 +120,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201130093815">
+        <link rel="stylesheet" href="/asturias/assets/css/style.css?v=20201130104227">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -131,18 +131,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-page">
+<body class="language-es layout-page">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Beta","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World"};</script>
+<script>translations['header'] = {"alpha":"Beta","default_contrast":"contraste por defecto","disable_high_contrast":"Desactivar contraste alto","disclaimer":"Ésta es una web en desarrollo. Agradecemos sus <a href=\"mailto:%email_address\">comentarios</a>.","enable_high_contrast":"Habilitar contraste alto","high_contrast":"contraste alto","skip_link":"Saltar al contenido principal","tag_line":"17 Metas para transformar nuestro mundo"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">Beta</strong>
     
-    This is a development website. We welcome your <a href="mailto:web@sadei.es">feedback</a>.
+    Ésta es una web en desarrollo. Agradecemos sus <a href="mailto:web@sadei.es">comentarios</a>.
   </div>
 </div>
 
@@ -153,8 +153,8 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
 
-      <a class="navbar-brand" href="/asturias/en/" id="home">
-        <img src="/asturias/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/asturias/" id="home">
+        <img src="/asturias/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Metas para transformar nuestro mundo" />
       </a>
 
       <div class="mobile-widgets">
@@ -163,11 +163,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Español</span>
+      <span class="language-abbreviation">es</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/asturias/faq/">
-              Español
+            <a href="/asturias/en/faq/">
+              English
             </a>
           </li></ul>
   </div>
@@ -183,24 +183,22 @@ var translations = {
         <li id="menuToggle"
             aria-label="Menu toggle. Click to expand or collapse the menu."
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Menú</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/asturias/en/">Goals</a>
+    <a href="/asturias/">Objetivos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/reporting-status">Reporting Status</a>
+    <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/about">About</a>
-    </li><li class="nav-link active">
-    <a href="/asturias/en/faq">FAQ</a>
+    <a href="/asturias/about">Acerca de</a>
     </li><li class="language-toggle-menu-header">
     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/faq/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/faq/">English</a></li></ul>
 
 </li></ul>
 
@@ -208,12 +206,12 @@ var translations = {
         <li id="searchToggle"
             aria-label="Search toggle. Click to expand or collapse the search bar."
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Buscar</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/asturias/en/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/asturias/search">
+    <input type="text" name="q" id="indicator_search-mobile" title="Buscar" />
+    <label class="sr-only" for="indicator_search-mobile">Buscar</label>
+    <button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -221,31 +219,29 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/asturias/en/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
-    <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/asturias/search">
+    <input type="text" name="q" id="indicator_search" title="Buscar" />
+    <label class="sr-only" for="indicator_search">Buscar</label>
+    <button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/asturias/en/">Goals</a>
+    <a href="/asturias/">Objetivos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/reporting-status">Reporting Status</a>
+    <a href="/asturias/reporting-status">Disponibilidad de los datos</a>
     </li><li class="nav-link ">
-    <a href="/asturias/en/about">About</a>
-    </li><li class="nav-link active">
-    <a href="/asturias/en/faq">FAQ</a>
+    <a href="/asturias/about">Acerca de</a>
     </li><li class="language-toggle-menu-header">
     <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
   <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
+  <span class="language-toggle-text">Español</span>
   <i class="language-toggle fa fa-chevron-down"></i>
   <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
 </a>
 
-<ul class="language-options language-toggle"><li><a href="/asturias/faq/">Español</a></li></ul>
+<ul class="language-options language-toggle"><li><a href="/asturias/en/faq/">English</a></li></ul>
 
 </li></ul>
 
@@ -259,36 +255,7 @@ var translations = {
 <div id="main-content" class="container" role="main">
     <div>
         <h1>Frequently Asked Questions (FAQ)</h1>
-        <h2 id="how-do-i-suggest-new-or-different-data-sources">How do I suggest new or different data sources?</h2>
-<p>If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:web@sadei.es">web@sadei.es</a>.</p>
-
-<h2 id="what-does-the-reporting-status-mean">What does the reporting status mean?</h2>
-<p>We have used three different types of reporting status for an indicator, which are also colour coded:</p>
-
-<ul>
-  <li>Reported online (black) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.</li>
-  <li>Statistics in progress (grey) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.</li>
-  <li>Exploring data sources (white) – we are still looking for a suitable data source for this indicator.</li>
-</ul>
-
-<p>Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.</p>
-
-<h2 id="how-often-will-new-data-be-added-to-this-site">How often will new data be added to this site?</h2>
-<p>We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.</p>
-
-<h2 id="what-are-you-doing-to-fill-data-gaps">What are you doing to fill data gaps?</h2>
-<p>For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.</p>
-
-<p>This means we need to look for new data sources, link existing ones, or model data.</p>
-
-<h2 id="how-accessible-is-this-website">How accessible is this website?</h2>
-<p>Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20">Web Content Accessibility Guidelines (WCAG 2.0)</a>.</p>
-
-<h2 id="what-browsers-can-i-use-to-view-this-website">What browsers can I use to view this website?</h2>
-<p>Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.</p>
-
-<h2 id="can-other-countries-copy-this-website">Can other countries copy this website?</h2>
-<p>Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available <a href="https://open-sdg.readthedocs.io">here</a>. Countries and localities exploring how to report their own SDGs data can also get support from the <a href="http://www.opendataenterprise.org/">Center for Open Data Enterprise (CODE)</a> through their <a href="https://www.sdgreporting.org/">SDG National Reporting Initiative</a>.</p>
+        <p>Translation needed.</p>
 
     </div>
 </div>
@@ -299,12 +266,12 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Web basada en Open SDG</a></li>
             
               
                 <li>
                 
-                  <a href="mailto:web@sadei.es" target="_blank">Contact us</a>
+                  <a href="mailto:web@sadei.es" target="_blank">Contacto</a>
                 
                 </li>
               
@@ -321,7 +288,7 @@ var translations = {
                 </li>
               
                 <li>
-                <a href="/asturias/en/about/cookies-and-privacy/">Cookies</a>
+                <a href="/asturias/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -352,12 +319,12 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/asturias/assets/js/sdg.js?v=20201130093815'></script><script>
+<script src='/asturias/assets/js/sdg.js?v=20201130104227'></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
