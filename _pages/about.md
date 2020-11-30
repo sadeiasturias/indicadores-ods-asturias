@@ -8,7 +8,7 @@ language: es
 
 <br>
 
-<div style="text-align: justify">
+<p style="text-align: justify">
 
 En el año 2015 la ONU aprobó la Agenda 2030 sobre el desarrollo sostenible, en 
 la que se fijaron 17 objetivos, que incluyen desde la eliminación de la pobreza hasta 
@@ -56,4 +56,4 @@ Después de un trabajo intenso, cada Comunidad Autónoma dispone de una
 primera batería de indicadores común y homogénea y una ficha metodológica 
 estándar que los organismos estadísticos van a difundir en sus respectivas páginas web.
 
-</div>
+</p>
