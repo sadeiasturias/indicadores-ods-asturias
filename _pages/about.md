@@ -6,6 +6,8 @@ layout: page
 language: es
 ---
 
+<br>
+
 En el año 2015 la ONU aprobó la Agenda 2030 sobre el desarrollo sostenible, en 
 la que se fijaron 17 objetivos, que incluyen desde la eliminación de la pobreza hasta 
 el combate al cambio climático, la educación, la igualdad de la mujer, la defensa del 
