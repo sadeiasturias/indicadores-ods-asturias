@@ -5,6 +5,10 @@ permalink: /en/about/
 layout: page
 ---
 
+<br>
+
+<div style="text-align: justify">
+
 This website is for disseminating [SDG](https://www.un.org/sustainabledevelopment/sustainable-development-goals/)
 indicator data of the Autonomous Region of Asturias in Spain. 
 
@@ -20,3 +24,5 @@ linking to detailed technical instructions available in the platform's
 
 If you have any feedback on this website or SDG data then please contact us at 
 <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+
+</div>
