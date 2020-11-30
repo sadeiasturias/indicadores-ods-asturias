@@ -16,6 +16,14 @@ languages:
   - es
   - en
 
+# This makes sure that all pages have a language.
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      language: "es"
+
 #jekyll_get_json:
 #  - data: translations
 #    json: 'https://open-sdg.org/sdg-translations/translations.json'
