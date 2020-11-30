@@ -17,12 +17,12 @@ languages:
   - en
 
 # This makes sure that all pages have a language.
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      language: "es"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#    values:
+#      language: "es"
 
 #jekyll_get_json:
 #  - data: translations
@@ -123,8 +123,8 @@ menu:
     translation_key: menu.about
   #- path: /guidance
   #  translation_key: menu.guidance
-  - path: /faq
-    translation_key: menu.faq
+  #- path: /faq
+  #  translation_key: menu.faq
   #- path: /news
   #  translation_key: menu.updates
 
