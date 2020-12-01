@@ -164,6 +164,12 @@ plugins:
   #- jekyll-get-json
   - jekyll-open-sdg-plugins
 
+
+# Apply any custom Javascript.
+custom_js:
+  - /assets/js/custom.js
+
+
 # Exclude some files/folders.
 exclude:
   - vendor
