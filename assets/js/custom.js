@@ -3,7 +3,9 @@ opensdg.dataRounding = function(value) {
     return value
   }
   else {
-    return Number(value.toFixed(1))
-    // value.toPrecision(3)
+    return value.toFixed(1) // returns a character
+    // Sentences below return a number:
+    // return Number(value.toFixed(1))
+    // return Number(value.toPrecision(3))
   }
 };
