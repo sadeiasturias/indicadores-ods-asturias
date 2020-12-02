@@ -72,7 +72,7 @@ country:
 # Dates for different languages
 date_formats:
   standard:
-    es: "%d de %b de %Y"
+    es: "%d-%m-%Y"
     en: "%b %d, %Y"
 
 # Optionally set a title/body for the frontpage layout banner.
