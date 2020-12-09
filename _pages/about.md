@@ -6,11 +6,12 @@ layout: about #page
 language: es
 ---
 
-
+<!--
 <img src='../assets/img/SDG Wheel_Transparent-01.png'
      alt='ODS CCAA logo'
      width='250'
      style="float: right;" />
+-->
 
 <br>
 
