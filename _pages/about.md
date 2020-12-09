@@ -6,8 +6,11 @@ layout: page
 language: es
 ---
 
-<h1>Indicadores para los Objetivos de Desarrollo Sostenible 2030 
-  a nivel de Comunidad Autónoma</h1>
+<style>
+  h1 {
+    position: relative;
+  }
+</style>
 
 <img src='../assets/img/SDG Wheel_Transparent-01.png'
      alt='ODS CCAA logo'
