@@ -3,7 +3,7 @@ opensdg.dataRounding = function(value) {
     return value
   }
   else {
-    return value.toLocaleString('es-ES', {maximumFractionDigits: 1, minimumFractionDigits: 1})
+    return value.toFixed(1)
     // Returns a character (e.g. "13.0").
     // For mose reason, "0.0" is still shown as "0" in tables on the web.
   }
@@ -13,6 +13,7 @@ opensdg.dataRounding = function(value) {
 // we therefore cannot use the following:
 	// value.toFixed(1).replace('.', ',')
 	// Number(value.toFixed(1)).toLocaleString('es-ES')
+	// value.toLocaleString('es-ES', {maximumFractionDigits: 1, minimumFractionDigits: 1})
 
 // Sentences below return a number (in which decimal zeroes disappear):
     // Number(value.toFixed(1))
