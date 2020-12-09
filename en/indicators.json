@@ -38,14 +38,6 @@
           "status": "complete"
         },
         {
-          "id": "1-2-1-a_prueba",
-          "title": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
-          "description": "Proporción de personas en riesgo de pobreza relativa, considerando el umbral nacional de pobreza",
-          "keywords": "",
-          "href": "/asturias/en/1-2-1-a_prueba",
-          "status": "complete"
-        },
-        {
           "id": "1-2-2-a",
           "title": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
           "description": "Proporción de personas en riesgo de pobreza o exclusión social: indicador AROPE, considerando el umbral nacional de pobreza",
@@ -579,14 +571,6 @@
           "description": "Ingreso medio por hora de trabajo de las mujeres",
           "keywords": "",
           "href": "/asturias/en/8-5-1-c",
-          "status": "complete"
-        },
-        {
-          "id": "8-5-2",
-          "title": "Unemployment rate",
-          "description": "Unemployment rate",
-          "keywords": "",
-          "href": "/asturias/en/8-5-2",
           "status": "complete"
         },
         {
