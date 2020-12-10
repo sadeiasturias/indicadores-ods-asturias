@@ -60,9 +60,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: web@sadei.es
-  suggestions: web@sadei.es
-  functional: web@sadei.es
+  questions: info@sadei.es
+  suggestions: info@sadei.es
+  functional: info@sadei.es
 
 # International Support
 country:
@@ -129,7 +129,7 @@ menu:
   #  translation_key: menu.updates
 
 footer_menu:
-  - path: mailto:web@sadei.es
+  - path: mailto:info@sadei.es
     translation_key: menu.contact_us
   - path: https://twitter.com/sadeiAsturias
     translation_key: general.twitter
