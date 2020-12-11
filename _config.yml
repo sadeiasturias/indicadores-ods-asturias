@@ -1,12 +1,12 @@
 # Jekyll configuration for Open SDG platform
 
-baseurl: "/asturias"
+baseurl: "/indicadores-ods-asturias"
 remote_data_prefix: "https://sadeiasturias.github.io/asturias-datos/"
 data_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/data/indicator_[id].csv
 metadata_edit_url: http://prose.io/#sadeiasturias/asturias-datos/edit/develop/meta/[id].md
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicadores de Asturias de los Objetivos de Desarrollo Sostenible
 url: ""
 data_dir: data
 environment: production #staging
