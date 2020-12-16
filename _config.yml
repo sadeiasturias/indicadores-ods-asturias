@@ -16,7 +16,7 @@ languages:
   - es
   - en
 
-# This makes sure that all pages have a language.
+# This makes sure that all pages have a language. 
 #defaults:
 #  -
 #    scope:
