@@ -1,61 +1,55 @@
 ---
 layout: page
-title: Cookies and privacy
+title: Cookies y privacidad
 permalink: /about/cookies-and-privacy/
 language: es
 ---
 
-<br>
+A continuación se incluye una descripción de los datos que se recopilan cuando accede este sitio web y para qué se utilizan.
 
+## Información para el usuario
 
+Este sitio web utiliza cookies y código de seguimiento JavaScript para recopilar información anónima sobre los patrones de uso de los visitantes, con el fin de mejorar la navegación del sitio, la presentación de su contenido y la calidad de sus servicios.
 
-The following is a description of what data is collected when you use this website and what it is used for.
-
-## User information
-This website uses cookies and JavaScript tracking code to gather anonymous information about visitors' usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.
-
-The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.
+La información recopilada no incluye datos personales (como su nombre, edad, número de teléfono, dirección postal o dirección de correo electrónico, etc.), ni permite la identificación personal de un usuario.
 
 ## Cookies
-When we provide services, we want to make them easy, useful and reliable.
 
-Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.
+Para poder proporcionar y mejorar los servicios ofrecidos en Internet, se suele colocar pequeñas cantidades de información en su dispositivo (por ejemplo, ordenador o teléfono móvil) en forma de pequeños archivos conocidos como cookies. No se pueden utilizar para identificarlo personalmente. Estos datos se utilizan para, por ejemplo:
 
-These include small files known as cookies. They cannot be used to identify you personally.
+- permitir que un servicio reconozca su dispositivo para que no tenga que dar la misma información varias veces durante una sesión;
+- reconocer que es posible que ya haya proporcionado un nombre de usuario y contraseña, por lo que no es necesario que lo haga para cada página web solicitada;
+- medir cuántas personas están usando los servicios, para que sean más fáciles de usar y haya suficiente capacidad para garantizar que sean rápidos.
 
-These pieces of information are used to improve services for you through, for example:
+Puede administrar estos pequeños archivos usted mismo, a través de la configuración del navegador que utilice en su dispositivo o terminal (para más información, véase este artículo de [Wikipedia](https://es.wikipedia.org/wiki/Cookie_(inform%C3%A1tica))). 
 
-- enabling a service to recognise your device so you don't have to give the same information several times during one task
-- recognising that you may already have given a username and password so you don't need to do it for every web page requested
-- measuring how many people are using services, so they can be made easier to use and there's enough capacity to ensure they are fast
+## Nuestro uso de cookies
 
-You can manage these small files yourself and learn more about them through [internet browser cookies – what they are and how to manage them](https://www.aboutcookies.org/).
+Información importante sobre esta lista de cookies: es posible que esta lista no siempre esté completa. Se actualizará periódicamente a medida que se recopile más información de otras empresas y organizaciones con las que trabajemos.
 
-## Our use of cookies
-Important information about this list of cookies:
-
-This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.
-
-Cookies for retaining active state of accessibility services:
+Cookies para conservar el estado activo de los servicios de accesibilidad:
 
 - contrast
 
-Cookies for measuring use of services:
+Posibles cookies para medir el uso de servicios:
 
 - _ga
 - _gid
 - _gat
 
-By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.
+Al comprender cómo las personas usan nuestro sitio web, podemos mejorar la información proporcionada. En el caso de que recopilemos estos datos, se haría mediante Google Analytics.
 
-## External links
-This site may contain links to other sites.
+## Enlaces externos
 
-ONS is not responsible for the privacy practices or the content of such websites.
+Este sitio puede contener enlaces a otros sitios.
 
-## Security
-This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.
+SADEI no es responsable de las prácticas de privacidad o el contenido de dichos sitios web.
 
-## Contacting the website
-If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can [contact us](mailto:{{site.email_contacts.functional}}).
+## Seguridad
+
+Este sitio web cuenta con medidas de seguridad para proteger la pérdida, mal uso y alteración de la información bajo nuestro control.
+
+## Contacto
+
+Si tiene alguna pregunta sobre esta declaración de privacidad, las prácticas de este sitio o sus relaciones con el mismo, por favor [contacte con nosotros](mailto:{{site.email_contacts.functional}}).
 
