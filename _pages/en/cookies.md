@@ -5,8 +5,6 @@ language: en
 permalink: /en/about/cookies-and-privacy/
 ---
 
-<br>
-
 The following is a description of what data is collected when you use this website and what it is used for.
 
 ## User information
@@ -49,7 +47,7 @@ By understanding how people use our website, we can improve the information prov
 ## External links
 This site may contain links to other sites.
 
-ONS is not responsible for the privacy practices or the content of such websites.
+SADEI is not responsible for the privacy practices or the content of such websites.
 
 ## Security
 This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.
