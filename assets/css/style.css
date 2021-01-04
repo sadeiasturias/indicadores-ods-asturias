@@ -1853,6 +1853,5 @@ body.contrast-high #search-results .search-result .content {
       position: absolute;
       bottom: 10px;
       right: 5px; } }
-span.about {
-  text-align: justify;
-  text-justify: inter-word; }
+.about {
+  text-align: justify; }
