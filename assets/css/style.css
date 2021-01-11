@@ -1840,6 +1840,18 @@ body.contrast-high #search-results .search-result .content {
     /* this gives the image size*/
     background-repeat: no-repeat; } }
 
+@media screen and (max-width: 768px) {
+  /*@media screen and (min-width: 700px) {*/
+  .logo-and-mobile-widgets::after {
+    content: "";
+    /*display: block;*/
+    clear: both; }
+  .logo-and-mobile-widgets .mobile-widgets {
+    display: block;
+    position: absolute;
+    /*relative;*/
+    bottom: 10px;
+    right: 5px; } }
 @media screen and (max-width: 991px) and (min-width: 769px) {
   .navbar ul.navbar-nav {
     margin-top: 80px; }
