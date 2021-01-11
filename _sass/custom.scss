@@ -35,8 +35,7 @@
 
 // To avoid the language dropdown menu from appearing twice in middle screen-size
 
-@media screen and (max-width: 768px) {
-/*@media screen and (min-width: 700px) {*/
+@media screen and (min-width: 769px) {   /* 700px */                        
   .logo-and-mobile-widgets {
     &::after {
       content: "";
