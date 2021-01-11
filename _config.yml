@@ -53,7 +53,7 @@ create_pages:
       layout: search
 
 analytics:
-  ga_prod: 'G-K2V2BMPZL7' #específica para web ods; general de sadei.es: 'UA-150215-1'
+  ga_prod: 'UA-150215-1' #general de sadei.es; 'G-K2V2BMPZL7' #específica para web ods 
 
 # Sticky share buttons (facebook, twitter and email)
 #sharethis_property: '5d279253faeee40012f195e1'
