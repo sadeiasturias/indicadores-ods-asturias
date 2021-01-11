@@ -35,7 +35,7 @@
 
 // To avoid the language dropdown menu from appearing twice in middle screen-size
 
-@media screen and (min-width: 769px) {   /* 700px */                        
+@media only screen and (min-width: 769px) {   /* 700px */                        
   .logo-and-mobile-widgets {
     &::after {
       content: "";
@@ -56,7 +56,7 @@
 // Avoid the full-width menu from overlapping with the top logo
 // Search button keeping distance from top edge of page
 
-@media screen and (max-width: 991px) and (min-width: 769px) {
+@media only screen and (max-width: 991px) and (min-width: 769px) {
 	.navbar ul.navbar-nav {
 	    margin-top: 80px;
 	}
@@ -68,7 +68,7 @@
 
 // Avoid the language and accessibility navbars from overlapping with the top logo
 
-@media screen and (max-width: 769px){
+@media only screen and (max-width: 769px){
 	#accessibility-nav, .language-toggle-mobile {
     		margin-top: -40px;
 	}
