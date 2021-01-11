@@ -43,10 +43,9 @@
       /*display: block;*/
       clear: both;
     }
-    /*position: relative;*/
     .mobile-widgets {
       display: block;
-      position: absolute;
+      position: absolute;  /*relative;*/
       bottom: 10px;
       right: 5px;
     }
