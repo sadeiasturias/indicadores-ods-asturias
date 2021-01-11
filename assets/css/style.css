@@ -1853,5 +1853,14 @@ body.contrast-high #search-results .search-result .content {
       position: absolute;
       bottom: 10px;
       right: 5px; } }
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  .navbar ul.navbar-nav {
+    margin-top: 80px; }
+
+  #indicator_search {
+    margin-top: 80px; } }
+@media screen and (max-width: 769px) {
+  #accessibility-nav, .language-toggle-mobile {
+    margin-top: -40px; } }
 .about {
   text-align: justify; }
