@@ -1840,8 +1840,8 @@ body.contrast-high #search-results .search-result .content {
     /* this gives the image size*/
     background-repeat: no-repeat; } }
 
-@media screen and (max-width: 768px) {
-  /*@media screen and (min-width: 700px) {*/
+@media screen and (min-width: 769px) {
+  /* 700px */
   .logo-and-mobile-widgets::after {
     content: "";
     /*display: block;*/
