@@ -1863,8 +1863,7 @@ body.contrast-high #search-results .search-result .content {
     margin-top: -40px; }
 
   .language-toggle-mobile {
-    margin-top: -40px;
-    padding-right: 45px; } }
+    margin-top: -40px; } }
 @media only screen and (max-width: 480px) {
   .language-toggle-mobile {
     margin-top: -185px;
