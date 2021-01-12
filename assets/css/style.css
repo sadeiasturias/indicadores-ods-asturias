@@ -1858,7 +1858,7 @@ body.contrast-high #search-results .search-result .content {
 
   .navbar #search input {
     margin-top: 120px; } }
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
   #accessibility-nav {
     margin-top: -40px; }
 
@@ -1870,6 +1870,12 @@ body.contrast-high #search-results .search-result .content {
     padding-right: 45px; } }
 @media only screen and (max-width: 480px) {
   .language-name {
-    display: none; } }
+    display: none; }
+
+  .language-abbreviation {
+    display: inline; }
+
+  .language-toggle-caret .fa .fa-chevron-down {
+    display: inline; } }
 .about {
   text-align: justify; }
