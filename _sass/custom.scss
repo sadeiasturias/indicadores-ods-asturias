@@ -88,15 +88,9 @@
 
 
 
-@media only screen and (max-width: 480px) {
-  .language-name {
-    display: none;
-  }
+@media only screen and (max-width: 768px) {
   .language-abbreviation {
-    display: inline;
-  }
-  .language-toggle-caret .fa .fa-chevron-down {
-    display: inline;
+    display: none;
   }
 }
 
