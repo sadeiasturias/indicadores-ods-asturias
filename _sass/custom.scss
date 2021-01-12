@@ -69,10 +69,16 @@
 // Avoid the language and accessibility navbars from overlapping with the top logo
 
 @media only screen and (max-width: 769px){
-	#accessibility-nav, .language-toggle-mobile {
+	#accessibility-nav {
     		margin-top: -40px;
 	}
+	.language-toggle-mobile {
+	    	margin-top: -185px;
+	    	padding-right: 45px; 
+	}
 }
+
+
 
 
 // General
