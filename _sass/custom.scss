@@ -76,6 +76,14 @@
 }
 
 
+@media only screen and (min-width: 481px) and (max-width: 769px){
+	.language-toggle-mobile {
+	    	margin-top: -40px;
+	    	padding-right: 45px; 
+	}
+}
+
+
 @media only screen and (max-width: 769px){
 	#accessibility-nav {
     		margin-top: -40px;
