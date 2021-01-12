@@ -1858,12 +1858,12 @@ body.contrast-high #search-results .search-result .content {
 
   .navbar #search input {
     margin-top: 120px; } }
-@media only screen and (max-width: 769px) {
-  #accessibility-nav {
-    margin-top: -40px; }
-
+@media only screen and (max-width: 480px) {
   .language-toggle-mobile {
     margin-top: -185px;
     padding-right: 45px; } }
+@media only screen and (max-width: 769px) {
+  #accessibility-nav {
+    margin-top: -40px; } }
 .about {
   text-align: justify; }
