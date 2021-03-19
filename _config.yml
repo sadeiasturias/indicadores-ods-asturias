@@ -16,6 +16,8 @@ languages:
   - es
   - en
 
+decimal_separator: ','
+
 # This makes sure that all pages have a language. 
 #defaults:
 #  -
