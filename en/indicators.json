@@ -70,11 +70,51 @@
           "status": "complete"
         },
         {
+          "id": "1-4-1-a",
+          "title": "Proporción de viviendas principales con acceso a agua corriente",
+          "description": "Proporción de viviendas principales con acceso a agua corriente",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-4-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "1-4-1-b",
+          "title": "Proportion of population using basic sanitation services",
+          "description": "Proportion of population using basic sanitation services",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-4-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "1-4-1-c",
+          "title": "Proporción de viviendas principales que disponen de baño o ducha",
+          "description": "Proporción de viviendas principales que disponen de baño o ducha",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-4-1-c",
+          "status": "complete"
+        },
+        {
           "id": "1-5-1-a",
           "title": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/1-5-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "1-a-2-a",
+          "title": "Proportion of total government spending on essential services, education (%)",
+          "description": "Proportion of total government spending on essential services, education (%)",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-a-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "1-a-2-b",
+          "title": "Proporción del gasto de las administraciones públicas autonómicas que se dedica a salud",
+          "description": "Proporción del gasto de las administraciones públicas autonómicas que se dedica a salud",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-a-2-b",
           "status": "complete"
         }]
     }
@@ -190,6 +230,14 @@
           "status": "complete"
         },
         {
+          "id": "3-7-1-a",
+          "title": "Proporción de mujeres entre 18 y 49 años, casadas con un hombre o con pareja masculina, que cubren sus necesidades de planificación familiar con métodos modernos",
+          "description": "Proporción de mujeres entre 18 y 49 años, casadas con un hombre o con pareja masculina, que cubren sus necesidades de planificación familiar con métodos modernos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-7-1-a",
+          "status": "complete"
+        },
+        {
           "id": "3-7-2-a",
           "title": "Tasa de fecundidad de las adolescentes entre 10 y 14 años por cada 1.000 mujeres de ese grupo de edad",
           "description": "Tasa de fecundidad de las adolescentes entre 10 y 14 años por cada 1.000 mujeres de ese grupo de edad",
@@ -214,6 +262,14 @@
           "status": "complete"
         },
         {
+          "id": "3-8-2-a",
+          "title": "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income",
+          "description": "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-8-2-a",
+          "status": "complete"
+        },
+        {
           "id": "3-9-3-a",
           "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
           "description": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
@@ -227,6 +283,38 @@
           "description": "Mortality rate attributed to unintentional poisonings",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/3-a-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-b-1-a",
+          "title": "Cobertura de vacunación de recuerdo contra difteria, tétanos y tosferina en la población infantil",
+          "description": "Cobertura de vacunación de recuerdo contra difteria, tétanos y tosferina en la población infantil",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-b-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-b-1-b",
+          "title": "Cobertura de vacunación de recuerdo contra neumococo en la población infantil",
+          "description": "Cobertura de vacunación de recuerdo contra neumococo en la población infantil",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-b-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "3-b-1-c",
+          "title": "Cobertura de vacunación de segunda dosis contra sarampión, rubeola y parotiditis en la población infantil",
+          "description": "Cobertura de vacunación de segunda dosis contra sarampión, rubeola y parotiditis en la población infantil",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-b-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "3-b-1-d",
+          "title": "Cobertura de vacunación de segunda dosis contra papiloma humano en las adolescentes",
+          "description": "Cobertura de vacunación de segunda dosis contra papiloma humano en las adolescentes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-b-1-d",
           "status": "complete"
         },
         {
@@ -269,6 +357,14 @@
       "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
       "indicators": [
         
+        {
+          "id": "4-2-2-a",
+          "title": "Tasa neta de escolarización a los 5 años",
+          "description": "Tasa neta de escolarización a los 5 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-2-2-a",
+          "status": "complete"
+        },
         {
           "id": "4-3-1-a",
           "title": "Proporción de personas entre 18 y 64 años que han realizado actividades educativas en los últimos 12 meses",
@@ -319,8 +415,8 @@
         },
         {
           "id": "4-4-1-c",
-          "title": "Proporción de personas entre 25 y 74 años  que han utilizado alguna habilidad informática en los últimos 12 meses",
-          "description": "Proporción de personas entre 25 y 74 años  que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "title": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "description": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-4-1-c",
           "status": "complete"
@@ -364,6 +460,54 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-5-1-e",
           "status": "complete"
+        },
+        {
+          "id": "4-6-1-a",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "4-6-1-d",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-6-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-1-a",
+          "title": "Proporción del profesorado de educación preescolar que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "description": "Proporción del profesorado de educación preescolar que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-c-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-1-b",
+          "title": "Proporción del profesorado de educación primaria que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "description": "Proporción del profesorado de educación primaria que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-c-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-1-c",
+          "title": "Proporción del profesorado de educación secundaria inferior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "description": "Proporción del profesorado de educación secundaria inferior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-c-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "4-c-1-d",
+          "title": "Proporción del profesorado de educación secundaria superior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "description": "Proporción del profesorado de educación secundaria superior que ha recibido al menos la mínima formación docente exigida para impartir enseñanza a ese nivel educativo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-c-1-d",
+          "status": "complete"
         }]
     }
   },
@@ -374,27 +518,19 @@
       "indicators": [
         
         {
+          "id": "5-3-1-a",
+          "title": "Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre",
+          "description": "Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-3-1-a",
+          "status": "complete"
+        },
+        {
           "id": "5-4-1-a",
           "title": "Tiempo dedicado al hogar y familia en un día promedio",
           "description": "Tiempo dedicado al hogar y familia en un día promedio",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-4-1-a",
-          "status": "complete"
-        },
-        {
-          "id": "5-4-1-b",
-          "title": "Tiempo dedicado por los hombres al hogar y familia en un día promedio",
-          "description": "Tiempo dedicado por los hombres al hogar y familia en un día promedio",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-4-1-b",
-          "status": "complete"
-        },
-        {
-          "id": "5-4-1-c",
-          "title": "Tiempo dedicado por las mujeres al hogar y familia en un día promedio",
-          "description": "Tiempo dedicado por las mujeres al hogar y familia en un día promedio",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-4-1-c",
           "status": "complete"
         },
         {
@@ -414,27 +550,19 @@
           "status": "complete"
         },
         {
+          "id": "5-5-2-c",
+          "title": "Proporción de mujeres empresarias",
+          "description": "Proporción de mujeres empresarias",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-5-2-c",
+          "status": "complete"
+        },
+        {
           "id": "5-a-1a-a",
           "title": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
           "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-a-1a-a",
-          "status": "complete"
-        },
-        {
-          "id": "5-a-1a-b",
-          "title": "Proporción de hombres titulares de explotaciones agrícolas, respecto al total de hombres trabajadores en la agricultura",
-          "description": "Proporción de hombres titulares de explotaciones agrícolas, respecto al total de hombres trabajadores en la agricultura",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-a-1a-b",
-          "status": "complete"
-        },
-        {
-          "id": "5-a-1a-c",
-          "title": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de mujeres trabajadoras en la agricultura",
-          "description": "Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de mujeres trabajadoras en la agricultura",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-a-1a-c",
           "status": "complete"
         },
         {
@@ -468,22 +596,6 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-b-1-a",
           "status": "complete"
-        },
-        {
-          "id": "5-b-1-b",
-          "title": "Proporción de hombres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
-          "description": "Proporción de hombres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-b-1-b",
-          "status": "complete"
-        },
-        {
-          "id": "5-b-1-c",
-          "title": "Proporción de mujeres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
-          "description": "Proporción de mujeres entre 16 y 74 años que han usado el móvil en los últimos tres meses",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/5-b-1-c",
-          "status": "complete"
         }]
     }
   },
@@ -494,12 +606,28 @@
       "indicators": [
         
         {
-          "id": "6-0",
-          "title": "Indicators not yet available for this goal",
-          "description": "",
+          "id": "6-1-1-a",
+          "title": "Proporción de personas que reciben suministro de agua con cobertura del Sistema Nacional de Aguas de Consumo",
+          "description": "Proporción de personas que reciben suministro de agua con cobertura del Sistema Nacional de Aguas de Consumo",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/6-0",
-          "status": "notstarted"
+          "href": "/indicadores-ods-asturias/en/6-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "6-b-1-a",
+          "title": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión y el saneamiento de aguas de consumo",
+          "description": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión y el saneamiento de aguas de consumo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/6-b-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "6-b-1-b",
+          "title": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión de aguas de baño",
+          "description": "Proporción de dependencias administrativas locales que han establecido políticas y procedimientos operacionales para la participación de las comunidades locales en la gestión de aguas de baño",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/6-b-1-b",
+          "status": "complete"
         }]
     }
   },
@@ -510,12 +638,20 @@
       "indicators": [
         
         {
-          "id": "7-0",
-          "title": "Indicators not yet available for this goal",
-          "description": "",
+          "id": "7-2-1-a",
+          "title": "Proporción de energías renovables en la producción de energía eléctrica",
+          "description": "Proporción de energías renovables en la producción de energía eléctrica",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/7-0",
-          "status": "notstarted"
+          "href": "/indicadores-ods-asturias/en/7-2-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-1-a",
+          "title": "Consumo de energía eléctrica por unidad de PIB",
+          "description": "Consumo de energía eléctrica por unidad de PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/7-3-1-a",
+          "status": "complete"
         }]
     }
   },
@@ -558,22 +694,6 @@
           "status": "complete"
         },
         {
-          "id": "8-5-1-b",
-          "title": "Ingreso medio por hora de trabajo de los hombres",
-          "description": "Ingreso medio por hora de trabajo de los hombres",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-5-1-b",
-          "status": "complete"
-        },
-        {
-          "id": "8-5-1-c",
-          "title": "Ingreso medio por hora de trabajo de las mujeres",
-          "description": "Ingreso medio por hora de trabajo de las mujeres",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-5-1-c",
-          "status": "complete"
-        },
-        {
           "id": "8-5-2-a",
           "title": "Unemployment rate",
           "description": "Unemployment rate",
@@ -582,19 +702,11 @@
           "status": "complete"
         },
         {
-          "id": "8-5-2-b",
-          "title": "Tasa de desempleo de hombres",
-          "description": "Tasa de desempleo de hombres",
+          "id": "8-5-2-d",
+          "title": "Tasa de desempleo de las personas entre 16 y 64 años",
+          "description": "Tasa de desempleo de las personas entre 16 y 64 años",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-5-2-b",
-          "status": "complete"
-        },
-        {
-          "id": "8-5-2-c",
-          "title": "Tasa de desempleo de mujeres",
-          "description": "Tasa de desempleo de mujeres",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-5-2-c",
+          "href": "/indicadores-ods-asturias/en/8-5-2-d",
           "status": "complete"
         },
         {
@@ -603,6 +715,30 @@
           "description": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-b-1-a",
+          "title": "Gasto de las administraciones públicas autonómicas en fomento del empleo",
+          "description": "Gasto de las administraciones públicas autonómicas en fomento del empleo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-b-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-b-1-b",
+          "title": "Proporción del gasto de las administraciones públicas autonómicas en fomento del empleo",
+          "description": "Proporción del gasto de las administraciones públicas autonómicas en fomento del empleo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-b-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "8-10-2-a",
+          "title": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
+          "description": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-10-2-a",
           "status": "complete"
         }]
     }
@@ -654,6 +790,14 @@
           "status": "complete"
         },
         {
+          "id": "9-3-1-a",
+          "title": "Proportion of small-scale industries in total industry value added",
+          "description": "Proportion of small-scale industries in total industry value added",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-3-1-a",
+          "status": "complete"
+        },
+        {
           "id": "9-4-1-a",
           "title": "Carbon dioxide emissions per unit of GDP",
           "description": "Carbon dioxide emissions per unit of GDP",
@@ -667,6 +811,22 @@
           "description": "Carbon dioxide emissions per unit of manufacturing value added",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/9-4-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "9-4-1-c",
+          "title": "Emisiones de CO2 respecto al año 1990",
+          "description": "Emisiones de CO2 respecto al año 1990",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-4-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "9-4-1-d",
+          "title": "Emisiones de CO2 respecto al año 2005",
+          "description": "Emisiones de CO2 respecto al año 2005",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-4-1-d",
           "status": "complete"
         },
         {
@@ -766,6 +926,14 @@
           "status": "complete"
         },
         {
+          "id": "11-1-1-b",
+          "title": "Proporción de personas que en su vivienda sufren problemas de ruidos procedentes del vecindario o del exterior",
+          "description": "Proporción de personas que en su vivienda sufren problemas de ruidos procedentes del vecindario o del exterior",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-1-1-b",
+          "status": "complete"
+        },
+        {
           "id": "11-5-1-a",
           "title": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
@@ -814,12 +982,12 @@
       "indicators": [
         
         {
-          "id": "12-5-1-a",
-          "title": "Residuos urbanos recogidos per cápita y día",
-          "description": "Residuos urbanos recogidos per cápita y día",
+          "id": "12-0",
+          "title": "Indicators not yet available for this goal",
+          "description": "",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/12-5-1-a",
-          "status": "complete"
+          "href": "/indicadores-ods-asturias/en/12-0",
+          "status": "notstarted"
         }]
     }
   },
@@ -852,6 +1020,22 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/13-2-2-b",
           "status": "complete"
+        },
+        {
+          "id": "13-2-2-c",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 1990",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 1990",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/13-2-2-c",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-2-d",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 2005",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 2005",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/13-2-2-d",
+          "status": "complete"
         }]
     }
   },
@@ -878,12 +1062,28 @@
       "indicators": [
         
         {
-          "id": "15-0",
-          "title": "Indicators not yet available for this goal",
-          "description": "",
+          "id": "15-1-1-a",
+          "title": "Superficie de bosque en proporción a la superficie total",
+          "description": "Superficie de bosque en proporción a la superficie total",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/15-0",
-          "status": "notstarted"
+          "href": "/indicadores-ods-asturias/en/15-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "15-2-1-a",
+          "title": "Superficie forestal con instrumentos de gestión sostenible vigentes",
+          "description": "Superficie forestal con instrumentos de gestión sostenible vigentes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/15-2-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "15-2-1-b",
+          "title": "Proporción de la superficie forestal con instrumentos de gestión sostenible vigentes",
+          "description": "Proporción de la superficie forestal con instrumentos de gestión sostenible vigentes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/15-2-1-b",
+          "status": "complete"
         }]
     }
   },
@@ -895,10 +1095,18 @@
         
         {
           "id": "16-1-4-a",
-          "title": "Proportion of population that feel safe walking alone around the area they live in",
-          "description": "Proportion of population that feel safe walking alone around the area they live in",
+          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "description": "Proportion of population that feel safe walking alone around the area they live",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-1-4-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-3-2-a",
+          "title": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
+          "description": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-3-2-a",
           "status": "complete"
         }]
     }
@@ -918,11 +1126,83 @@
           "status": "complete"
         },
         {
+          "id": "17-1-2-a",
+          "title": "Proporción de los ingresos de las administraciones públicas autonómicas y locales provenientes de impuestos",
+          "description": "Proporción de los ingresos de las administraciones públicas autonómicas y locales provenientes de impuestos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-1-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-1-2-b",
+          "title": "Proporción de los ingresos no financieros de las administraciones públicas autonómicas y locales provenientes de impuestos",
+          "description": "Proporción de los ingresos no financieros de las administraciones públicas autonómicas y locales provenientes de impuestos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-1-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-1-a",
+          "title": "Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo",
+          "description": "Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-1-b",
+          "title": "Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo en proporción al PIB",
+          "description": "Inversión directa neta en los países receptores de Ayuda Oficial al Desarrollo en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-1-c",
+          "title": "Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales",
+          "description": "Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-1-d",
+          "title": "Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales en proporción al PIB",
+          "description": "Ayuda Oficial al Desarrollo neta de las administraciones públicas autonómicas y locales en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-2-a",
+          "title": "Volumen de remesas enviadas al extranjero",
+          "description": "Volumen de remesas enviadas al extranjero",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-2-b",
+          "title": "Volumen de remesas enviadas al extranjero en proporción al PIB",
+          "description": "Volumen de remesas enviadas al extranjero en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-3-2-b",
+          "status": "complete"
+        },
+        {
           "id": "17-8-1-a",
           "title": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
           "description": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/17-8-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-19-2a-a",
+          "title": "Se ha realizado al menos un censo de población y vivienda en los últimos diez años",
+          "description": "Se ha realizado al menos un censo de población y vivienda en los últimos diez años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-19-2a-a",
           "status": "complete"
         }]
     }
