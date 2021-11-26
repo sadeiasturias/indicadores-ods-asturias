@@ -718,6 +718,14 @@
           "status": "complete"
         },
         {
+          "id": "8-10-2-a",
+          "title": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
+          "description": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-10-2-a",
+          "status": "complete"
+        },
+        {
           "id": "8-b-1-a",
           "title": "Gasto de las administraciones públicas autonómicas en fomento del empleo",
           "description": "Gasto de las administraciones públicas autonómicas en fomento del empleo",
@@ -731,14 +739,6 @@
           "description": "Proporción del gasto de las administraciones públicas autonómicas en fomento del empleo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-b-1-b",
-          "status": "complete"
-        },
-        {
-          "id": "8-10-2-a",
-          "title": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
-          "description": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-10-2-a",
           "status": "complete"
         }]
     }
