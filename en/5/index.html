@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -19,11 +19,23 @@ var opensdg = {
     this.chartConfigAlterations.push(callback);
   },
 
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
   // A hook which can be replaced to alter whether/how the values that are
   // displayed on indicator tables/graphs get rounded.
   dataRounding: function(value) {
     // Alterations go here.
     return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
   },
 
   language: 'en',
@@ -90,11 +102,10 @@ var translations = {
         <!-- Title and meta description
         ================================================== -->
 
-        <title>
-          
-            Goal 5 - Gender equality
-          
-        </title>
+        
+    <title>Goal 5 - Gender equality - Indicadores de Asturias de los Objetivos de Desarrollo Sostenible</title>
+
+
 
         <meta name="description" content="">
         <meta property="og:description" content="">
@@ -120,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/indicadores-ods-asturias/assets/css/style.css?v=20211130011628">
+        <link rel="stylesheet" href="/indicadores-ods-asturias/assets/css/style.css?v=20211201102940">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -133,6 +144,7 @@ var translations = {
     </head>
 <body class="language-en layout-goal-by-target">
 <!-- <div class="container"> -->
+
 
 <script>translations['header'] = {"alpha":"Beta","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
@@ -190,21 +202,35 @@ var translations = {
           <button data-target="menu-mobile" aria-expanded="false">Menu</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/">Goals</a>
-    </li><li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/about">About</a>
-    </li><li class="language-toggle-menu-header">
-    <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
-  <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
-  <i class="language-toggle fa fa-chevron-down"></i>
-  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
-</a>
+</li><li class="language-toggle-menu-header">
+    
 
-<ul class="language-options language-toggle"><li><a href="/indicadores-ods-asturias/5/">Español</a></li></ul>
 
-</li></ul>
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/indicadores-ods-asturias/5/">
+              Español
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+</ul>
 
         </li>
         <li id="searchToggle"
@@ -213,9 +239,9 @@ var translations = {
           <button data-target="search-mobile" aria-expanded="false">Search</button>
           <div id="search-mobile" class="menu-target">
   <form action="/indicadores-ods-asturias/en/search">
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" />
     <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -224,30 +250,44 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/indicadores-ods-asturias/en/search">
-    <input type="text" name="q" id="indicator_search" title="Search" />
     <label class="sr-only" for="indicator_search">Search</label>
-    <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/">Goals</a>
-    </li><li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
+</li><li class="nav-link ">
     <a href="/indicadores-ods-asturias/en/about">About</a>
-    </li><li class="language-toggle-menu-header">
-    <a class="language-toggle-button" onclick="$(this).next('.language-toggle').toggle(); return false;">
-  <i class="fa fa-globe"></i>
-  <span class="language-toggle-text">English</span>
-  <i class="language-toggle fa fa-chevron-down"></i>
-  <i class="language-toggle fa fa-chevron-up" style="display:none;"></i>
-</a>
+</li><li class="language-toggle-menu-header">
+    
 
-<ul class="language-options language-toggle"><li><a href="/indicadores-ods-asturias/5/">Español</a></li></ul>
 
-</li></ul>
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown ">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li>
+            <a href="/indicadores-ods-asturias/5/">
+              Español
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+</li>
+</ul>
 
 
     </nav>
@@ -257,11 +297,23 @@ var translations = {
 <div id="top" tabindex=-1></div>
 
 
+
+<div class="container">
+  <ol class="breadcrumb">
+  
+  <li><a href="/indicadores-ods-asturias/en/">Home</a></li>
+  <li class="active">Goal 5</li>
+  
+</ol>
+
+  
+</div>
+
 <div class="heading goal-banner goal-5">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2">
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" />
+      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
+        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" id="goal-5" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -272,14 +324,11 @@ var translations = {
   </div>
 </div>
 
-<div id="main-content" class="container goal-indicators goal-5 goal-by-target">
+<div id="main-content" class="container goal-indicators goal-5 goal-by-target" role="main">
 
   
 
-  <ol class="breadcrumb">
-    <li><a href="/indicadores-ods-asturias/en/">Home</a></li>
-    <li class="active">Goal 5</li>
-  </ol>
+
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
@@ -294,7 +343,7 @@ var translations = {
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Target</label>
         5.3
       </span>
@@ -313,23 +362,24 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <a href="/indicadores-ods-asturias/en/5-3-1-a">
-          <span>
-            5.3.1.a
-            <span class="status complete">
-              Available
-            </span>
+        <span class="indicator-card-number">
+          5.3.1.a
+          <span class="status complete">
+            Available
           </span>
+        </span>
+        <a href="/indicadores-ods-asturias/en/5-3-1-a">
           Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre
-          
         </a>
+        
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Target</label>
         5.4
       </span>
@@ -348,23 +398,24 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <a href="/indicadores-ods-asturias/en/5-4-1-a">
-          <span>
-            5.4.1.a
-            <span class="status complete">
-              Available
-            </span>
+        <span class="indicator-card-number">
+          5.4.1.a
+          <span class="status complete">
+            Available
           </span>
-          Tiempo dedicado al hogar y familia en un día promedio
-          
+        </span>
+        <a href="/indicadores-ods-asturias/en/5-4-1-a">
+          Tiempo dedicado al hogar y familia en un día promedio según sexo
         </a>
+        
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Target</label>
         5.5
       </span>
@@ -383,16 +434,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          5.5.2.a
+          <span class="status complete">
+            Available
+          </span>
+        </span>
         <a href="/indicadores-ods-asturias/en/5-5-2-a">
-          <span>
-            5.5.2.a
-            <span class="status complete">
-              Available
-            </span>
-          </span>
           Proportion of women in managerial positions
-          
         </a>
+        
+
       </div>
     
 
@@ -406,16 +458,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          5.5.2.b
+          <span class="status complete">
+            Available
+          </span>
+        </span>
         <a href="/indicadores-ods-asturias/en/5-5-2-b">
-          <span>
-            5.5.2.b
-            <span class="status complete">
-              Available
-            </span>
-          </span>
           Proporción de mujeres en alta dirección
-          
         </a>
+        
+
       </div>
     
 
@@ -429,23 +482,24 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <a href="/indicadores-ods-asturias/en/5-5-2-c">
-          <span>
-            5.5.2.c
-            <span class="status complete">
-              Available
-            </span>
+        <span class="indicator-card-number">
+          5.5.2.c
+          <span class="status complete">
+            Available
           </span>
+        </span>
+        <a href="/indicadores-ods-asturias/en/5-5-2-c">
           Proporción de mujeres empresarias
-          
         </a>
+        
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Target</label>
         5.a
       </span>
@@ -464,16 +518,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          5.a.1a.a
+          <span class="status complete">
+            Available
+          </span>
+        </span>
         <a href="/indicadores-ods-asturias/en/5-a-1a-a">
-          <span>
-            5.a.1a.a
-            <span class="status complete">
-              Available
-            </span>
-          </span>
-          Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura
-          
+          Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura según sexo
         </a>
+        
+
       </div>
     
 
@@ -487,16 +542,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          5.a.1b.a
+          <span class="status complete">
+            Available
+          </span>
+        </span>
         <a href="/indicadores-ods-asturias/en/5-a-1b-a">
-          <span>
-            5.a.1b.a
-            <span class="status complete">
-              Available
-            </span>
-          </span>
           Proporción de mujeres titulares de explotaciones agrícolas, respecto al total de titulares de explotaciones agrícolas
-          
         </a>
+        
+
       </div>
     
 
@@ -510,16 +566,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
+        <span class="indicator-card-number">
+          5.a.1b.b
+          <span class="status complete">
+            Available
+          </span>
+        </span>
         <a href="/indicadores-ods-asturias/en/5-a-1b-b">
-          <span>
-            5.a.1b.b
-            <span class="status complete">
-              Available
-            </span>
-          </span>
           Proporción de mujeres titulares de explotaciones agrícolas en propiedad, respecto al total de titulares de explotaciones agrícolas en propiedad
-          
         </a>
+        
+
       </div>
     
 
@@ -533,23 +590,24 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <a href="/indicadores-ods-asturias/en/5-a-1b-c">
-          <span>
-            5.a.1b.c
-            <span class="status complete">
-              Available
-            </span>
+        <span class="indicator-card-number">
+          5.a.1b.c
+          <span class="status complete">
+            Available
           </span>
+        </span>
+        <a href="/indicadores-ods-asturias/en/5-a-1b-c">
           Proporción de mujeres titulares de explotaciones agrícolas en arrendamiento, respecto al total de titulares de explotaciones agrícolas en arrendamiento
-          
         </a>
+        
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Target</label>
         5.b
       </span>
@@ -568,16 +626,17 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <a href="/indicadores-ods-asturias/en/5-b-1-a">
-          <span>
-            5.b.1.a
-            <span class="status complete">
-              Available
-            </span>
+        <span class="indicator-card-number">
+          5.b.1.a
+          <span class="status complete">
+            Available
           </span>
-          Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses
-          
+        </span>
+        <a href="/indicadores-ods-asturias/en/5-b-1-a">
+          Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses según sexo
         </a>
+        
+
       </div>
     
     </div>
@@ -592,32 +651,28 @@ var translations = {
           <ul>
             <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
             
-              
-                <li>
+              <li>
                 
                   <a href="mailto:info@sadei.es" target="_blank">Contact us</a>
                 
                 </li>
-              
-                <li>
+              <li>
                 
                   <a href="https://twitter.com/sadeiAsturias" target="_blank">Twitter</a>
                 
                 </li>
-              
-                <li>
+              <li>
                 
                   <a href="https://www.facebook.com/sadeiAsturias" target="_blank">Facebook</a>
                 
                 </li>
-              
-                <li>
+              <li>
                 <a href="/indicadores-ods-asturias/en/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
-          </ul>
+            </ul>
         </div>
       </div>
     </div>
@@ -635,9 +690,10 @@ var translations = {
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
@@ -648,7 +704,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/indicadores-ods-asturias/assets/js/sdg.js?v=20211130011628'></script><script src="/indicadores-ods-asturias/assets/js/custom.js?v=20211130011628"></script><script>
+<script src='/indicadores-ods-asturias/assets/js/sdg.js?v=20211201102940'></script>
+
+
+    
+    
+    <script src="/indicadores-ods-asturias/assets/js/custom.js?v=20211201102940"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -681,19 +742,20 @@ $(function() {
               chartTitle: domData.charttitle,
               chartTitles: domData.charttitles,
               measurementUnit: domData.measurementunit,
-              copyright: domData.copyright,
-              dataSource: domData.datasource,
-              geographicalArea: domData.geographicalarea,
               showData: domData.showdata,
-              footnote: domData.footnote,
               graphType: domData.graphtype,
               startValues: domData.startvalues,
               graphLimits: domData.graphlimits,
               stackedDisaggregation: domData.stackeddisaggregation,
+              graphAnnotations: domData.graphannotations,
+              indicatorDownloads: domData.indicatordownloads,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
               legendElement: '#plotLegend',
+              decimalSeparator: ',',
               maxChartHeight: 420,
               tableColumnDefs: [
                 { maxCharCount: 25 }, // nowrap

@@ -359,8 +359,8 @@
         
         {
           "id": "4-2-2-a",
-          "title": "Tasa neta de escolarización a los 5 años",
-          "description": "Tasa neta de escolarización a los 5 años",
+          "title": "Tasa neta de escolarización a los 5 años según sexo",
+          "description": "Tasa neta de escolarización a los 5 años según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-2-2-a",
           "status": "complete"
@@ -463,16 +463,16 @@
         },
         {
           "id": "4-6-1-a",
-          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
-          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora según sexo",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-6-1-a",
           "status": "complete"
         },
         {
           "id": "4-6-1-d",
-          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
-          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas según sexo",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-6-1-d",
           "status": "complete"
@@ -527,8 +527,8 @@
         },
         {
           "id": "5-4-1-a",
-          "title": "Tiempo dedicado al hogar y familia en un día promedio",
-          "description": "Tiempo dedicado al hogar y familia en un día promedio",
+          "title": "Tiempo dedicado al hogar y familia en un día promedio según sexo",
+          "description": "Tiempo dedicado al hogar y familia en un día promedio según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-4-1-a",
           "status": "complete"
@@ -559,8 +559,8 @@
         },
         {
           "id": "5-a-1a-a",
-          "title": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
-          "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
+          "title": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura según sexo",
+          "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-a-1a-a",
           "status": "complete"
@@ -591,8 +591,8 @@
         },
         {
           "id": "5-b-1-a",
-          "title": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses",
-          "description": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses",
+          "title": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses según sexo",
+          "description": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses según sexo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/5-b-1-a",
           "status": "complete"
@@ -703,8 +703,8 @@
         },
         {
           "id": "8-5-2-d",
-          "title": "Tasa de desempleo de las personas entre 16 y 64 años",
-          "description": "Tasa de desempleo de las personas entre 16 y 64 años",
+          "title": "Tasa de desempleo de las personas entre 16 y 64 años según diversidad funcional",
+          "description": "Tasa de desempleo de las personas entre 16 y 64 años según diversidad funcional",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-5-2-d",
           "status": "complete"
@@ -1023,16 +1023,16 @@
         },
         {
           "id": "13-2-2-c",
-          "title": "Emisiones de gases de efecto invernadero respecto al año 1990",
-          "description": "Emisiones de gases de efecto invernadero respecto al año 1990",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 1990 (tasa de variación)",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 1990 (tasa de variación)",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/13-2-2-c",
           "status": "complete"
         },
         {
           "id": "13-2-2-d",
-          "title": "Emisiones de gases de efecto invernadero respecto al año 2005",
-          "description": "Emisiones de gases de efecto invernadero respecto al año 2005",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 2005 (tasa de variación)",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 2005 (tasa de variación)",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/13-2-2-d",
           "status": "complete"
