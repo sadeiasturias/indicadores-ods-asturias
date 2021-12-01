@@ -6,6 +6,10 @@
 $status-backgroundColor-complete: #5cb85c;
 $status-backgroundColor-inprogress: #f0ad4e;
 
+$focusBackgroundColor: white; //#ffdd00 !default;
+$focusOutlineColor: white; //#ffdd00 !default;
+//$focusColor: #0b0c0c !default;
+
 // Alternatively, set the following in custom.css:
 // .complete { color: #5cb85c; }
 // .inprogress { color: #f0ad4e; }
@@ -18,3 +22,4 @@ $status-backgroundColor-inprogress: #f0ad4e;
 //$backgroundColor: white;
 //$link-color: #337ab7;
 //$footer-text-color: #000000;
+

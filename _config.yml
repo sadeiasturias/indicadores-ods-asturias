@@ -35,7 +35,7 @@ graph_color_set: accessible
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG.
-remote_theme: open-sdg/open-sdg@1.1.0  #open-sdg@1.1.0
+remote_theme: open-sdg/open-sdg@1.3.1  #open-sdg@1.1.0
 
 # Automatically create indicator pages, goal pages,
 # and some other required pages.
@@ -46,7 +46,7 @@ create_goals:
 create_pages:
   pages:
     - folder: /
-      layout: goals #frontpage-alt
+      layout: frontpage #frontpage-alt
     #- folder: /goals
     #  layout: goals
     - folder: /reporting-status
@@ -165,9 +165,9 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
-  - jekyll-remote-theme
-  #- jekyll-get-json
+  - jekyll-remote-theme  
   - jekyll-open-sdg-plugins
+  #- jekyll-get-json
 
 
 # Apply any custom Javascript.

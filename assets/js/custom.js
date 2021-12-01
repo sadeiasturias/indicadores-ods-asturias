@@ -1,13 +1,14 @@
+/*
+// Used in opensdg version 1.1:
 opensdg.dataRounding = function(value) {
   if (value == null) {
     return value
   }
   else {
-    return value.toFixed(1)
-    // Returns a character (e.g. "13.0").
-    // For mose reason, "0.0" is still shown as "0" in tables on the web.
+    return value.toFixed(1) // Returns a character (e.g. "13.0")
   }
 };
+*/
 
 // Charting library jqPlot seems not to accept comma as a decimal separator,
 // we therefore cannot use the following:
