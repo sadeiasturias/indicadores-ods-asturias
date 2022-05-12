@@ -222,6 +222,22 @@
           "status": "complete"
         },
         {
+          "id": "3-5-1-a",
+          "title": "Número de admisiones a tratamiento por abuso o dependencia de drogas ilegales por cada 100.000 habitantes",
+          "description": "Número de admisiones a tratamiento por abuso o dependencia de drogas ilegales por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/3-5-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-1-d",
+          "title": "Número de admisiones a tratamiento por abuso o dependencia de alcohol por cada 100.000 habitantes",
+          "description": "Número de admisiones a tratamiento por abuso o dependencia de alcohol por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/3-5-1-d",
+          "status": "complete"
+        },
+        {
           "id": "3-6-1-a",
           "title": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
           "description": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
@@ -359,8 +375,8 @@
         
         {
           "id": "4-2-2-a",
-          "title": "Tasa neta de escolarización a los 5 años según sexo",
-          "description": "Tasa neta de escolarización a los 5 años según sexo",
+          "title": "Tasa neta de escolarización a los 5 años",
+          "description": "Tasa neta de escolarización a los 5 años",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-2-2-a",
           "status": "complete"
@@ -399,24 +415,24 @@
         },
         {
           "id": "4-4-1-a",
-          "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
-          "description": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática",
+          "description": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-4-1-a",
           "status": "complete"
         },
         {
           "id": "4-4-1-b",
-          "title": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática en los últimos 12 meses",
-          "description": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "title": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática",
+          "description": "Proporción de personas entre 16 y 24 años que han utilizado alguna habilidad informática",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-4-1-b",
           "status": "complete"
         },
         {
           "id": "4-4-1-c",
-          "title": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
-          "description": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática en los últimos 12 meses",
+          "title": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática",
+          "description": "Proporción de personas entre 25 y 74 años que han utilizado alguna habilidad informática",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-4-1-c",
           "status": "complete"
@@ -455,26 +471,74 @@
         },
         {
           "id": "4-5-1-e",
-          "title": "Índice de paridad entre personas residentes en municipios de 10.000 o menos habitantes y residentes en municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
-          "description": "Índice de paridad entre personas residentes en municipios de 10.000 o menos habitantes y residentes en municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
+          "title": "Índice de paridad entre personas residentes en municipios de menos de 10.000 habitantes y residentes en municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
+          "description": "Índice de paridad entre personas residentes en municipios de menos de 10.000 habitantes y residentes en municipios de más de 10.000 habitantes de la población entre 15 y 64 años que ha realizado estudios o formación en las últimas cuatro semanas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-5-1-e",
           "status": "complete"
         },
         {
           "id": "4-6-1-a",
-          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora según sexo",
-          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora según sexo",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de comprensión lectora",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-6-1-a",
           "status": "complete"
         },
         {
           "id": "4-6-1-d",
-          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas según sexo",
-          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas según sexo",
+          "title": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
+          "description": "Proporción de personas entre 16 y 65 años que han alcanzado al menos el nivel 2 de competencia en la escala de matemáticas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/4-6-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-a",
+          "title": "Proporción de centros educativos no universitarios con acceso a electricidad",
+          "description": "Proporción de centros educativos no universitarios con acceso a electricidad",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-b",
+          "title": "Proporción de centros educativos no universitarios con acceso a suministro básico de agua potable",
+          "description": "Proporción de centros educativos no universitarios con acceso a suministro básico de agua potable",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-c",
+          "title": "Proporción de centros educativos no universitarios con acceso a instalaciones de saneamiento básicas separadas por sexo",
+          "description": "Proporción de centros educativos no universitarios con acceso a instalaciones de saneamiento básicas separadas por sexo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-d",
+          "title": "Proporción de centros educativos no universitarios con acceso a instalaciones básicas para el lavado de manos",
+          "description": "Proporción de centros educativos no universitarios con acceso a instalaciones básicas para el lavado de manos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-e",
+          "title": "Proporción de aulas habituales de clase con conexión a Internet en centros educativos no universitarios",
+          "description": "Proporción de aulas habituales de clase con conexión a Internet en centros educativos no universitarios",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-f",
+          "title": "Alumnado medio por ordenador destinado a tareas de enseñanza y aprendizaje en centros educativos no universitarios",
+          "description": "Alumnado medio por ordenador destinado a tareas de enseñanza y aprendizaje en centros educativos no universitarios",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/4-a-1-f",
           "status": "complete"
         },
         {
@@ -527,8 +591,8 @@
         },
         {
           "id": "5-4-1-a",
-          "title": "Tiempo dedicado al hogar y familia en un día promedio según sexo",
-          "description": "Tiempo dedicado al hogar y familia en un día promedio según sexo",
+          "title": "Tiempo dedicado al hogar y familia en un día promedio",
+          "description": "Tiempo dedicado al hogar y familia en un día promedio",
           "keywords": "",
           "href": "/indicadores-ods-asturias/5-4-1-a",
           "status": "complete"
@@ -559,8 +623,8 @@
         },
         {
           "id": "5-a-1a-a",
-          "title": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura según sexo",
-          "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura según sexo",
+          "title": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
+          "description": "Proporción de titulares de explotaciones agrícolas, respecto al total de personas trabajadoras en la agricultura",
           "keywords": "",
           "href": "/indicadores-ods-asturias/5-a-1a-a",
           "status": "complete"
@@ -591,8 +655,8 @@
         },
         {
           "id": "5-b-1-a",
-          "title": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses según sexo",
-          "description": "Proporción de personas entre 16 y 74 años que han usado el móvil en los últimos tres meses según sexo",
+          "title": "Proporción de personas entre 16 y 74 años que utilizan el teléfono móvil",
+          "description": "Proporción de personas entre 16 y 74 años que utilizan el teléfono móvil",
           "keywords": "",
           "href": "/indicadores-ods-asturias/5-b-1-a",
           "status": "complete"
@@ -687,24 +751,24 @@
         },
         {
           "id": "8-5-1-a",
-          "title": "Ingreso medio por hora de trabajo según sexo y diversidad funcional",
-          "description": "Ingreso medio por hora de trabajo según sexo y diversidad funcional",
+          "title": "Ingreso medio por hora de trabajo",
+          "description": "Ingreso medio por hora de trabajo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/8-5-1-a",
           "status": "complete"
         },
         {
           "id": "8-5-2-a",
-          "title": "Tasa de desempleo según sexo",
-          "description": "Tasa de desempleo según sexo",
+          "title": "Tasa de desempleo",
+          "description": "Tasa de desempleo",
           "keywords": "",
           "href": "/indicadores-ods-asturias/8-5-2-a",
           "status": "complete"
         },
         {
           "id": "8-5-2-d",
-          "title": "Tasa de desempleo de las personas entre 16 y 64 años según diversidad funcional",
-          "description": "Tasa de desempleo de las personas entre 16 y 64 años según diversidad funcional",
+          "title": "Tasa de desempleo de las personas entre 16 y 64 años",
+          "description": "Tasa de desempleo de las personas entre 16 y 64 años",
           "keywords": "",
           "href": "/indicadores-ods-asturias/8-5-2-d",
           "status": "complete"
@@ -715,6 +779,38 @@
           "description": "Proporción de jóvenes entre 15 y 24 años que no cursan estudios, no están empleados ni reciben formación",
           "keywords": "",
           "href": "/indicadores-ods-asturias/8-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-3-a",
+          "title": "Pernoctaciones de turistas por habitante",
+          "description": "Pernoctaciones de turistas por habitante",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-9-1-3-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-3-b",
+          "title": "Pernoctaciones de turistas no residentes por habitante",
+          "description": "Pernoctaciones de turistas no residentes por habitante",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-9-1-3-b",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-4-a",
+          "title": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
+          "description": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-9-1-4-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-4-b",
+          "title": "Proporción de pernoctaciones de turistas no residentes en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas no residentes",
+          "description": "Proporción de pernoctaciones de turistas no residentes en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas no residentes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-9-1-4-b",
           "status": "complete"
         },
         {
@@ -1023,16 +1119,16 @@
         },
         {
           "id": "13-2-2-c",
-          "title": "Emisiones de gases de efecto invernadero respecto al año 1990 (tasa de variación)",
-          "description": "Emisiones de gases de efecto invernadero respecto al año 1990 (tasa de variación)",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 1990",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 1990",
           "keywords": "",
           "href": "/indicadores-ods-asturias/13-2-2-c",
           "status": "complete"
         },
         {
           "id": "13-2-2-d",
-          "title": "Emisiones de gases de efecto invernadero respecto al año 2005 (tasa de variación)",
-          "description": "Emisiones de gases de efecto invernadero respecto al año 2005 (tasa de variación)",
+          "title": "Emisiones de gases de efecto invernadero respecto al año 2005",
+          "description": "Emisiones de gases de efecto invernadero respecto al año 2005",
           "keywords": "",
           "href": "/indicadores-ods-asturias/13-2-2-d",
           "status": "complete"
@@ -1107,6 +1203,118 @@
           "description": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/16-3-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-a",
+          "title": "Ratio de la proporción de mujeres en el sector público respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en el sector público respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-b",
+          "title": "Ratio de la proporción de mujeres en el sector público estatal respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en el sector público estatal respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-c",
+          "title": "Ratio de la proporción de mujeres en las Fuerzas y Cuerpos de Seguridad del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en las Fuerzas y Cuerpos de Seguridad del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-d",
+          "title": "Ratio de la proporción de mujeres en las Fuerzas Armadas respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en las Fuerzas Armadas respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-e",
+          "title": "Ratio de la proporción de mujeres en la Administración de Justicia del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en la Administración de Justicia del Estado respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-f",
+          "title": "Ratio de la proporción de mujeres en el sector público autonómico respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en el sector público autonómico respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-f",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-g",
+          "title": "Ratio de la proporción de mujeres en los cuerpos de policía autonómicos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en los cuerpos de policía autonómicos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-g",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-h",
+          "title": "Ratio de la proporción de mujeres en la Administración de Justicia Autonómica respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en la Administración de Justicia Autonómica respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-h",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-i",
+          "title": "Ratio de la proporción de mujeres en los centros educativos no universitarios autonómicos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en los centros educativos no universitarios autonómicos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-i",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-j",
+          "title": "Ratio de la proporción de mujeres en las instituciones sanitarias autonómicas respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en las instituciones sanitarias autonómicas respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-j",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-k",
+          "title": "Ratio de la proporción de mujeres en el sector público local respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en el sector público local respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-k",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-l",
+          "title": "Ratio de la proporción de mujeres en los ayuntamientos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en los ayuntamientos respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-l",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-m",
+          "title": "Ratio de la proporción de mujeres en las diputaciones, cabildos y consejos insulares respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en las diputaciones, cabildos y consejos insulares respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-m",
+          "status": "complete"
+        },
+        {
+          "id": "16-7-1-n",
+          "title": "Ratio de la proporción de mujeres en las universidades respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "description": "Ratio de la proporción de mujeres en las universidades respecto a la proporción de mujeres en la población entre 16 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-7-1-n",
           "status": "complete"
         }]
     }
