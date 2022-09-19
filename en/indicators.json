@@ -102,6 +102,14 @@
           "status": "complete"
         },
         {
+          "id": "1-5-2-a",
+          "title": "Indemnizaciones por daños personales, pérdidas pecuniarias y daños de bienes pagadas o provisionadas en proporción al PIB",
+          "description": "Indemnizaciones por daños personales, pérdidas pecuniarias y daños de bienes pagadas o provisionadas en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/1-5-2-a",
+          "status": "complete"
+        },
+        {
           "id": "1-a-2-a",
           "title": "Proportion of total government spending on essential services, education (%)",
           "description": "Proportion of total government spending on essential services, education (%)",
@@ -179,6 +187,38 @@
           "description": "Neonatal mortality rate",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/3-2-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-1-a",
+          "title": "Incidencia de los nuevos diagnósticos de VIH",
+          "description": "Incidencia de los nuevos diagnósticos de VIH",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-3-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-2-a",
+          "title": "Incidencia de la tuberculosis",
+          "description": "Incidencia de la tuberculosis",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-3-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-3-a",
+          "title": "Incidencia de la malaria",
+          "description": "Incidencia de la malaria",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-3-3-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-4-a",
+          "title": "Incidencia de la hepatitis B",
+          "description": "Incidencia de la hepatitis B",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-3-4-a",
           "status": "complete"
         },
         {
@@ -598,6 +638,38 @@
           "status": "complete"
         },
         {
+          "id": "5-5-1-a",
+          "title": "Proporción de escaños ocupados por mujeres en los parlamentos autonómicos",
+          "description": "Proporción de escaños ocupados por mujeres en los parlamentos autonómicos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-5-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "5-5-1-b",
+          "title": "Proporción de consejerías ocupadas por mujeres en los gobiernos autonómicos",
+          "description": "Proporción de consejerías ocupadas por mujeres en los gobiernos autonómicos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-5-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "5-5-1-c",
+          "title": "Proporción de alcaldías ocupadas por mujeres en los gobiernos locales",
+          "description": "Proporción de alcaldías ocupadas por mujeres en los gobiernos locales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-5-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "5-5-1-d",
+          "title": "Proporción de concejalías ocupadas por mujeres en los gobiernos locales",
+          "description": "Proporción de concejalías ocupadas por mujeres en los gobiernos locales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/5-5-1-d",
+          "status": "complete"
+        },
+        {
           "id": "5-5-2-a",
           "title": "Proportion of women in managerial positions",
           "description": "Proportion of women in managerial positions",
@@ -814,6 +886,14 @@
           "status": "complete"
         },
         {
+          "id": "8-10-1-a",
+          "title": "Número de sucursales de bancos comerciales por cada 100.000 habitantes de 15 y más años",
+          "description": "Número de sucursales de bancos comerciales por cada 100.000 habitantes de 15 y más años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-10-1-a",
+          "status": "complete"
+        },
+        {
           "id": "8-10-2-a",
           "title": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
           "description": "Proporción de personas entre 18 y 79 años que tienen una cuenta corriente",
@@ -939,6 +1019,22 @@
           "description": "Researchers (in full-time equivalent) per million inhabitants",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/9-5-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-1-a",
+          "title": "Proporción de hogares cubiertos con redes móviles 3,5G",
+          "description": "Proporción de hogares cubiertos con redes móviles 3,5G",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-c-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "9-c-1-b",
+          "title": "Proporción de hogares cubiertos con redes móviles 4G",
+          "description": "Proporción de hogares cubiertos con redes móviles 4G",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-c-1-b",
           "status": "complete"
         }]
     }
@@ -1084,6 +1180,22 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/12-0",
           "status": "notstarted"
+        },
+        {
+          "id": "12-6-1-a",
+          "title": "Número de licencias de Etiqueta Ecológica Europea",
+          "description": "Número de licencias de Etiqueta Ecológica Europea",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/12-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "12-6-1-b",
+          "title": "Número de organizaciones con Sistema comunitario de gestión y auditoría medioambiental",
+          "description": "Número de organizaciones con Sistema comunitario de gestión y auditoría medioambiental",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/12-6-1-b",
+          "status": "complete"
         }]
     }
   },
@@ -1195,6 +1307,14 @@
           "description": "Proportion of population that feel safe walking alone around the area they live",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-1-4-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-2-2-a",
+          "title": "Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes",
+          "description": "Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-2-2-a",
           "status": "complete"
         },
         {
@@ -1316,6 +1436,14 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-7-1-n",
           "status": "complete"
+        },
+        {
+          "id": "16-9-1-a",
+          "title": "Proporción de menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil",
+          "description": "Proporción de menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-9-1-a",
+          "status": "complete"
         }]
     }
   },
@@ -1403,6 +1531,30 @@
           "description": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/17-8-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-18-2-a",
+          "title": "La legislación sobre estadísticas cumple los Principios Fundamentales de las Estadísticas Oficiales",
+          "description": "La legislación sobre estadísticas cumple los Principios Fundamentales de las Estadísticas Oficiales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-18-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-18-3-a",
+          "title": "Se dispone de un plan estadístico autonómico plenamente financiado y en fase de aplicación",
+          "description": "Se dispone de un plan estadístico autonómico plenamente financiado y en fase de aplicación",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-18-3-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-19-2-a",
+          "title": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
+          "description": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-19-2-a",
           "status": "complete"
         },
         {
