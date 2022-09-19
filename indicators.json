@@ -1174,14 +1174,6 @@
       "indicators": [
         
         {
-          "id": "12-0",
-          "title": "Los indicadores para este objetivo aún no están disponibles",
-          "description": "",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/12-0",
-          "status": "notstarted"
-        },
-        {
           "id": "12-6-1-a",
           "title": "Número de licencias de Etiqueta Ecológica Europea",
           "description": "Número de licencias de Etiqueta Ecológica Europea",
@@ -1550,19 +1542,19 @@
           "status": "complete"
         },
         {
-          "id": "17-19-2-a",
-          "title": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
-          "description": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
-          "keywords": "",
-          "href": "/indicadores-ods-asturias/17-19-2-a",
-          "status": "complete"
-        },
-        {
           "id": "17-19-2a-a",
           "title": "Se ha realizado al menos un censo de población y vivienda en los últimos diez años",
           "description": "Se ha realizado al menos un censo de población y vivienda en los últimos diez años",
           "keywords": "",
           "href": "/indicadores-ods-asturias/17-19-2a-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-19-2b-a",
+          "title": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
+          "description": "Se ha registrado el 100% de los nacimientos y al menos el 80% de las defunciones",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/17-19-2b-a",
           "status": "complete"
         }]
     }
