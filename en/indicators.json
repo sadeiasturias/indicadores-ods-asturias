@@ -278,6 +278,14 @@
           "status": "complete"
         },
         {
+          "id": "3-5-2-a",
+          "title": "Consumo anual de alcohol registrado en litros de alcohol puro por persona de 15 y más años",
+          "description": "Consumo anual de alcohol registrado en litros de alcohol puro por persona de 15 y más años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/3-5-2-a",
+          "status": "complete"
+        },
+        {
           "id": "3-6-1-a",
           "title": "Death rate due to road traffic injuries",
           "description": "Death rate due to road traffic injuries",
@@ -413,6 +421,22 @@
       "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
       "indicators": [
         
+        {
+          "id": "4-1-1-a",
+          "title": "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura",
+          "description": "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en lectura",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "4-1-1-d",
+          "title": "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas",
+          "description": "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-1-1-d",
+          "status": "complete"
+        },
         {
           "id": "4-2-2-a",
           "title": "Tasa neta de escolarización a los 5 años",
@@ -1126,11 +1150,27 @@
           "status": "complete"
         },
         {
+          "id": "11-3-2-a",
+          "title": "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbana que funcione con regularidad y democráticamente",
+          "description": "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbana que funcione con regularidad y democráticamente",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-3-2-a",
+          "status": "complete"
+        },
+        {
           "id": "11-5-1-a",
           "title": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/11-5-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "11-5-2-a",
+          "title": "Indemnizaciones por daños personales, pérdidas pecuniarias y daños de bienes pagadas o provisionadas en proporción al PIB",
+          "description": "Indemnizaciones por daños personales, pérdidas pecuniarias y daños de bienes pagadas o provisionadas en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-5-2-a",
           "status": "complete"
         },
         {
@@ -1283,6 +1323,14 @@
           "description": "Proporción de la superficie forestal con instrumentos de gestión sostenible vigentes",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/15-2-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "15-8-1-a",
+          "title": "Se dispone de legislación pertinente y se destinan recursos para la prevención o el control de las especies exóticas invasoras",
+          "description": "Se dispone de legislación pertinente y se destinan recursos para la prevención o el control de las especies exóticas invasoras",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/15-8-1-a",
           "status": "complete"
         }]
     }
