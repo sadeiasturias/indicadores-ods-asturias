@@ -1486,6 +1486,38 @@
           "status": "complete"
         },
         {
+          "id": "16-2-2-b",
+          "title": "Número de víctimas detectadas de tráfico de personas para explotación sexual por cada 100.000 habitantes",
+          "description": "Número de víctimas detectadas de tráfico de personas para explotación sexual por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-2-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "16-2-2-c",
+          "title": "Número de víctimas detectadas de tráfico de personas para explotación laboral por cada 100.000 habitantes",
+          "description": "Número de víctimas detectadas de tráfico de personas para explotación laboral por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-2-2-c",
+          "status": "complete"
+        },
+        {
+          "id": "16-2-2-d",
+          "title": "Número de víctimas detectadas de tráfico de personas para la obtención de órganos por cada 100.000 habitantes",
+          "description": "Número de víctimas detectadas de tráfico de personas para la obtención de órganos por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-2-2-d",
+          "status": "complete"
+        },
+        {
+          "id": "16-2-2-e",
+          "title": "Número de víctimas detectadas de tráfico de personas para otros fines (matrimonios forzados, criminalidad forzada o mendicidad) por cada 100.000 habitantes",
+          "description": "Número de víctimas detectadas de tráfico de personas para otros fines (matrimonios forzados, criminalidad forzada o mendicidad) por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-2-2-e",
+          "status": "complete"
+        },
+        {
           "id": "16-3-2-a",
           "title": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
           "description": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
@@ -1499,6 +1531,78 @@
           "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-6-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-b",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de enseñanza",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de enseñanza",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-c",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de asistencia sanitaria",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de asistencia sanitaria",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-c",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-d",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de gestión de pensiones",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de gestión de pensiones",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-d",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-e",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de administración de justicia",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de administración de justicia",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-e",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-f",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de seguridad ciudadana",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de seguridad ciudadana",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-f",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-g",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de servicios sociales",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de servicios sociales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-g",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-h",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de transporte público",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de transporte público",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-h",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-i",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de obras públicas",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de obras públicas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-i",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-j",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de ayuda a personas dependientes",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos en materia de ayuda a personas dependientes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-j",
           "status": "complete"
         },
         {
@@ -1707,6 +1811,38 @@
           "description": "Número de líneas de banda ancha fija por cada 100 habitantes",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/17-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-6-1-b",
+          "title": "Número de líneas de banda ancha fija con tecnología de acceso DSL por cada 100 habitantes",
+          "description": "Número de líneas de banda ancha fija con tecnología de acceso DSL por cada 100 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-6-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "17-6-1-c",
+          "title": "Número de líneas de banda ancha fija con tecnología de acceso HFC por cada 100 habitantes",
+          "description": "Número de líneas de banda ancha fija con tecnología de acceso HFC por cada 100 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-6-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "17-6-1-d",
+          "title": "Número de líneas de banda ancha fija con tecnología de acceso FTTH por cada 100 habitantes",
+          "description": "Número de líneas de banda ancha fija con tecnología de acceso FTTH por cada 100 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-6-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "17-6-1-e",
+          "title": "Número de líneas de banda ancha fija con otra tecnología de acceso por cada 100 habitantes",
+          "description": "Número de líneas de banda ancha fija con otra tecnología de acceso por cada 100 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-6-1-e",
           "status": "complete"
         },
         {
