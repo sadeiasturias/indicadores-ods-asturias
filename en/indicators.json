@@ -55,8 +55,8 @@
         },
         {
           "id": "1-2-2-c",
-          "title": "Proporción de personas viviendo en hogares con carencia material severa",
-          "description": "Proporción de personas viviendo en hogares con carencia material severa",
+          "title": "Proporción de personas en situación de carencia material y social severa",
+          "description": "Proporción de personas en situación de carencia material y social severa",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/1-2-2-c",
           "status": "complete"
@@ -147,6 +147,38 @@
           "description": "Proportion of agricultural area under productive and sustainable agriculture",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/2-4-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "2-4-1-b",
+          "title": "Emisiones de amoníaco de la agricultura y ganadería",
+          "description": "Emisiones de amoníaco de la agricultura y ganadería",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/2-4-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "2-4-1-c",
+          "title": "Emisiones de amoníaco por hectárea de la agricultura y ganadería",
+          "description": "Emisiones de amoníaco por hectárea de la agricultura y ganadería",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/2-4-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "2-c-1-a",
+          "title": "Índice de precios de los alimentos",
+          "description": "Índice de precios de los alimentos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/2-c-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "2-c-1-b",
+          "title": "Índice de precios del pan y los cereales",
+          "description": "Índice de precios del pan y los cereales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/2-c-1-b",
           "status": "complete"
         }]
     }
@@ -435,6 +467,22 @@
           "description": "Proporción de personas de 15 años que han alcanzado al menos el nivel 2 de competencia en matemáticas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-1-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "4-1-2-a",
+          "title": "Proporción de personas entre 18 y 20 años que han completado al menos la primera etapa de enseñanza secundaria",
+          "description": "Proporción de personas entre 18 y 20 años que han completado al menos la primera etapa de enseñanza secundaria",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-1-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "4-1-2-d",
+          "title": "Proporción de personas entre 20 y 22 años que han completado al menos la segunda etapa de enseñanza secundaria",
+          "description": "Proporción de personas entre 20 y 22 años que han completado al menos la segunda etapa de enseñanza secundaria",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-1-2-d",
           "status": "complete"
         },
         {
@@ -879,34 +927,90 @@
         },
         {
           "id": "8-9-1-3-a",
-          "title": "Pernoctaciones de turistas por habitante",
-          "description": "Pernoctaciones de turistas por habitante",
+          "title": "regional_indicators.8-9-1-3-a-title",
+          "description": "regional_indicators.8-9-1-3-a-title",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-9-1-3-a",
           "status": "complete"
         },
         {
           "id": "8-9-1-3-b",
-          "title": "Pernoctaciones de turistas no residentes por habitante",
-          "description": "Pernoctaciones de turistas no residentes por habitante",
+          "title": "regional_indicators.8-9-1-3-b-title",
+          "description": "regional_indicators.8-9-1-3-b-title",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-9-1-3-b",
           "status": "complete"
         },
         {
           "id": "8-9-1-4-a",
-          "title": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
-          "description": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
+          "title": "regional_indicators.8-9-1-4-a-title",
+          "description": "regional_indicators.8-9-1-4-a-title",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-9-1-4-a",
           "status": "complete"
         },
         {
           "id": "8-9-1-4-b",
+          "title": "regional_indicators.8-9-1-4-b-title",
+          "description": "regional_indicators.8-9-1-4-b-title",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-4-b",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-a",
+          "title": "Pernoctaciones de turistas por habitante",
+          "description": "Pernoctaciones de turistas por habitante",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-b",
+          "title": "Pernoctaciones de turistas no residentes por habitante",
+          "description": "Pernoctaciones de turistas no residentes por habitante",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-c",
+          "title": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
+          "description": "Proporción de pernoctaciones de turistas en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-d",
           "title": "Proporción de pernoctaciones de turistas no residentes en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas no residentes",
           "description": "Proporción de pernoctaciones de turistas no residentes en los dos meses de máxima ocupación sobre el total de pernoctaciones de turistas no residentes",
           "keywords": "",
-          "href": "/indicadores-ods-asturias/en/8-9-1-4-b",
+          "href": "/indicadores-ods-asturias/en/8-9-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-e",
+          "title": "Proporción del gasto en viajes culturales sobre el gasto en viajes por ocio, recreo y vacaciones",
+          "description": "Proporción del gasto en viajes culturales sobre el gasto en viajes por ocio, recreo y vacaciones",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-f",
+          "title": "Proporción del gasto en viajes culturales sobre el gasto en viajes",
+          "description": "Proporción del gasto en viajes culturales sobre el gasto en viajes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-f",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-1-g",
+          "title": "Proporción de personas ocupadas en el sector cultural sobre el total de personas ocupadas",
+          "description": "Proporción de personas ocupadas en el sector cultural sobre el total de personas ocupadas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-1-g",
           "status": "complete"
         },
         {
@@ -1046,6 +1150,14 @@
           "status": "complete"
         },
         {
+          "id": "9-b-1-a",
+          "title": "Proporción del valor añadido total del sector manufacturero correspondiente a las actividades de media-alta y alta tecnología",
+          "description": "Proporción del valor añadido total del sector manufacturero correspondiente a las actividades de media-alta y alta tecnología",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-b-1-a",
+          "status": "complete"
+        },
+        {
           "id": "9-c-1-a",
           "title": "Proporción de hogares cubiertos con redes móviles 3,5G",
           "description": "Proporción de hogares cubiertos con redes móviles 3,5G",
@@ -1158,6 +1270,30 @@
           "status": "complete"
         },
         {
+          "id": "11-4-1-a",
+          "title": "Gasto per cápita de las administraciones públicas autonómicas y locales en la preservación, protección y conservación del patrimonio cultural",
+          "description": "Gasto per cápita de las administraciones públicas autonómicas y locales en la preservación, protección y conservación del patrimonio cultural",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-4-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "11-4-1-b",
+          "title": "Gasto per cápita de las administraciones públicas autonómicas en la preservación, protección y conservación del patrimonio cultural",
+          "description": "Gasto per cápita de las administraciones públicas autonómicas en la preservación, protección y conservación del patrimonio cultural",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-4-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "11-4-1-c",
+          "title": "Gasto per cápita de las administraciones públicas locales en la preservación, protección y conservación del patrimonio cultural",
+          "description": "Gasto per cápita de las administraciones públicas locales en la preservación, protección y conservación del patrimonio cultural",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-4-1-c",
+          "status": "complete"
+        },
+        {
           "id": "11-5-1-a",
           "title": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
           "description": "Número de personas muertas directamente atribuido a desastres por cada 100.000 habitantes",
@@ -1204,6 +1340,22 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/11-6-1-d",
           "status": "complete"
+        },
+        {
+          "id": "11-6-2-a",
+          "title": "Nivel medio de PM10 en las ciudades ponderado según la población",
+          "description": "Nivel medio de PM10 en las ciudades ponderado según la población",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-6-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "11-6-2-b",
+          "title": "Nivel medio de PM2,5 en las ciudades ponderado según la población",
+          "description": "Nivel medio de PM2,5 en las ciudades ponderado según la población",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/11-6-2-b",
+          "status": "complete"
         }]
     }
   },
@@ -1213,6 +1365,14 @@
       "title": "Ensure sustainable consumption and production patterns",
       "indicators": [
         
+        {
+          "id": "12-1-1-a",
+          "title": "Se elabora, adopta o aplica instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
+          "description": "Se elabora, adopta o aplica instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/12-1-1-a",
+          "status": "complete"
+        },
         {
           "id": "12-6-1-a",
           "title": "Número de licencias de Etiqueta Ecológica Europea",
@@ -1363,6 +1523,14 @@
           "description": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-3-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-2-a",
+          "title": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos",
+          "description": "Proporción de la población que se siente satisfecha con el funcionamiento de los servicios públicos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-6-2-a",
           "status": "complete"
         },
         {
@@ -1566,11 +1734,75 @@
           "status": "complete"
         },
         {
+          "id": "17-6-1-a",
+          "title": "Número de líneas de banda ancha fija por cada 100 habitantes",
+          "description": "Número de líneas de banda ancha fija por cada 100 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-6-1-a",
+          "status": "complete"
+        },
+        {
           "id": "17-8-1-a",
           "title": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
           "description": "Proporción de personas entre 16 y 74 años que han utilizado Internet en los últimos tres meses",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/17-8-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-a",
+          "title": "Tasa de variación interanual del PIB real",
+          "description": "Tasa de variación interanual del PIB real",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-b",
+          "title": "Tasa de desempleo",
+          "description": "Tasa de desempleo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-c",
+          "title": "Tasa de variación interanual del índice de precios de consumo",
+          "description": "Tasa de variación interanual del índice de precios de consumo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-d",
+          "title": "Volumen de remesas enviadas al extranjero en proporción al PIB",
+          "description": "Volumen de remesas enviadas al extranjero en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-e",
+          "title": "Deuda bruta de las administraciones públicas autonómicas según el protocolo de déficit excesivo en proporción al PIB",
+          "description": "Deuda bruta de las administraciones públicas autonómicas según el protocolo de déficit excesivo en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-f",
+          "title": "Ingresos fiscales de las administraciones públicas autonómicas en proporción al PIB",
+          "description": "Ingresos fiscales de las administraciones públicas autonómicas en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-f",
+          "status": "complete"
+        },
+        {
+          "id": "17-13-1-g",
+          "title": "Saldo fiscal de las administraciones públicas autonómicas en proporción al PIB",
+          "description": "Saldo fiscal de las administraciones públicas autonómicas en proporción al PIB",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/17-13-1-g",
           "status": "complete"
         },
         {
@@ -1583,8 +1815,8 @@
         },
         {
           "id": "17-18-3-a",
-          "title": "Se dispone de un plan estadístico autonómico plenamente financiado y en fase de aplicación",
-          "description": "Se dispone de un plan estadístico autonómico plenamente financiado y en fase de aplicación",
+          "title": "Se dispone de un plan estadístico plenamente financiado y en fase de aplicación",
+          "description": "Se dispone de un plan estadístico plenamente financiado y en fase de aplicación",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/17-18-3-a",
           "status": "complete"
