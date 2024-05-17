@@ -358,6 +358,14 @@
           "status": "complete"
         },
         {
+          "id": "3-8-1-b",
+          "title": "Proporción de personas de 16 y más años con estado de salud percibido bueno o muy bueno",
+          "description": "Proporción de personas de 16 y más años con estado de salud percibido bueno o muy bueno",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/3-8-1-b",
+          "status": "complete"
+        },
+        {
           "id": "3-8-2-a",
           "title": "Proporción de personas que viven en hogares con grandes gastos sanitarios, superiores al 10% del gasto total del hogar",
           "description": "Proporción de personas que viven en hogares con grandes gastos sanitarios, superiores al 10% del gasto total del hogar",
@@ -399,8 +407,8 @@
         },
         {
           "id": "3-b-1-c",
-          "title": "Cobertura de vacunación de segunda dosis contra sarampión, rubeola y parotiditis en la población infantil",
-          "description": "Cobertura de vacunación de segunda dosis contra sarampión, rubeola y parotiditis en la población infantil",
+          "title": "Cobertura de vacunación de segunda dosis contra sarampión, rubéola y parotiditis en la población infantil",
+          "description": "Cobertura de vacunación de segunda dosis contra sarampión, rubéola y parotiditis en la población infantil",
           "keywords": "",
           "href": "/indicadores-ods-asturias/3-b-1-c",
           "status": "complete"
@@ -694,6 +702,38 @@
       "indicators": [
         
         {
+          "id": "5-1-1-a",
+          "title": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: marco legal global y vida pública",
+          "description": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: marco legal global y vida pública",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/5-1-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "5-1-1-b",
+          "title": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: violencia contra la mujer",
+          "description": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: violencia contra la mujer",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/5-1-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "5-1-1-c",
+          "title": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: empleo y subsidios económicos",
+          "description": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: empleo y subsidios económicos",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/5-1-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "5-1-1-d",
+          "title": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: matrimonio y familia",
+          "description": "Existencia de marcos jurídicos para promover, reforzar y supervisar la igualdad de género: matrimonio y familia",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/5-1-1-d",
+          "status": "complete"
+        },
+        {
           "id": "5-3-1-a",
           "title": "Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre",
           "description": "Proporción de mujeres de 16 y 17 años que han contraído matrimonio con un hombre",
@@ -763,6 +803,14 @@
           "description": "Proporción de mujeres empresarias",
           "keywords": "",
           "href": "/indicadores-ods-asturias/5-5-2-c",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-2-a",
+          "title": "Grado en que el marco jurídico garantiza la igualdad de derechos de la mujer a la propiedad o el control de tierras",
+          "description": "Grado en que el marco jurídico garantiza la igualdad de derechos de la mujer a la propiedad o el control de tierras",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/5-a-2-a",
           "status": "complete"
         },
         {
@@ -915,6 +963,54 @@
           "description": "Tasa de desempleo de las personas entre 16 y 64 años",
           "keywords": "",
           "href": "/indicadores-ods-asturias/8-5-2-d",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-g",
+          "title": "Tasa de desempleo de larga duración de las personas entre 16 y 74 años",
+          "description": "Tasa de desempleo de larga duración de las personas entre 16 y 74 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-g",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-j",
+          "title": "Tasa de empleo de las personas entre 20 y 64 años",
+          "description": "Tasa de empleo de las personas entre 20 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-j",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-m",
+          "title": "Brecha de género en el empleo de las personas entre 20 y 64 años",
+          "description": "Brecha de género en el empleo de las personas entre 20 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-m",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-n",
+          "title": "Brecha de género en el empleo a tiempo parcial de las personas entre 20 y 64 años",
+          "description": "Brecha de género en el empleo a tiempo parcial de las personas entre 20 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-n",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-o",
+          "title": "Brecha de género en el empleo temporal de las personas entre 20 y 64 años",
+          "description": "Brecha de género en el empleo temporal de las personas entre 20 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-o",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-2-p",
+          "title": "Brecha de género en el empleo a tiempo parcial por subempleo de las personas entre 20 y 64 años",
+          "description": "Brecha de género en el empleo a tiempo parcial por subempleo de las personas entre 20 y 64 años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/8-5-2-p",
           "status": "complete"
         },
         {
@@ -1071,16 +1167,16 @@
         },
         {
           "id": "9-4-1-a",
-          "title": "Emisiones de CO2 de las unidades residentes por unidad de PIB",
-          "description": "Emisiones de CO2 de las unidades residentes por unidad de PIB",
+          "title": "Emisiones de CO2 por unidad de PIB",
+          "description": "Emisiones de CO2 por unidad de PIB",
           "keywords": "",
           "href": "/indicadores-ods-asturias/9-4-1-a",
           "status": "complete"
         },
         {
           "id": "9-4-1-b",
-          "title": "Emisiones de CO2 de las unidades residentes por unidad de valor añadido del sector manufacturero",
-          "description": "Emisiones de CO2 de las unidades residentes por unidad de valor añadido del sector manufacturero",
+          "title": "Emisiones de CO2 por unidad de valor añadido del sector manufacturero",
+          "description": "Emisiones de CO2 por unidad de valor añadido del sector manufacturero",
           "keywords": "",
           "href": "/indicadores-ods-asturias/9-4-1-b",
           "status": "complete"
@@ -1099,6 +1195,22 @@
           "description": "Emisiones de CO2 respecto al año 2005",
           "keywords": "",
           "href": "/indicadores-ods-asturias/9-4-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "9-4-1-e",
+          "title": "Emisiones de PM2,5 por unidad de valor añadido del sector manufacturero",
+          "description": "Emisiones de PM2,5 por unidad de valor añadido del sector manufacturero",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/9-4-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "9-4-1-f",
+          "title": "Emisiones de PM10 por unidad de valor añadido del sector manufacturero",
+          "description": "Emisiones de PM10 por unidad de valor añadido del sector manufacturero",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/9-4-1-f",
           "status": "complete"
         },
         {
@@ -1203,6 +1315,14 @@
           "description": "Proporción del PIB generada por el trabajo asalariado",
           "keywords": "",
           "href": "/indicadores-ods-asturias/10-4-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "10-7-4-1",
+          "title": "Número de personas refugiadas por cada 100.000 habitantes",
+          "description": "Número de personas refugiadas por cada 100.000 habitantes",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/10-7-4-1",
           "status": "complete"
         }]
     }
@@ -1324,6 +1444,14 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/11-6-2-b",
           "status": "complete"
+        },
+        {
+          "id": "11-a-1-a",
+          "title": "Proporción de la población residente en municipios que disponen de plan general o normas subsidiarias de planeamiento urbanístico",
+          "description": "Proporción de la población residente en municipios que disponen de plan general o normas subsidiarias de planeamiento urbanístico",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/11-a-1-a",
+          "status": "complete"
         }]
     }
   },
@@ -1335,8 +1463,8 @@
         
         {
           "id": "12-1-1-a",
-          "title": "Se elabora, adopta o aplica instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
-          "description": "Se elabora, adopta o aplica instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
+          "title": "Se elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
+          "description": "Se elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles",
           "keywords": "",
           "href": "/indicadores-ods-asturias/12-1-1-a",
           "status": "complete"
@@ -1375,16 +1503,16 @@
         },
         {
           "id": "13-2-2-a",
-          "title": "Emisiones totales de gases de efecto invernadero de las unidades residentes por unidad de PIB",
-          "description": "Emisiones totales de gases de efecto invernadero de las unidades residentes por unidad de PIB",
+          "title": "Emisiones totales de gases de efecto invernadero por unidad de PIB",
+          "description": "Emisiones totales de gases de efecto invernadero por unidad de PIB",
           "keywords": "",
           "href": "/indicadores-ods-asturias/13-2-2-a",
           "status": "complete"
         },
         {
           "id": "13-2-2-b",
-          "title": "Emisiones totales de gases de efecto invernadero de las unidades residentes per cápita",
-          "description": "Emisiones totales de gases de efecto invernadero de las unidades residentes per cápita",
+          "title": "Emisiones totales de gases de efecto invernadero per cápita",
+          "description": "Emisiones totales de gases de efecto invernadero per cápita",
           "keywords": "",
           "href": "/indicadores-ods-asturias/13-2-2-b",
           "status": "complete"
@@ -1478,6 +1606,14 @@
           "status": "complete"
         },
         {
+          "id": "16-1-4-b",
+          "title": "Proporción de personas que viven en una zona con problemas de delincuencia o vandalismo",
+          "description": "Proporción de personas que viven en una zona con problemas de delincuencia o vandalismo",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-1-4-b",
+          "status": "complete"
+        },
+        {
           "id": "16-2-2-a",
           "title": "Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes",
           "description": "Número de víctimas detectadas de tráfico de personas por cada 100.000 habitantes",
@@ -1523,6 +1659,22 @@
           "description": "Proporción de personas detenidas que no han sido condenadas respecto al total de personas reclusas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/16-3-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-1-a",
+          "title": "Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas autonómicas",
+          "description": "Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas autonómicas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-6-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-6-1-b",
+          "title": "Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas locales",
+          "description": "Gasto liquidado en proporción al gasto inicial de los presupuestos de las administraciones públicas locales",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/16-6-1-b",
           "status": "complete"
         },
         {
