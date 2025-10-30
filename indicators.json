@@ -1646,6 +1646,54 @@
           "status": "complete"
         },
         {
+          "id": "15-1-2-b",
+          "title": "Proporción de la superficie de tierras de cultivo incluida en áreas protegidas",
+          "description": "Proporción de la superficie de tierras de cultivo incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-b",
+          "status": "complete"
+        },
+        {
+          "id": "15-1-2-c",
+          "title": "Proporción de la superficie de bosques incluida en áreas protegidas",
+          "description": "Proporción de la superficie de bosques incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-c",
+          "status": "complete"
+        },
+        {
+          "id": "15-1-2-d",
+          "title": "Proporción de la superficie de pastizales incluida en áreas protegidas",
+          "description": "Proporción de la superficie de pastizales incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-d",
+          "status": "complete"
+        },
+        {
+          "id": "15-1-2-e",
+          "title": "Proporción de la superficie de otras tierras incluida en áreas protegidas",
+          "description": "Proporción de la superficie de otras tierras incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-e",
+          "status": "complete"
+        },
+        {
+          "id": "15-1-2-f",
+          "title": "Proporción de la superficie de asentamientos incluida en áreas protegidas",
+          "description": "Proporción de la superficie de asentamientos incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-f",
+          "status": "complete"
+        },
+        {
+          "id": "15-1-2-g",
+          "title": "Proporción de la superficie de humedales incluida en áreas protegidas",
+          "description": "Proporción de la superficie de humedales incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-1-2-g",
+          "status": "complete"
+        },
+        {
           "id": "15-2-1-a",
           "title": "Superficie forestal con instrumentos de gestión sostenible vigentes",
           "description": "Superficie forestal con instrumentos de gestión sostenible vigentes",
@@ -1667,6 +1715,54 @@
           "description": "Proporción de la superficie de montaña incluida en áreas protegidas",
           "keywords": "",
           "href": "/indicadores-ods-asturias/15-4-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-b",
+          "title": "Proporción de la superficie de tierras de cultivo en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de tierras de cultivo en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-c",
+          "title": "Proporción de la superficie de bosques en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de bosques en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-c",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-d",
+          "title": "Proporción de la superficie de pastizales en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de pastizales en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-d",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-e",
+          "title": "Proporción de la superficie de otras tierras en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de otras tierras en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-f",
+          "title": "Proporción de la superficie de asentamientos en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de asentamientos en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-f",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1-g",
+          "title": "Proporción de la superficie de humedales en zonas de montaña incluida en áreas protegidas",
+          "description": "Proporción de la superficie de humedales en zonas de montaña incluida en áreas protegidas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/15-4-1-g",
           "status": "complete"
         },
         {
