@@ -198,6 +198,14 @@
           "status": "complete"
         },
         {
+          "id": "2-a-1-a",
+          "title": "Agriculture value added share of GDP",
+          "description": "Agriculture value added share of GDP",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/2-a-1-a",
+          "status": "complete"
+        },
+        {
           "id": "2-c-1-a",
           "title": "Índice de precios de los alimentos",
           "description": "Índice de precios de los alimentos",
@@ -566,6 +574,22 @@
           "status": "complete"
         },
         {
+          "id": "4-3-1-e",
+          "title": "Proporción de personas entre 25 y 34 años con estudios superiores",
+          "description": "Proporción de personas entre 25 y 34 años con estudios superiores",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-3-1-e",
+          "status": "complete"
+        },
+        {
+          "id": "4-3-1-h",
+          "title": "Proporción de personas entre 18 y 24 años que han abandonado tempranamente la educación",
+          "description": "Proporción de personas entre 18 y 24 años que han abandonado tempranamente la educación",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-3-1-h",
+          "status": "complete"
+        },
+        {
           "id": "4-4-1-a",
           "title": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática",
           "description": "Proporción de personas entre 16 y 74 años que han utilizado alguna habilidad informática",
@@ -691,6 +715,14 @@
           "description": "Alumnado medio por ordenador destinado a tareas de enseñanza y aprendizaje en centros educativos no universitarios",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/4-a-1-f",
+          "status": "complete"
+        },
+        {
+          "id": "4-a-1-g",
+          "title": "Proporción de centros educativos no universitarios con conexión a Internet",
+          "description": "Proporción de centros educativos no universitarios con conexión a Internet",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/4-a-1-g",
           "status": "complete"
         },
         {
@@ -956,6 +988,14 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/7-3-1-a",
           "status": "complete"
+        },
+        {
+          "id": "7-b-1-a",
+          "title": "Installed renewable electricity-generating capacity (watts per capita)",
+          "description": "Installed renewable electricity-generating capacity (watts per capita)",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/7-b-1-a",
+          "status": "complete"
         }]
     }
   },
@@ -1126,11 +1166,35 @@
           "status": "complete"
         },
         {
+          "id": "8-9-2-a",
+          "title": "Employed persons in the tourism industries (number)",
+          "description": "Employed persons in the tourism industries (number)",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-9-2-d",
+          "title": "Proporción de personas ocupadas en el sector del turismo sobre el total de personas ocupadas",
+          "description": "Proporción de personas ocupadas en el sector del turismo sobre el total de personas ocupadas",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-9-2-d",
+          "status": "complete"
+        },
+        {
           "id": "8-10-1-a",
           "title": "Número de sucursales de bancos comerciales por cada 100.000 habitantes de 15 y más años",
           "description": "Número de sucursales de bancos comerciales por cada 100.000 habitantes de 15 y más años",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-10-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "8-10-1-b",
+          "title": "Número de cajeros automáticos por cada 100.000 habitantes de 15 y más años",
+          "description": "Número de cajeros automáticos por cada 100.000 habitantes de 15 y más años",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-10-1-b",
           "status": "complete"
         },
         {
@@ -1156,6 +1220,14 @@
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/8-b-1-b",
           "status": "complete"
+        },
+        {
+          "id": "8-b-1-c",
+          "title": "Existencia de una estrategia organizada y en marcha para el empleo juvenil",
+          "description": "Existencia de una estrategia organizada y en marcha para el empleo juvenil",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/8-b-1-c",
+          "status": "complete"
         }]
     }
   },
@@ -1165,6 +1237,22 @@
       "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
       "indicators": [
         
+        {
+          "id": "9-1-2-a",
+          "title": "Pasajeros transportados por vía aérea",
+          "description": "Pasajeros transportados por vía aérea",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-1-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-2-b",
+          "title": "Mercancías transportadas por vía aérea",
+          "description": "Mercancías transportadas por vía aérea",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/9-1-2-b",
+          "status": "complete"
+        },
         {
           "id": "9-2-1-a",
           "title": "Manufacturing value added as a proportion of GDP",
@@ -1455,8 +1543,8 @@
         },
         {
           "id": "11-6-1-a",
-          "title": "Residuos urbanos recogidos per cápita",
-          "description": "Residuos urbanos recogidos per cápita",
+          "title": "Residuos municipales recogidos per cápita",
+          "description": "Residuos municipales recogidos per cápita",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/11-6-1-a",
           "status": "complete"
@@ -1542,6 +1630,14 @@
           "status": "complete"
         },
         {
+          "id": "12-5-1-a",
+          "title": "Proporción de residuos municipales reciclados en relación al total de residuos municipales generados y tratados",
+          "description": "Proporción de residuos municipales reciclados en relación al total de residuos municipales generados y tratados",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/12-5-1-a",
+          "status": "complete"
+        },
+        {
           "id": "12-6-1-a",
           "title": "Número de licencias de Etiqueta Ecológica Europea",
           "description": "Número de licencias de Etiqueta Ecológica Europea",
@@ -1555,6 +1651,14 @@
           "description": "Número de organizaciones con Sistema comunitario de gestión y auditoría medioambiental",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/12-6-1-b",
+          "status": "complete"
+        },
+        {
+          "id": "12-a-1-a",
+          "title": "Installed renewable electricity-generating capacity (watts per capita)",
+          "description": "Installed renewable electricity-generating capacity (watts per capita)",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/12-a-1-a",
           "status": "complete"
         }]
     }
@@ -1789,6 +1893,14 @@
       "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
       "indicators": [
         
+        {
+          "id": "16-1-2-a",
+          "title": "Number of total conflict-related deaths per 100,000 population",
+          "description": "Number of total conflict-related deaths per 100,000 population",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-1-2-a",
+          "status": "complete"
+        },
         {
           "id": "16-1-4-a",
           "title": "Proportion of population that feel safe walking alone around the area they live",
@@ -2067,6 +2179,14 @@
           "description": "Proporción de menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil",
           "keywords": "",
           "href": "/indicadores-ods-asturias/en/16-9-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "16-a-1-a",
+          "title": "Existencia de instituciones nacionales de derechos humanos independientes de conformidad con los Principios de París",
+          "description": "Existencia de instituciones nacionales de derechos humanos independientes de conformidad con los Principios de París",
+          "keywords": "",
+          "href": "/indicadores-ods-asturias/en/16-a-1-a",
           "status": "complete"
         }]
     }
